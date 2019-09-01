@@ -1,0 +1,107 @@
+2019-08-19 22:27:04 [INFORMATION] [Multiverse-Inventories-Debug] Getting world groups from config file
+2019-08-19 22:27:04 [INFORMATION] [Multiverse-Inventories-Debug] Loading groups: [default]
+2019-08-19 22:27:04 [INFORMATION] [Multiverse-Inventories-Debug] Attempting to load group: default...
+2019-08-19 22:27:04 [INFORMATION] [Multiverse-Inventories-Debug] Group: default added to memory
+2019-08-19 22:27:04 [INFORMATION] [Multiverse-Inventories-Debug] Loaded config file!
+2019-08-19 22:27:04 [INFORMATION] [Multiverse-Inventories 3.0.0-b459] enabled.
+2019-08-19 22:27:04 [INFORMATION] [Multiverse-Inventories-Debug] Checking for conflicts in groups...
+2019-08-19 22:27:04 [INFORMATION] [Multiverse-Inventories-Debug] No group conflicts found!
+2019-08-19 22:32:24 [INFORMATION] [Multiverse-Inventories-Debug] Getting world groups from config file
+2019-08-19 22:32:24 [INFORMATION] [Multiverse-Inventories-Debug] Loading groups: [default]
+2019-08-19 22:32:24 [INFORMATION] [Multiverse-Inventories-Debug] Attempting to load group: default...
+2019-08-19 22:32:24 [INFORMATION] [Multiverse-Inventories-Debug] Group: default added to memory
+2019-08-19 22:32:24 [INFORMATION] [Multiverse-Inventories-Debug] Loaded config file!
+2019-08-19 22:32:24 [INFORMATION] [Multiverse-Inventories 3.0.0-b459] enabled.
+2019-08-19 22:32:24 [INFORMATION] [Multiverse-Inventories-Debug] Checking for conflicts in groups...
+2019-08-19 22:32:24 [INFORMATION] [Multiverse-Inventories-Debug] No group conflicts found!
+2019-08-19 22:33:39 [INFORMATION] [Multiverse-Inventories-Debug] Getting world groups from config file
+2019-08-19 22:33:39 [INFORMATION] [Multiverse-Inventories-Debug] Loading groups: [default]
+2019-08-19 22:33:39 [INFORMATION] [Multiverse-Inventories-Debug] Attempting to load group: default...
+2019-08-19 22:33:39 [INFORMATION] [Multiverse-Inventories-Debug] Group: default added to memory
+2019-08-19 22:33:39 [INFORMATION] [Multiverse-Inventories-Debug] Loaded config file!
+2019-08-19 22:33:39 [INFORMATION] [Multiverse-Inventories 3.0.0-b459] enabled.
+2019-08-19 22:33:39 [INFORMATION] [Multiverse-Inventories-Debug] Checking for conflicts in groups...
+2019-08-19 22:33:39 [INFORMATION] [Multiverse-Inventories-Debug] No group conflicts found!
+2019-08-19 22:35:52 [INFORMATION] [Multiverse-Inventories-Debug] Getting world groups from config file
+2019-08-19 22:35:52 [INFORMATION] [Multiverse-Inventories-Debug] Loading groups: [default]
+2019-08-19 22:35:52 [INFORMATION] [Multiverse-Inventories-Debug] Attempting to load group: default...
+2019-08-19 22:35:52 [INFORMATION] [Multiverse-Inventories-Debug] Group: default added to memory
+2019-08-19 22:35:52 [INFORMATION] [Multiverse-Inventories-Debug] Loaded config file!
+2019-08-19 22:35:52 [INFORMATION] [Multiverse-Inventories 3.0.0-b459] enabled.
+2019-08-19 22:35:52 [INFORMATION] [Multiverse-Inventories-Debug] Checking for conflicts in groups...
+2019-08-19 22:35:52 [INFORMATION] [Multiverse-Inventories-Debug] No group conflicts found!
+2019-08-19 22:40:26 [INFORMATION] [Multiverse-Inventories-Debug] === Boomschatz traveling from world: spawn to world: Dev-World ===
+2019-08-19 22:40:26 [INFORMATION] [Multiverse-Inventories-Debug] got data folder: plugins\Multiverse-Inventories\worlds\spawn from type: WORLD
+2019-08-19 22:40:26 [INFORMATION] [Multiverse-Inventories-Debug] Created player profile from map for 'Boomschatz'.
+2019-08-19 22:40:26 [INFORMATION] [Multiverse-Inventories-Debug] [ProfileType:SURVIVAL - WORLD - spawn - Boomschatz] not cached, loading from disk...
+2019-08-19 22:40:26 [INFORMATION] [Multiverse-Inventories-Debug] got data folder: plugins\Multiverse-Inventories\groups\default from type: GROUP
+2019-08-19 22:40:26 [INFORMATION] [Multiverse-Inventories-Debug] Created player profile from map for 'Boomschatz'.
+2019-08-19 22:40:26 [INFORMATION] [Multiverse-Inventories-Debug] [ProfileType:SURVIVAL - GROUP - default - Boomschatz] not cached, loading from disk...
+2019-08-19 22:40:26 [INFORMATION] [Multiverse-Inventories-Debug] No groups for toWorld.
+2019-08-19 22:40:26 [INFORMATION] [Multiverse-Inventories-Debug] got data folder: plugins\Multiverse-Inventories\worlds\Dev-World from type: WORLD
+2019-08-19 22:40:26 [INFORMATION] [Multiverse-Inventories-Debug] Created player profile from map for 'Boomschatz'.
+2019-08-19 22:40:26 [INFORMATION] [Multiverse-Inventories-Debug] [ProfileType:SURVIVAL - WORLD - Dev-World - Boomschatz] not cached, loading from disk...
+2019-08-19 22:40:26 [INFORMATION] [Multiverse-Inventories-Debug] Change affected by 2 fromProfiles and 1 toProfiles
+2019-08-19 22:40:26 [INFORMATION] [Multiverse-Inventories-Debug] Ignoring optional share: last_location
+2019-08-19 22:40:26 [INFORMATION] [Multiverse-Inventories-Debug] Ignoring optional share: economy
+2019-08-19 22:40:26 [INFORMATION] [Multiverse-Inventories-Debug] Ignoring optional share: economy
+2019-08-19 22:40:26 [INFORMATION] [Multiverse-Inventories-Debug] got data folder: plugins\Multiverse-Inventories\worlds\spawn from type: WORLD
+2019-08-19 22:40:26 [INFORMATION] [Multiverse-Inventories-Debug] Ignoring optional share: last_location
+2019-08-19 22:40:26 [INFORMATION] [Multiverse-Inventories-Debug] Ignoring optional share: last_location
+2019-08-19 22:40:26 [INFORMATION] [Multiverse-Inventories-Debug] Ignoring optional share: economy
+2019-08-19 22:40:26 [INFORMATION] [Multiverse-Inventories-Debug] Updated: ender_chest, inventory_contents, armor_contents, off_hand, hit_points, remaining_air, maximum_air, fall_distance, fire_ticks, xp, lvl, total_xp, food_level, exhaustion, saturation, potion_effects for Boomschatz for WORLD:Dev-World (ProfileType:SURVIVAL)
+2019-08-19 22:40:26 [INFORMATION] [Multiverse-Inventories-Debug] Defaulted: bed_spawn for Boomschatz for WORLD:Dev-World (ProfileType:SURVIVAL)
+2019-08-19 22:40:26 [INFORMATION] [Multiverse-Inventories-Debug] === Boomschatz's WORLD_CHANGE handling complete! ===
+2019-08-19 22:40:26 [INFORMATION] [Multiverse-Inventories-Debug] got data folder: plugins\Multiverse-Inventories\groups\default from type: GROUP
+2019-08-19 22:40:48 [INFORMATION] [Multiverse-Inventories-Debug] === Boomschatz traveling from world: Dev-World to world: spawn ===
+2019-08-19 22:40:48 [INFORMATION] [Multiverse-Inventories-Debug] [ProfileType:SURVIVAL - WORLD - Dev-World - Boomschatz] not cached, loading from disk...
+2019-08-19 22:40:48 [INFORMATION] [Multiverse-Inventories-Debug] No groups for fromWorld.
+2019-08-19 22:40:48 [INFORMATION] [Multiverse-Inventories-Debug] Change affected by 1 fromProfiles and 1 toProfiles
+2019-08-19 22:40:48 [INFORMATION] [Multiverse-Inventories-Debug] Ignoring optional share: last_location
+2019-08-19 22:40:48 [INFORMATION] [Multiverse-Inventories-Debug] Ignoring optional share: economy
+2019-08-19 22:40:48 [INFORMATION] [Multiverse-Inventories-Debug] got data folder: plugins\Multiverse-Inventories\worlds\Dev-World from type: WORLD
+2019-08-19 22:40:48 [INFORMATION] [Multiverse-Inventories-Debug] Ignoring optional share: economy
+2019-08-19 22:40:48 [INFORMATION] [Multiverse-Inventories-Debug] Ignoring optional share: last_location
+2019-08-19 22:40:48 [INFORMATION] [Multiverse-Inventories-Debug] Updated: hit_points, food_level, saturation, exhaustion, xp, total_xp, lvl, inventory_contents, armor_contents, bed_spawn, maximum_air, remaining_air, fall_distance, fire_ticks, potion_effects, ender_chest, off_hand for Boomschatz for GROUP:default (ProfileType:SURVIVAL)
+2019-08-19 22:40:48 [INFORMATION] [Multiverse-Inventories-Debug] === Boomschatz's WORLD_CHANGE handling complete! ===
+2019-08-19 22:45:26 [INFORMATION] [Multiverse-Inventories-Debug] === Boomschatz traveling from world: spawn to world: Dev-World ===
+2019-08-19 22:45:26 [INFORMATION] [Multiverse-Inventories-Debug] No groups for toWorld.
+2019-08-19 22:45:26 [INFORMATION] [Multiverse-Inventories-Debug] [ProfileType:SURVIVAL - WORLD - Dev-World - Boomschatz] not cached, loading from disk...
+2019-08-19 22:45:26 [INFORMATION] [Multiverse-Inventories-Debug] Change affected by 2 fromProfiles and 1 toProfiles
+2019-08-19 22:45:26 [INFORMATION] [Multiverse-Inventories-Debug] Ignoring optional share: last_location
+2019-08-19 22:45:26 [INFORMATION] [Multiverse-Inventories-Debug] Ignoring optional share: economy
+2019-08-19 22:45:26 [INFORMATION] [Multiverse-Inventories-Debug] Ignoring optional share: economy
+2019-08-19 22:45:26 [INFORMATION] [Multiverse-Inventories-Debug] Ignoring optional share: last_location
+2019-08-19 22:45:26 [INFORMATION] [Multiverse-Inventories-Debug] Ignoring optional share: last_location
+2019-08-19 22:45:26 [INFORMATION] [Multiverse-Inventories-Debug] Ignoring optional share: economy
+2019-08-19 22:45:26 [INFORMATION] [Multiverse-Inventories-Debug] Updated: ender_chest, inventory_contents, armor_contents, off_hand, hit_points, remaining_air, maximum_air, fall_distance, fire_ticks, xp, lvl, total_xp, food_level, exhaustion, saturation, potion_effects for Boomschatz for WORLD:Dev-World (ProfileType:SURVIVAL)
+2019-08-19 22:45:26 [INFORMATION] [Multiverse-Inventories-Debug] Defaulted: bed_spawn for Boomschatz for WORLD:Dev-World (ProfileType:SURVIVAL)
+2019-08-19 22:45:26 [INFORMATION] [Multiverse-Inventories-Debug] === Boomschatz's WORLD_CHANGE handling complete! ===
+2019-08-19 22:45:26 [INFORMATION] [Multiverse-Inventories-Debug] got data folder: plugins\Multiverse-Inventories\worlds\spawn from type: WORLD
+2019-08-19 22:45:26 [INFORMATION] [Multiverse-Inventories-Debug] got data folder: plugins\Multiverse-Inventories\groups\default from type: GROUP
+2019-08-19 22:45:50 [INFORMATION] [Multiverse-Inventories-Debug] === Boomschatz traveling from world: Dev-World to world: spawn ===
+2019-08-19 22:45:50 [INFORMATION] [Multiverse-Inventories-Debug] [ProfileType:SURVIVAL - WORLD - Dev-World - Boomschatz] not cached, loading from disk...
+2019-08-19 22:45:50 [INFORMATION] [Multiverse-Inventories-Debug] No groups for fromWorld.
+2019-08-19 22:45:50 [INFORMATION] [Multiverse-Inventories-Debug] Change affected by 1 fromProfiles and 1 toProfiles
+2019-08-19 22:45:50 [INFORMATION] [Multiverse-Inventories-Debug] Ignoring optional share: last_location
+2019-08-19 22:45:50 [INFORMATION] [Multiverse-Inventories-Debug] Ignoring optional share: economy
+2019-08-19 22:45:50 [INFORMATION] [Multiverse-Inventories-Debug] Ignoring optional share: economy
+2019-08-19 22:45:50 [INFORMATION] [Multiverse-Inventories-Debug] got data folder: plugins\Multiverse-Inventories\worlds\Dev-World from type: WORLD
+2019-08-19 22:45:50 [INFORMATION] [Multiverse-Inventories-Debug] Ignoring optional share: last_location
+2019-08-19 22:45:50 [INFORMATION] [Multiverse-Inventories-Debug] Updated: hit_points, food_level, saturation, exhaustion, xp, total_xp, lvl, inventory_contents, armor_contents, bed_spawn, maximum_air, remaining_air, fall_distance, fire_ticks, potion_effects, ender_chest, off_hand for Boomschatz for GROUP:default (ProfileType:SURVIVAL)
+2019-08-19 22:45:50 [INFORMATION] [Multiverse-Inventories-Debug] === Boomschatz's WORLD_CHANGE handling complete! ===
+2019-08-19 22:46:15 [INFORMATION] [Multiverse-Inventories-Debug] === Boomschatz traveling from world: spawn to world: Dev-World ===
+2019-08-19 22:46:15 [INFORMATION] [Multiverse-Inventories-Debug] No groups for toWorld.
+2019-08-19 22:46:15 [INFORMATION] [Multiverse-Inventories-Debug] [ProfileType:SURVIVAL - WORLD - Dev-World - Boomschatz] not cached, loading from disk...
+2019-08-19 22:46:15 [INFORMATION] [Multiverse-Inventories-Debug] Change affected by 2 fromProfiles and 1 toProfiles
+2019-08-19 22:46:15 [INFORMATION] [Multiverse-Inventories-Debug] Ignoring optional share: last_location
+2019-08-19 22:46:15 [INFORMATION] [Multiverse-Inventories-Debug] Ignoring optional share: economy
+2019-08-19 22:46:15 [INFORMATION] [Multiverse-Inventories-Debug] Ignoring optional share: economy
+2019-08-19 22:46:15 [INFORMATION] [Multiverse-Inventories-Debug] Ignoring optional share: last_location
+2019-08-19 22:46:15 [INFORMATION] [Multiverse-Inventories-Debug] got data folder: plugins\Multiverse-Inventories\worlds\spawn from type: WORLD
+2019-08-19 22:46:15 [INFORMATION] [Multiverse-Inventories-Debug] Ignoring optional share: last_location
+2019-08-19 22:46:15 [INFORMATION] [Multiverse-Inventories-Debug] Ignoring optional share: economy
+2019-08-19 22:46:15 [INFORMATION] [Multiverse-Inventories-Debug] Updated: ender_chest, inventory_contents, armor_contents, off_hand, hit_points, remaining_air, maximum_air, fall_distance, fire_ticks, xp, lvl, total_xp, food_level, exhaustion, saturation, potion_effects for Boomschatz for WORLD:Dev-World (ProfileType:SURVIVAL)
+2019-08-19 22:46:15 [INFORMATION] [Multiverse-Inventories-Debug] Defaulted: bed_spawn for Boomschatz for WORLD:Dev-World (ProfileType:SURVIVAL)
+2019-08-19 22:46:15 [INFORMATION] [Multiverse-Inventories-Debug] === Boomschatz's WORLD_CHANGE handling complete! ===
+2019-08-19 22:46:15 [INFORMATION] [Multiverse-Inventories-Debug] got data folder: plugins\Multiverse-Inventories\groups\default from type: GROUP

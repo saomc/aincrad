@@ -1,0 +1,19 @@
+# This plugin and its config are not reloadable.
+# Note: This whole plugin is in somewhat of a beta. Use at your own risk.
+# Config explanation available here: https://goo.gl/U05dz4
+
+isHostile: false
+attackDamage: 5.0
+damageObeyGameDifficulty: true
+handleDrops: true
+movementSpeed: 0.3
+followRange: 16.0
+maxHealth: 100.0
+giantsTakeArrowDamage: true
+giantsTakeTippedArrowDamage: true
+naturalSpawns: false
+frequency: 5
+minGroupAmount: 1
+maxGroupAmount: 1
+daylight: false
+worlds: []

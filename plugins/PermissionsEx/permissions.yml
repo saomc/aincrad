@@ -1,0 +1,80 @@
+groups:
+  default:
+    options:
+      default: true
+      rank: '10'
+      prefix: player
+    permissions:
+    - multiverse.core.confirm
+    - -multiverse.teleport.Dev-world
+    - multiverse.teleport.*
+  builder:
+    options:
+      rank: '5'
+      rank-ladder: default
+      prefix: builder
+    permissions:
+    - modifyworld.*
+    - worldedit.*
+    - minecraft.command.gamemode
+    - minecraft.command.fill
+    - minecraft.command.setblock
+  dev:
+    options:
+      rank: '1'
+      rank-ladder: default
+      prefix: dev
+    permissions:
+    - -permissions.manage.users.permissions.*
+    - permissions.manage.membership.*
+    - multiverse.access.*
+    - -op
+    - '*'
+users:
+  f1e5c751-31b4-4633-b843-7c7e170a10f4:
+    group:
+    - dev
+    options:
+      name: DasNik03
+  60401130-7626-458a-b993-979e1a76ec56:
+    group:
+    - dev
+    options:
+      name: Boomschatz
+    permissions:
+    - '*'
+  1b60ac24-571d-49c6-a9f8-ae572cd5fb51:
+    group:
+    - dev
+    options:
+      name: unwreqz
+  ca8639a0-98ea-4126-87ea-ca5285bb8d35:
+    group:
+    - dev
+    options:
+      name: TFG_Knight_09
+  70446aa5-725d-4a51-ad34-d363b48861e8:
+    group:
+    - dev
+    options:
+      name: Urbarer
+  bommschatz:
+    permissions:
+    - '*'
+  5acd5dc8-ebf1-4c1a-8641-49202e164c95:
+    group:
+    - dev
+    options:
+      name: Torbi1
+  156c558c-98d3-411f-b37d-fdc62d626682:
+    group:
+    - builder
+    options:
+      name: TelekxmRouter
+    permissions: []
+  6ea51f9c-49a7-44df-9ec8-a5ad5d19089b:
+    group:
+    - builder
+    options:
+      name: Fynnstein
+schema-version: 1

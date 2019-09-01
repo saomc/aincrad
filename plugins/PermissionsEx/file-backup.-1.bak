@@ -1,0 +1,37 @@
+groups:
+  default:
+    options:
+      default: true
+      rank: '10'
+      prefix: player
+    permissions:
+    - -modifyworld.blocks.(destroy|place).*
+  builder:
+    options:
+      rank: '5'
+      prefix: builder
+    permissions:
+    - modifyworld.*
+    - worldedit.*
+    - minecraft.command.gamemode
+  dev:
+    options:
+      rank: '1'
+      prefix: dev
+    permissions:
+    - '*'
+users:
+  f1e5c751-31b4-4633-b843-7c7e170a10f4:
+    group:
+    - dev
+    - builder
+    options:
+      name: DasNik03
+  60401130-7626-458a-b993-979e1a76ec56:
+    group:
+    - dev
+    options:
+      name: Boomschatz
+    permissions:
+    - op
+    - '*'

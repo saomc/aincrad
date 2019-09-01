@@ -1,0 +1,1 @@
+execute as @a at @a if block ~ ~-2 ~ minecraft:emerald_block run effect give @p minecraft:speed 1 1
