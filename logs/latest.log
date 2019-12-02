@@ -336,3 +336,4 @@ Caused by: java.lang.ClassNotFoundException: net.dv8tion.jda.api.JDABuilder
 [17:53:59] [Server thread/INFO]: [Multiverse-Portals] Found WorldEdit. Using it for selections.
 [17:53:59] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
 [17:54:00] [Server thread/INFO]: Done (36.513s)! For help, type "help"
+[17:54:07] [Thread-2/INFO]: Stopping server
