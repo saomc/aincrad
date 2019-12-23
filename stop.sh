@@ -1,1 +1,1 @@
-screen -r minecraft -X quit
+screen -r minecraftAincrad -X quit
