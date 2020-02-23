@@ -143,7 +143,7 @@ worlds:
   SAO_23:
     ==: MVWorld
     hidden: 'false'
-    alias: ''
+    alias: SAO_23
     color: WHITE
     style: NORMAL
     pvp: 'true'
@@ -168,17 +168,17 @@ worlds:
       amount: '0.0'
     hunger: 'true'
     autoHeal: 'true'
-    adjustSpawn: 'false'
+    adjustSpawn: 'true'
     portalForm: ALL
     gameMode: SURVIVAL
     keepSpawnInMemory: 'true'
     spawnLocation:
       ==: MVSpawnLocation
-      x: -48.17113506919965
-      y: 8.038253026894505
-      z: 406.21949773421454
-      pitch: 36.61019
-      yaw: -254.14462
+      x: -44.5
+      y: 9.0
+      z: 410.5
+      pitch: 0.0
+      yaw: 0.0
     autoLoad: 'true'
     bedRespawn: 'true'
     worldBlacklist: []
@@ -231,6 +231,53 @@ worlds:
     worldBlacklist: []
     environment: NORMAL
     seed: '7584197225646431920'
+    generator: 'null'
+    playerLimit: '-1'
+    allowFlight: 'true'
+  wwf2:
+    ==: MVWorld
+    hidden: 'false'
+    alias: ''
+    color: WHITE
+    style: NORMAL
+    pvp: 'true'
+    scale: '1.0'
+    respawnWorld: ''
+    allowWeather: 'true'
+    difficulty: EASY
+    spawning:
+      ==: MVSpawnSettings
+      animals:
+        ==: MVSpawnSubSettings
+        spawn: 'true'
+        spawnrate: '-1'
+        exceptions: []
+      monsters:
+        ==: MVSpawnSubSettings
+        spawn: 'true'
+        spawnrate: '-1'
+        exceptions: []
+    entryfee:
+      ==: MVEntryFee
+      amount: '0.0'
+    hunger: 'true'
+    autoHeal: 'true'
+    adjustSpawn: 'true'
+    portalForm: ALL
+    gameMode: SURVIVAL
+    keepSpawnInMemory: 'true'
+    spawnLocation:
+      ==: MVSpawnLocation
+      x: -160.0
+      y: 65.0
+      z: -251.0
+      pitch: 0.0
+      yaw: 0.0
+    autoLoad: 'true'
+    bedRespawn: 'true'
+    worldBlacklist: []
+    environment: NORMAL
+    seed: '3187676035160315711'
     generator: 'null'
     playerLimit: '-1'
     allowFlight: 'true'

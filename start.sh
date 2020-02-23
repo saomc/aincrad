@@ -1,1 +1,1 @@
-screen -d -m -S "minecraftAincrad" java -jar /usr/share/mc/winterprojekt/spigot-1.15.1.jar
+screen -d -m -S "minecraftAincrad" java -jar /usr/share/mc/aincrad/spigot-1.15.2.jar
