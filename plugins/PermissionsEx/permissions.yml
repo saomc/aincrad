@@ -7,7 +7,10 @@ groups:
     permissions:
     - multiverse.core.confirm
     - -multiverse.teleport.Dev-world
+    - -multiverse.access.wwf2
     - multiverse.teleport.*
+    - -bukkit.command.op
+    - -bukkit.command.ban
   builder:
     options:
       rank: '5'
@@ -30,6 +33,12 @@ groups:
     - multiverse.access.*
     - -op
     - '*'
+  wwf:
+    permissions:
+    - multiverse.access.wwf2
+    - multiverse.teleport.wwf2
+  Boomschatz:
+    permissions: []
 users:
   f1e5c751-31b4-4633-b843-7c7e170a10f4:
     group:
@@ -38,11 +47,10 @@ users:
       name: DasNik03
   60401130-7626-458a-b993-979e1a76ec56:
     group:
-    - dev
+    - default
     options:
       name: Boomschatz
-    permissions:
-    - '*'
+    permissions: []
   1b60ac24-571d-49c6-a9f8-ae572cd5fb51:
     group:
     - dev
@@ -77,4 +85,6 @@ users:
     - builder
     options:
       name: Fynnstein
+  '@a':
+    permissions: []
 schema-version: 1
