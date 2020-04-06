@@ -6,4 +6,5 @@ stop.bat
 stop.sh
 console.bat
 console.sh
-minecraft-*.jar
+spigot-*.jar
+spigot.jar
