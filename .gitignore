@@ -1,6 +1,9 @@
 input.con
 output.con
-start.*
-stop.*
-console.*
-*.jar
+start.bat
+start.sh
+stop.bat
+stop.sh
+console.bat
+console.sh
+minecraft-*.jar
