@@ -1,1 +1,0 @@
-/usr/local/bin/mc_start
