@@ -1,5 +1,2205 @@
-[15:55:01] [process reaper/WARN]: Exception in thread "process reaper" 
-[15:55:01] [JLine Shutdown Hook/INFO]: [STDERR]: java.lang.OutOfMemoryError: Java heap space
-[15:55:01] [process reaper/WARN]: java.lang.OutOfMemoryError: Java heap space
-[15:55:01] [Thread-2/WARN]: Exception in thread "Thread-2" 
-[15:55:01] [Thread-2/WARN]: java.lang.OutOfMemoryError: Java heap space
+[17:00:03] [Server thread/INFO]: Loading properties
+[17:00:04] [Server thread/INFO]: This server is running CraftBukkit version git-Spigot-a03b1fd-fc318cc (MC: 1.15.2) (Implementing API version 1.15.2-R0.1-SNAPSHOT)
+[17:00:04] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[17:00:04] [Server thread/INFO]: Using 4 threads for Netty based IO
+[17:00:04] [Server thread/INFO]: Debug logging is disabled
+[17:00:04] [Server thread/INFO]: Default game type: ADVENTURE
+[17:00:04] [Server thread/INFO]: Generating keypair
+[17:00:05] [Server thread/INFO]: Starting Minecraft server on *:25565
+[17:00:05] [Server thread/INFO]: Using epoll channel type
+[17:00:07] [Server thread/WARN]: Initializing Legacy Material Support. Unless you have legacy plugins and/or data this is a bug!
+[17:00:07] [Server thread/WARN]: java.lang.Exception
+[17:00:07] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_15_R1.legacy.CraftLegacy.<clinit>(CraftLegacy.java:259)
+[17:00:07] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_15_R1.util.CraftMagicNumbers.checkSupported(CraftMagicNumbers.java:278)
+[17:00:07] [Server thread/WARN]: 	at org.bukkit.plugin.java.JavaPluginLoader.loadPlugin(JavaPluginLoader.java:131)
+[17:00:08] [Server thread/WARN]: 	at org.bukkit.plugin.SimplePluginManager.loadPlugin(SimplePluginManager.java:394)
+[17:00:08] [Server thread/WARN]: 	at org.bukkit.plugin.SimplePluginManager.loadPlugins(SimplePluginManager.java:301)
+[17:00:08] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_15_R1.CraftServer.loadPlugins(CraftServer.java:353)
+[17:00:08] [Server thread/WARN]: 	at net.minecraft.server.v1_15_R1.DedicatedServer.init(DedicatedServer.java:210)
+[17:00:08] [Server thread/WARN]: 	at net.minecraft.server.v1_15_R1.MinecraftServer.run(MinecraftServer.java:784)
+[17:00:08] [Server thread/WARN]: 	at java.lang.Thread.run(Thread.java:748)
+[17:00:13] [Server thread/WARN]: Legacy plugin sao v1 does not specify an api-version.
+[17:00:13] [Server thread/ERROR]: Could not load 'plugins/sao.jar' in folder 'plugins'
+org.bukkit.plugin.InvalidPluginException: java.lang.NullPointerException
+	at org.bukkit.plugin.java.JavaPluginLoader.loadPlugin(JavaPluginLoader.java:139) ~[spigot-latest.jar:git-Spigot-a03b1fd-fc318cc]
+	at org.bukkit.plugin.SimplePluginManager.loadPlugin(SimplePluginManager.java:394) ~[spigot-latest.jar:git-Spigot-a03b1fd-fc318cc]
+	at org.bukkit.plugin.SimplePluginManager.loadPlugins(SimplePluginManager.java:301) [spigot-latest.jar:git-Spigot-a03b1fd-fc318cc]
+	at org.bukkit.craftbukkit.v1_15_R1.CraftServer.loadPlugins(CraftServer.java:353) [spigot-latest.jar:git-Spigot-a03b1fd-fc318cc]
+	at net.minecraft.server.v1_15_R1.DedicatedServer.init(DedicatedServer.java:210) [spigot-latest.jar:git-Spigot-a03b1fd-fc318cc]
+	at net.minecraft.server.v1_15_R1.MinecraftServer.run(MinecraftServer.java:784) [spigot-latest.jar:git-Spigot-a03b1fd-fc318cc]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_222]
+Caused by: java.lang.NullPointerException
+	at SwordArtOnline.<init>(SwordArtOnline.java:40) ~[?:?]
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method) ~[?:1.8.0_222]
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62) ~[?:1.8.0_222]
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45) ~[?:1.8.0_222]
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423) ~[?:1.8.0_222]
+	at java.lang.Class.newInstance(Class.java:442) ~[?:1.8.0_222]
+	at org.bukkit.plugin.java.PluginClassLoader.<init>(PluginClassLoader.java:76) ~[spigot-latest.jar:git-Spigot-a03b1fd-fc318cc]
+	at org.bukkit.plugin.java.JavaPluginLoader.loadPlugin(JavaPluginLoader.java:135) ~[spigot-latest.jar:git-Spigot-a03b1fd-fc318cc]
+	... 6 more
+[17:00:13] [Server thread/WARN]: Legacy plugin PermissionsEx v1.23.4 does not specify an api-version.
+[17:00:14] [Server thread/WARN]: Legacy plugin alo v1 does not specify an api-version.
+[17:00:14] [Server thread/ERROR]: Could not load 'plugins/alo.jar' in folder 'plugins'
+org.bukkit.plugin.InvalidPluginException: java.lang.UnsupportedClassVersionError: AlfheimOnline has been compiled by a more recent version of the Java Runtime (class file version 55.0), this version of the Java Runtime only recognizes class file versions up to 52.0
+	at org.bukkit.plugin.java.JavaPluginLoader.loadPlugin(JavaPluginLoader.java:139) ~[spigot-latest.jar:git-Spigot-a03b1fd-fc318cc]
+	at org.bukkit.plugin.SimplePluginManager.loadPlugin(SimplePluginManager.java:394) ~[spigot-latest.jar:git-Spigot-a03b1fd-fc318cc]
+	at org.bukkit.plugin.SimplePluginManager.loadPlugins(SimplePluginManager.java:301) [spigot-latest.jar:git-Spigot-a03b1fd-fc318cc]
+	at org.bukkit.craftbukkit.v1_15_R1.CraftServer.loadPlugins(CraftServer.java:353) [spigot-latest.jar:git-Spigot-a03b1fd-fc318cc]
+	at net.minecraft.server.v1_15_R1.DedicatedServer.init(DedicatedServer.java:210) [spigot-latest.jar:git-Spigot-a03b1fd-fc318cc]
+	at net.minecraft.server.v1_15_R1.MinecraftServer.run(MinecraftServer.java:784) [spigot-latest.jar:git-Spigot-a03b1fd-fc318cc]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_222]
+Caused by: java.lang.UnsupportedClassVersionError: AlfheimOnline has been compiled by a more recent version of the Java Runtime (class file version 55.0), this version of the Java Runtime only recognizes class file versions up to 52.0
+	at java.lang.ClassLoader.defineClass1(Native Method) ~[?:1.8.0_222]
+	at java.lang.ClassLoader.defineClass(ClassLoader.java:763) ~[?:1.8.0_222]
+	at java.security.SecureClassLoader.defineClass(SecureClassLoader.java:142) ~[?:1.8.0_222]
+	at org.bukkit.plugin.java.PluginClassLoader.findClass(PluginClassLoader.java:163) ~[spigot-latest.jar:git-Spigot-a03b1fd-fc318cc]
+	at org.bukkit.plugin.java.PluginClassLoader.findClass(PluginClassLoader.java:96) ~[spigot-latest.jar:git-Spigot-a03b1fd-fc318cc]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424) ~[?:1.8.0_222]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357) ~[?:1.8.0_222]
+	at java.lang.Class.forName0(Native Method) ~[?:1.8.0_222]
+	at java.lang.Class.forName(Class.java:348) ~[?:1.8.0_222]
+	at org.bukkit.plugin.java.PluginClassLoader.<init>(PluginClassLoader.java:64) ~[spigot-latest.jar:git-Spigot-a03b1fd-fc318cc]
+	at org.bukkit.plugin.java.JavaPluginLoader.loadPlugin(JavaPluginLoader.java:135) ~[spigot-latest.jar:git-Spigot-a03b1fd-fc318cc]
+	... 6 more
+[17:00:14] [Server thread/WARN]: Legacy plugin inventoryMenue v1 does not specify an api-version.
+[17:00:14] [Server thread/ERROR]: Could not load 'plugins/inventoryMenue.jar' in folder 'plugins'
+org.bukkit.plugin.InvalidPluginException: java.lang.UnsupportedClassVersionError: InventoryMenue has been compiled by a more recent version of the Java Runtime (class file version 55.0), this version of the Java Runtime only recognizes class file versions up to 52.0
+	at org.bukkit.plugin.java.JavaPluginLoader.loadPlugin(JavaPluginLoader.java:139) ~[spigot-latest.jar:git-Spigot-a03b1fd-fc318cc]
+	at org.bukkit.plugin.SimplePluginManager.loadPlugin(SimplePluginManager.java:394) ~[spigot-latest.jar:git-Spigot-a03b1fd-fc318cc]
+	at org.bukkit.plugin.SimplePluginManager.loadPlugins(SimplePluginManager.java:301) [spigot-latest.jar:git-Spigot-a03b1fd-fc318cc]
+	at org.bukkit.craftbukkit.v1_15_R1.CraftServer.loadPlugins(CraftServer.java:353) [spigot-latest.jar:git-Spigot-a03b1fd-fc318cc]
+	at net.minecraft.server.v1_15_R1.DedicatedServer.init(DedicatedServer.java:210) [spigot-latest.jar:git-Spigot-a03b1fd-fc318cc]
+	at net.minecraft.server.v1_15_R1.MinecraftServer.run(MinecraftServer.java:784) [spigot-latest.jar:git-Spigot-a03b1fd-fc318cc]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_222]
+Caused by: java.lang.UnsupportedClassVersionError: InventoryMenue has been compiled by a more recent version of the Java Runtime (class file version 55.0), this version of the Java Runtime only recognizes class file versions up to 52.0
+	at java.lang.ClassLoader.defineClass1(Native Method) ~[?:1.8.0_222]
+	at java.lang.ClassLoader.defineClass(ClassLoader.java:763) ~[?:1.8.0_222]
+	at java.security.SecureClassLoader.defineClass(SecureClassLoader.java:142) ~[?:1.8.0_222]
+	at org.bukkit.plugin.java.PluginClassLoader.findClass(PluginClassLoader.java:163) ~[spigot-latest.jar:git-Spigot-a03b1fd-fc318cc]
+	at org.bukkit.plugin.java.PluginClassLoader.findClass(PluginClassLoader.java:96) ~[spigot-latest.jar:git-Spigot-a03b1fd-fc318cc]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424) ~[?:1.8.0_222]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357) ~[?:1.8.0_222]
+	at java.lang.Class.forName0(Native Method) ~[?:1.8.0_222]
+	at java.lang.Class.forName(Class.java:348) ~[?:1.8.0_222]
+	at org.bukkit.plugin.java.PluginClassLoader.<init>(PluginClassLoader.java:64) ~[spigot-latest.jar:git-Spigot-a03b1fd-fc318cc]
+	at org.bukkit.plugin.java.JavaPluginLoader.loadPlugin(JavaPluginLoader.java:135) ~[spigot-latest.jar:git-Spigot-a03b1fd-fc318cc]
+	... 6 more
+[17:00:14] [Server thread/WARN]: Legacy plugin MCS v1 does not specify an api-version.
+[17:00:14] [Server thread/ERROR]: Could not load 'plugins/McCustomSound.jar' in folder 'plugins'
+org.bukkit.plugin.InvalidPluginException: java.lang.UnsupportedClassVersionError: minecraft/Plugin has been compiled by a more recent version of the Java Runtime (class file version 55.0), this version of the Java Runtime only recognizes class file versions up to 52.0
+	at org.bukkit.plugin.java.JavaPluginLoader.loadPlugin(JavaPluginLoader.java:139) ~[spigot-latest.jar:git-Spigot-a03b1fd-fc318cc]
+	at org.bukkit.plugin.SimplePluginManager.loadPlugin(SimplePluginManager.java:394) ~[spigot-latest.jar:git-Spigot-a03b1fd-fc318cc]
+	at org.bukkit.plugin.SimplePluginManager.loadPlugins(SimplePluginManager.java:301) [spigot-latest.jar:git-Spigot-a03b1fd-fc318cc]
+	at org.bukkit.craftbukkit.v1_15_R1.CraftServer.loadPlugins(CraftServer.java:353) [spigot-latest.jar:git-Spigot-a03b1fd-fc318cc]
+	at net.minecraft.server.v1_15_R1.DedicatedServer.init(DedicatedServer.java:210) [spigot-latest.jar:git-Spigot-a03b1fd-fc318cc]
+	at net.minecraft.server.v1_15_R1.MinecraftServer.run(MinecraftServer.java:784) [spigot-latest.jar:git-Spigot-a03b1fd-fc318cc]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_222]
+Caused by: java.lang.UnsupportedClassVersionError: minecraft/Plugin has been compiled by a more recent version of the Java Runtime (class file version 55.0), this version of the Java Runtime only recognizes class file versions up to 52.0
+	at java.lang.ClassLoader.defineClass1(Native Method) ~[?:1.8.0_222]
+	at java.lang.ClassLoader.defineClass(ClassLoader.java:763) ~[?:1.8.0_222]
+	at java.security.SecureClassLoader.defineClass(SecureClassLoader.java:142) ~[?:1.8.0_222]
+	at org.bukkit.plugin.java.PluginClassLoader.findClass(PluginClassLoader.java:163) ~[spigot-latest.jar:git-Spigot-a03b1fd-fc318cc]
+	at org.bukkit.plugin.java.PluginClassLoader.findClass(PluginClassLoader.java:96) ~[spigot-latest.jar:git-Spigot-a03b1fd-fc318cc]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424) ~[?:1.8.0_222]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357) ~[?:1.8.0_222]
+	at java.lang.Class.forName0(Native Method) ~[?:1.8.0_222]
+	at java.lang.Class.forName(Class.java:348) ~[?:1.8.0_222]
+	at org.bukkit.plugin.java.PluginClassLoader.<init>(PluginClassLoader.java:64) ~[spigot-latest.jar:git-Spigot-a03b1fd-fc318cc]
+	at org.bukkit.plugin.java.JavaPluginLoader.loadPlugin(JavaPluginLoader.java:135) ~[spigot-latest.jar:git-Spigot-a03b1fd-fc318cc]
+	... 6 more
+[17:00:15] [Server thread/INFO]: [PermissionsEx] Loading PermissionsEx v1.23.4
+[17:00:15] [Server thread/INFO]: [WorldEdit] Loading WorldEdit v7.0.1;61bc012
+[17:00:17] [Server thread/INFO]: Got request to register class com.sk89q.worldedit.bukkit.BukkitServerInterface with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@41d46d48]
+[17:00:17] [Server thread/INFO]: [Multiverse-Core] Loading Multiverse-Core v4.0.0-b766
+[17:00:17] [Server thread/INFO]: [Multiverse-Portals] Loading Multiverse-Portals v4.0.0-b799
+[17:00:17] [Server thread/INFO]: [WorldEdit] Enabling WorldEdit v7.0.1;61bc012
+[17:00:17] [Server thread/WARN]: [WorldEdit] Loaded class ru.tehkode.permissions.PermissionManager from PermissionsEx v1.23.4 which is not a depend, softdepend or loadbefore of this plugin.
+[17:00:17] [Server thread/INFO]: WEPIF: Using the Bukkit Permissions API.
+[17:00:17] [Server thread/WARN]: 
+**********************************************
+** This WorldEdit version does not fully support your version of Bukkit.
+**
+** When working with blocks or undoing, chests will be empty, signs
+** will be blank, and so on. There will be no support for entity
+** and block property-related functions.
+**
+** Please see https://worldedit.enginehub.org/en/latest/faq/#bukkit-adapters
+**********************************************
+
+[17:00:17] [Server thread/WARN]: Unknown property snowy for block minecraft:grass_block
+[17:00:17] [Server thread/WARN]: Unknown property snowy for block minecraft:grass_block
+[17:00:17] [Server thread/WARN]: Unknown property snowy for block minecraft:podzol
+[17:00:17] [Server thread/WARN]: Unknown property snowy for block minecraft:podzol
+[17:00:17] [Server thread/WARN]: Unknown property stage for block minecraft:oak_sapling
+[17:00:17] [Server thread/WARN]: Unknown property stage for block minecraft:oak_sapling
+[17:00:17] [Server thread/WARN]: Unknown property stage for block minecraft:spruce_sapling
+[17:00:17] [Server thread/WARN]: Unknown property stage for block minecraft:spruce_sapling
+[17:00:17] [Server thread/WARN]: Unknown property stage for block minecraft:birch_sapling
+[17:00:17] [Server thread/WARN]: Unknown property stage for block minecraft:birch_sapling
+[17:00:17] [Server thread/WARN]: Unknown property stage for block minecraft:jungle_sapling
+[17:00:17] [Server thread/WARN]: Unknown property stage for block minecraft:jungle_sapling
+[17:00:17] [Server thread/WARN]: Unknown property stage for block minecraft:acacia_sapling
+[17:00:17] [Server thread/WARN]: Unknown property stage for block minecraft:acacia_sapling
+[17:00:17] [Server thread/WARN]: Unknown property stage for block minecraft:dark_oak_sapling
+[17:00:17] [Server thread/WARN]: Unknown property stage for block minecraft:dark_oak_sapling
+[17:00:17] [Server thread/WARN]: Unknown property stage for block minecraft:oak_sapling
+[17:00:17] [Server thread/WARN]: Unknown property stage for block minecraft:spruce_sapling
+[17:00:17] [Server thread/WARN]: Unknown property stage for block minecraft:birch_sapling
+[17:00:17] [Server thread/WARN]: Unknown property stage for block minecraft:jungle_sapling
+[17:00:17] [Server thread/WARN]: Unknown property stage for block minecraft:acacia_sapling
+[17:00:17] [Server thread/WARN]: Unknown property stage for block minecraft:dark_oak_sapling
+[17:00:17] [Server thread/WARN]: Unknown property level for block minecraft:water
+[17:00:18] [Server thread/WARN]: Unknown property level for block minecraft:water
+[17:00:18] [Server thread/WARN]: Unknown property level for block minecraft:water
+[17:00:18] [Server thread/WARN]: Unknown property level for block minecraft:water
+[17:00:18] [Server thread/WARN]: Unknown property level for block minecraft:water
+[17:00:18] [Server thread/WARN]: Unknown property level for block minecraft:water
+[17:00:18] [Server thread/WARN]: Unknown property level for block minecraft:water
+[17:00:18] [Server thread/WARN]: Unknown property level for block minecraft:water
+[17:00:18] [Server thread/WARN]: Unknown property level for block minecraft:water
+[17:00:18] [Server thread/WARN]: Unknown property level for block minecraft:water
+[17:00:18] [Server thread/WARN]: Unknown property level for block minecraft:water
+[17:00:18] [Server thread/WARN]: Unknown property level for block minecraft:water
+[17:00:18] [Server thread/WARN]: Unknown property level for block minecraft:water
+[17:00:18] [Server thread/WARN]: Unknown property level for block minecraft:water
+[17:00:18] [Server thread/WARN]: Unknown property level for block minecraft:water
+[17:00:18] [Server thread/WARN]: Unknown property level for block minecraft:water
+[17:00:18] [Server thread/WARN]: Unknown property level for block minecraft:water
+[17:00:18] [Server thread/WARN]: Unknown property level for block minecraft:water
+[17:00:18] [Server thread/WARN]: Unknown property level for block minecraft:water
+[17:00:18] [Server thread/WARN]: Unknown property level for block minecraft:water
+[17:00:18] [Server thread/WARN]: Unknown property level for block minecraft:water
+[17:00:18] [Server thread/WARN]: Unknown property level for block minecraft:water
+[17:00:18] [Server thread/WARN]: Unknown property level for block minecraft:water
+[17:00:18] [Server thread/WARN]: Unknown property level for block minecraft:water
+[17:00:18] [Server thread/WARN]: Unknown property level for block minecraft:water
+[17:00:18] [Server thread/WARN]: Unknown property level for block minecraft:water
+[17:00:18] [Server thread/WARN]: Unknown property level for block minecraft:water
+[17:00:18] [Server thread/WARN]: Unknown property level for block minecraft:water
+[17:00:18] [Server thread/WARN]: Unknown property level for block minecraft:water
+[17:00:18] [Server thread/WARN]: Unknown property level for block minecraft:water
+[17:00:18] [Server thread/WARN]: Unknown property level for block minecraft:water
+[17:00:18] [Server thread/WARN]: Unknown property level for block minecraft:water
+[17:00:18] [Server thread/WARN]: Unknown property level for block minecraft:water
+[17:00:18] [Server thread/WARN]: Unknown property level for block minecraft:lava
+[17:00:18] [Server thread/WARN]: Unknown property level for block minecraft:lava
+[17:00:18] [Server thread/WARN]: Unknown property level for block minecraft:lava
+[17:00:18] [Server thread/WARN]: Unknown property level for block minecraft:lava
+[17:00:18] [Server thread/WARN]: Unknown property level for block minecraft:lava
+[17:00:18] [Server thread/WARN]: Unknown property level for block minecraft:lava
+[17:00:18] [Server thread/WARN]: Unknown property level for block minecraft:lava
+[17:00:18] [Server thread/WARN]: Unknown property level for block minecraft:lava
+[17:00:18] [Server thread/WARN]: Unknown property level for block minecraft:lava
+[17:00:18] [Server thread/WARN]: Unknown property level for block minecraft:lava
+[17:00:18] [Server thread/WARN]: Unknown property level for block minecraft:lava
+[17:00:18] [Server thread/WARN]: Unknown property level for block minecraft:lava
+[17:00:18] [Server thread/WARN]: Unknown property level for block minecraft:lava
+[17:00:18] [Server thread/WARN]: Unknown property level for block minecraft:lava
+[17:00:18] [Server thread/WARN]: Unknown property level for block minecraft:lava
+[17:00:18] [Server thread/WARN]: Unknown property level for block minecraft:lava
+[17:00:18] [Server thread/WARN]: Unknown property level for block minecraft:lava
+[17:00:18] [Server thread/WARN]: Unknown property level for block minecraft:lava
+[17:00:18] [Server thread/WARN]: Unknown property level for block minecraft:lava
+[17:00:18] [Server thread/WARN]: Unknown property level for block minecraft:lava
+[17:00:18] [Server thread/WARN]: Unknown property level for block minecraft:lava
+[17:00:18] [Server thread/WARN]: Unknown property level for block minecraft:lava
+[17:00:18] [Server thread/WARN]: Unknown property level for block minecraft:lava
+[17:00:18] [Server thread/WARN]: Unknown property level for block minecraft:lava
+[17:00:18] [Server thread/WARN]: Unknown property level for block minecraft:lava
+[17:00:18] [Server thread/WARN]: Unknown property level for block minecraft:lava
+[17:00:18] [Server thread/WARN]: Unknown property level for block minecraft:lava
+[17:00:18] [Server thread/WARN]: Unknown property level for block minecraft:lava
+[17:00:18] [Server thread/WARN]: Unknown property level for block minecraft:lava
+[17:00:18] [Server thread/WARN]: Unknown property level for block minecraft:lava
+[17:00:18] [Server thread/WARN]: Unknown property level for block minecraft:lava
+[17:00:18] [Server thread/WARN]: Unknown property level for block minecraft:lava
+[17:00:18] [Server thread/WARN]: Unknown property level for block minecraft:lava
+[17:00:18] [Server thread/WARN]: Unknown property axis for block minecraft:oak_log
+[17:00:18] [Server thread/WARN]: Unknown property axis for block minecraft:oak_log
+[17:00:18] [Server thread/WARN]: Unknown property axis for block minecraft:spruce_log
+[17:00:18] [Server thread/WARN]: Unknown property axis for block minecraft:spruce_log
+[17:00:18] [Server thread/WARN]: Unknown property axis for block minecraft:birch_log
+[17:00:18] [Server thread/WARN]: Unknown property axis for block minecraft:birch_log
+[17:00:18] [Server thread/WARN]: Unknown property axis for block minecraft:jungle_log
+[17:00:18] [Server thread/WARN]: Unknown property axis for block minecraft:jungle_log
+[17:00:18] [Server thread/WARN]: Unknown property axis for block minecraft:oak_log
+[17:00:18] [Server thread/WARN]: Unknown property axis for block minecraft:spruce_log
+[17:00:18] [Server thread/WARN]: Unknown property axis for block minecraft:birch_log
+[17:00:18] [Server thread/WARN]: Unknown property axis for block minecraft:jungle_log
+[17:00:18] [Server thread/WARN]: Unknown property axis for block minecraft:oak_log
+[17:00:18] [Server thread/WARN]: Unknown property axis for block minecraft:spruce_log
+[17:00:18] [Server thread/WARN]: Unknown property axis for block minecraft:birch_log
+[17:00:18] [Server thread/WARN]: Unknown property axis for block minecraft:jungle_log
+[17:00:18] [Server thread/WARN]: Unknown property axis for block minecraft:oak_wood
+[17:00:18] [Server thread/WARN]: Unknown property axis for block minecraft:spruce_wood
+[17:00:18] [Server thread/WARN]: Unknown property axis for block minecraft:birch_wood
+[17:00:18] [Server thread/WARN]: Unknown property axis for block minecraft:jungle_wood
+[17:00:18] [Server thread/WARN]: Unknown property persistent for block minecraft:oak_leaves
+[17:00:18] [Server thread/WARN]: Unknown property distance for block minecraft:oak_leaves
+[17:00:18] [Server thread/WARN]: Unknown property persistent for block minecraft:spruce_leaves
+[17:00:18] [Server thread/WARN]: Unknown property distance for block minecraft:spruce_leaves
+[17:00:18] [Server thread/WARN]: Unknown property persistent for block minecraft:birch_leaves
+[17:00:18] [Server thread/WARN]: Unknown property distance for block minecraft:birch_leaves
+[17:00:18] [Server thread/WARN]: Unknown property persistent for block minecraft:jungle_leaves
+[17:00:18] [Server thread/WARN]: Unknown property distance for block minecraft:jungle_leaves
+[17:00:18] [Server thread/WARN]: Unknown property persistent for block minecraft:oak_leaves
+[17:00:18] [Server thread/WARN]: Unknown property persistent for block minecraft:spruce_leaves
+[17:00:18] [Server thread/WARN]: Unknown property persistent for block minecraft:birch_leaves
+[17:00:18] [Server thread/WARN]: Unknown property persistent for block minecraft:jungle_leaves
+[17:00:18] [Server thread/WARN]: Unknown property persistent for block minecraft:oak_leaves
+[17:00:18] [Server thread/WARN]: Unknown property persistent for block minecraft:spruce_leaves
+[17:00:18] [Server thread/WARN]: Unknown property persistent for block minecraft:birch_leaves
+[17:00:18] [Server thread/WARN]: Unknown property persistent for block minecraft:jungle_leaves
+[17:00:18] [Server thread/WARN]: Unknown property persistent for block minecraft:oak_leaves
+[17:00:18] [Server thread/WARN]: Unknown property persistent for block minecraft:spruce_leaves
+[17:00:18] [Server thread/WARN]: Unknown property persistent for block minecraft:birch_leaves
+[17:00:18] [Server thread/WARN]: Unknown property persistent for block minecraft:jungle_leaves
+[17:00:18] [Server thread/WARN]: Unknown property triggered for block minecraft:dispenser
+[17:00:18] [Server thread/WARN]: Unknown property facing for block minecraft:dispenser
+[17:00:18] [Server thread/WARN]: Unknown property triggered for block minecraft:dispenser
+[17:00:18] [Server thread/WARN]: Unknown property triggered for block minecraft:dispenser
+[17:00:18] [Server thread/WARN]: Unknown property triggered for block minecraft:dispenser
+[17:00:18] [Server thread/WARN]: Unknown property triggered for block minecraft:dispenser
+[17:00:18] [Server thread/WARN]: Unknown property triggered for block minecraft:dispenser
+[17:00:18] [Server thread/WARN]: Unknown property triggered for block minecraft:dispenser
+[17:00:18] [Server thread/WARN]: Unknown property triggered for block minecraft:dispenser
+[17:00:18] [Server thread/WARN]: Unknown property triggered for block minecraft:dispenser
+[17:00:18] [Server thread/WARN]: Unknown property triggered for block minecraft:dispenser
+[17:00:18] [Server thread/WARN]: Unknown property triggered for block minecraft:dispenser
+[17:00:18] [Server thread/WARN]: Unknown property triggered for block minecraft:dispenser
+[17:00:18] [Server thread/WARN]: Unknown property instrument for block minecraft:note_block
+[17:00:18] [Server thread/WARN]: Unknown property part for block minecraft:red_bed
+[17:00:18] [Server thread/WARN]: Unknown property facing for block minecraft:red_bed
+[17:00:18] [Server thread/WARN]: Unknown property part for block minecraft:red_bed
+[17:00:18] [Server thread/WARN]: Unknown property part for block minecraft:red_bed
+[17:00:18] [Server thread/WARN]: Unknown property part for block minecraft:red_bed
+[17:00:18] [Server thread/WARN]: Unknown property part for block minecraft:red_bed
+[17:00:18] [Server thread/WARN]: Unknown property part for block minecraft:red_bed
+[17:00:18] [Server thread/WARN]: Unknown property part for block minecraft:red_bed
+[17:00:18] [Server thread/WARN]: Unknown property part for block minecraft:red_bed
+[17:00:18] [Server thread/WARN]: Unknown property part for block minecraft:red_bed
+[17:00:18] [Server thread/WARN]: Unknown property part for block minecraft:red_bed
+[17:00:18] [Server thread/WARN]: Unknown property part for block minecraft:red_bed
+[17:00:18] [Server thread/WARN]: Unknown property part for block minecraft:red_bed
+[17:00:18] [Server thread/WARN]: Unknown property part for block minecraft:red_bed
+[17:00:18] [Server thread/WARN]: Unknown property part for block minecraft:red_bed
+[17:00:18] [Server thread/WARN]: Unknown property part for block minecraft:red_bed
+[17:00:18] [Server thread/WARN]: Unknown property part for block minecraft:red_bed
+[17:00:18] [Server thread/WARN]: Unknown property shape for block minecraft:powered_rail
+[17:00:18] [Server thread/WARN]: Unknown property powered for block minecraft:powered_rail
+[17:00:18] [Server thread/WARN]: Unknown property shape for block minecraft:powered_rail
+[17:00:18] [Server thread/WARN]: Unknown property shape for block minecraft:powered_rail
+[17:00:18] [Server thread/WARN]: Unknown property shape for block minecraft:powered_rail
+[17:00:18] [Server thread/WARN]: Unknown property shape for block minecraft:powered_rail
+[17:00:18] [Server thread/WARN]: Unknown property shape for block minecraft:powered_rail
+[17:00:18] [Server thread/WARN]: Unknown property shape for block minecraft:powered_rail
+[17:00:18] [Server thread/WARN]: Unknown property shape for block minecraft:powered_rail
+[17:00:18] [Server thread/WARN]: Unknown property shape for block minecraft:powered_rail
+[17:00:18] [Server thread/WARN]: Unknown property shape for block minecraft:powered_rail
+[17:00:18] [Server thread/WARN]: Unknown property shape for block minecraft:powered_rail
+[17:00:18] [Server thread/WARN]: Unknown property shape for block minecraft:powered_rail
+[17:00:18] [Server thread/WARN]: Unknown property shape for block minecraft:detector_rail
+[17:00:18] [Server thread/WARN]: Unknown property powered for block minecraft:detector_rail
+[17:00:18] [Server thread/WARN]: Unknown property shape for block minecraft:detector_rail
+[17:00:18] [Server thread/WARN]: Unknown property shape for block minecraft:detector_rail
+[17:00:18] [Server thread/WARN]: Unknown property shape for block minecraft:detector_rail
+[17:00:18] [Server thread/WARN]: Unknown property shape for block minecraft:detector_rail
+[17:00:18] [Server thread/WARN]: Unknown property shape for block minecraft:detector_rail
+[17:00:18] [Server thread/WARN]: Unknown property shape for block minecraft:detector_rail
+[17:00:18] [Server thread/WARN]: Unknown property shape for block minecraft:detector_rail
+[17:00:18] [Server thread/WARN]: Unknown property shape for block minecraft:detector_rail
+[17:00:18] [Server thread/WARN]: Unknown property shape for block minecraft:detector_rail
+[17:00:18] [Server thread/WARN]: Unknown property shape for block minecraft:detector_rail
+[17:00:18] [Server thread/WARN]: Unknown property shape for block minecraft:detector_rail
+[17:00:18] [Server thread/WARN]: Unknown property facing for block minecraft:sticky_piston
+[17:00:18] [Server thread/WARN]: Unknown property extended for block minecraft:sticky_piston
+[17:00:18] [Server thread/WARN]: Unknown property facing for block minecraft:sticky_piston
+[17:00:18] [Server thread/WARN]: Unknown property facing for block minecraft:sticky_piston
+[17:00:18] [Server thread/WARN]: Unknown property facing for block minecraft:sticky_piston
+[17:00:18] [Server thread/WARN]: Unknown property facing for block minecraft:sticky_piston
+[17:00:18] [Server thread/WARN]: Unknown property facing for block minecraft:sticky_piston
+[17:00:18] [Server thread/WARN]: Unknown property facing for block minecraft:sticky_piston
+[17:00:18] [Server thread/WARN]: Unknown property facing for block minecraft:sticky_piston
+[17:00:18] [Server thread/WARN]: Unknown property facing for block minecraft:sticky_piston
+[17:00:18] [Server thread/WARN]: Unknown property facing for block minecraft:sticky_piston
+[17:00:18] [Server thread/WARN]: Unknown property facing for block minecraft:sticky_piston
+[17:00:18] [Server thread/WARN]: Unknown property facing for block minecraft:sticky_piston
+[17:00:18] [Server thread/WARN]: Unknown property facing for block minecraft:piston
+[17:00:18] [Server thread/WARN]: Unknown property extended for block minecraft:piston
+[17:00:18] [Server thread/WARN]: Unknown property facing for block minecraft:piston
+[17:00:18] [Server thread/WARN]: Unknown property facing for block minecraft:piston
+[17:00:18] [Server thread/WARN]: Unknown property facing for block minecraft:piston
+[17:00:18] [Server thread/WARN]: Unknown property facing for block minecraft:piston
+[17:00:18] [Server thread/WARN]: Unknown property facing for block minecraft:piston
+[17:00:18] [Server thread/WARN]: Unknown property facing for block minecraft:piston
+[17:00:18] [Server thread/WARN]: Unknown property facing for block minecraft:piston
+[17:00:18] [Server thread/WARN]: Unknown property facing for block minecraft:piston
+[17:00:18] [Server thread/WARN]: Unknown property facing for block minecraft:piston
+[17:00:18] [Server thread/WARN]: Unknown property facing for block minecraft:piston
+[17:00:18] [Server thread/WARN]: Unknown property facing for block minecraft:piston
+[17:00:18] [Server thread/WARN]: Unknown property short for block minecraft:piston_head
+[17:00:18] [Server thread/WARN]: Unknown property facing for block minecraft:piston_head
+[17:00:18] [Server thread/WARN]: Unknown property short for block minecraft:piston_head
+[17:00:18] [Server thread/WARN]: Unknown property short for block minecraft:piston_head
+[17:00:18] [Server thread/WARN]: Unknown property short for block minecraft:piston_head
+[17:00:18] [Server thread/WARN]: Unknown property short for block minecraft:piston_head
+[17:00:18] [Server thread/WARN]: Unknown property short for block minecraft:piston_head
+[17:00:18] [Server thread/WARN]: Unknown property short for block minecraft:piston_head
+[17:00:18] [Server thread/WARN]: Unknown property short for block minecraft:piston_head
+[17:00:18] [Server thread/WARN]: Unknown property short for block minecraft:piston_head
+[17:00:18] [Server thread/WARN]: Unknown property short for block minecraft:piston_head
+[17:00:18] [Server thread/WARN]: Unknown property short for block minecraft:piston_head
+[17:00:18] [Server thread/WARN]: Unknown property short for block minecraft:piston_head
+[17:00:18] [Server thread/WARN]: Unknown property facing for block minecraft:moving_piston
+[17:00:18] [Server thread/WARN]: Unknown property facing for block minecraft:moving_piston
+[17:00:18] [Server thread/WARN]: Unknown property facing for block minecraft:moving_piston
+[17:00:18] [Server thread/WARN]: Unknown property facing for block minecraft:moving_piston
+[17:00:18] [Server thread/WARN]: Unknown property facing for block minecraft:moving_piston
+[17:00:18] [Server thread/WARN]: Unknown property facing for block minecraft:moving_piston
+[17:00:18] [Server thread/WARN]: Unknown property facing for block minecraft:moving_piston
+[17:00:18] [Server thread/WARN]: Unknown property facing for block minecraft:moving_piston
+[17:00:18] [Server thread/WARN]: Unknown property facing for block minecraft:moving_piston
+[17:00:18] [Server thread/WARN]: Unknown property facing for block minecraft:moving_piston
+[17:00:18] [Server thread/WARN]: Unknown property facing for block minecraft:moving_piston
+[17:00:18] [Server thread/WARN]: Unknown property facing for block minecraft:moving_piston
+[17:00:18] [Server thread/WARN]: Unknown property facing for block minecraft:moving_piston
+[17:00:18] [Server thread/WARN]: Unknown property type for block minecraft:stone_slab
+[17:00:18] [Server thread/WARN]: Unknown property type for block minecraft:stone_slab
+[17:00:18] [Server thread/WARN]: Unknown property type for block minecraft:sandstone_slab
+[17:00:18] [Server thread/WARN]: Unknown property type for block minecraft:sandstone_slab
+[17:00:18] [Server thread/WARN]: Unknown property type for block minecraft:petrified_oak_slab
+[17:00:18] [Server thread/WARN]: Unknown property type for block minecraft:petrified_oak_slab
+[17:00:18] [Server thread/WARN]: Unknown property type for block minecraft:cobblestone_slab
+[17:00:18] [Server thread/WARN]: Unknown property type for block minecraft:cobblestone_slab
+[17:00:18] [Server thread/WARN]: Unknown property type for block minecraft:brick_slab
+[17:00:18] [Server thread/WARN]: Unknown property type for block minecraft:brick_slab
+[17:00:18] [Server thread/WARN]: Unknown property type for block minecraft:stone_brick_slab
+[17:00:18] [Server thread/WARN]: Unknown property type for block minecraft:stone_brick_slab
+[17:00:18] [Server thread/WARN]: Unknown property type for block minecraft:nether_brick_slab
+[17:00:18] [Server thread/WARN]: Unknown property type for block minecraft:nether_brick_slab
+[17:00:18] [Server thread/WARN]: Unknown property type for block minecraft:quartz_slab
+[17:00:18] [Server thread/WARN]: Unknown property type for block minecraft:quartz_slab
+[17:00:18] [Server thread/WARN]: Unknown property type for block minecraft:petrified_oak_slab
+[17:00:18] [Server thread/WARN]: Unknown property type for block minecraft:cobblestone_slab
+[17:00:18] [Server thread/WARN]: Unknown property type for block minecraft:brick_slab
+[17:00:18] [Server thread/WARN]: Unknown property type for block minecraft:stone_brick_slab
+[17:00:18] [Server thread/WARN]: Unknown property type for block minecraft:nether_brick_slab
+[17:00:18] [Server thread/WARN]: Unknown property type for block minecraft:stone_slab
+[17:00:18] [Server thread/WARN]: Unknown property type for block minecraft:sandstone_slab
+[17:00:18] [Server thread/WARN]: Unknown property type for block minecraft:petrified_oak_slab
+[17:00:18] [Server thread/WARN]: Unknown property type for block minecraft:cobblestone_slab
+[17:00:18] [Server thread/WARN]: Unknown property type for block minecraft:brick_slab
+[17:00:18] [Server thread/WARN]: Unknown property type for block minecraft:stone_brick_slab
+[17:00:18] [Server thread/WARN]: Unknown property type for block minecraft:nether_brick_slab
+[17:00:18] [Server thread/WARN]: Unknown property type for block minecraft:quartz_slab
+[17:00:18] [Server thread/WARN]: Unknown property type for block minecraft:stone_slab
+[17:00:18] [Server thread/WARN]: Unknown property type for block minecraft:sandstone_slab
+[17:00:18] [Server thread/WARN]: Unknown property type for block minecraft:petrified_oak_slab
+[17:00:18] [Server thread/WARN]: Unknown property type for block minecraft:cobblestone_slab
+[17:00:18] [Server thread/WARN]: Unknown property type for block minecraft:brick_slab
+[17:00:18] [Server thread/WARN]: Unknown property type for block minecraft:stone_brick_slab
+[17:00:18] [Server thread/WARN]: Unknown property type for block minecraft:nether_brick_slab
+[17:00:18] [Server thread/WARN]: Unknown property type for block minecraft:quartz_slab
+[17:00:18] [Server thread/WARN]: Unknown property unstable for block minecraft:tnt
+[17:00:18] [Server thread/WARN]: Unknown property unstable for block minecraft:tnt
+[17:00:18] [Server thread/WARN]: Unknown property unstable for block minecraft:tnt
+[17:00:18] [Server thread/WARN]: Unknown property facing for block minecraft:wall_torch
+[17:00:18] [Server thread/WARN]: Unknown property facing for block minecraft:wall_torch
+[17:00:18] [Server thread/WARN]: Unknown property facing for block minecraft:wall_torch
+[17:00:18] [Server thread/WARN]: Unknown property facing for block minecraft:wall_torch
+[17:00:18] [Server thread/WARN]: Unknown property facing for block minecraft:wall_torch
+[17:00:18] [Server thread/WARN]: Unknown property east for block minecraft:fire
+[17:00:18] [Server thread/WARN]: Unknown property age for block minecraft:fire
+[17:00:18] [Server thread/WARN]: Unknown property east for block minecraft:fire
+[17:00:18] [Server thread/WARN]: Unknown property east for block minecraft:fire
+[17:00:18] [Server thread/WARN]: Unknown property east for block minecraft:fire
+[17:00:18] [Server thread/WARN]: Unknown property east for block minecraft:fire
+[17:00:18] [Server thread/WARN]: Unknown property east for block minecraft:fire
+[17:00:18] [Server thread/WARN]: Unknown property east for block minecraft:fire
+[17:00:18] [Server thread/WARN]: Unknown property east for block minecraft:fire
+[17:00:18] [Server thread/WARN]: Unknown property east for block minecraft:fire
+[17:00:18] [Server thread/WARN]: Unknown property east for block minecraft:fire
+[17:00:18] [Server thread/WARN]: Unknown property east for block minecraft:fire
+[17:00:18] [Server thread/WARN]: Unknown property east for block minecraft:fire
+[17:00:18] [Server thread/WARN]: Unknown property east for block minecraft:fire
+[17:00:18] [Server thread/WARN]: Unknown property east for block minecraft:fire
+[17:00:18] [Server thread/WARN]: Unknown property east for block minecraft:fire
+[17:00:18] [Server thread/WARN]: Unknown property east for block minecraft:fire
+[17:00:18] [Server thread/WARN]: Unknown property half for block minecraft:oak_stairs
+[17:00:18] [Server thread/WARN]: Unknown property facing for block minecraft:oak_stairs
+[17:00:18] [Server thread/WARN]: Unknown property half for block minecraft:oak_stairs
+[17:00:18] [Server thread/WARN]: Unknown property half for block minecraft:oak_stairs
+[17:00:18] [Server thread/WARN]: Unknown property half for block minecraft:oak_stairs
+[17:00:18] [Server thread/WARN]: Unknown property half for block minecraft:oak_stairs
+[17:00:18] [Server thread/WARN]: Unknown property half for block minecraft:oak_stairs
+[17:00:18] [Server thread/WARN]: Unknown property half for block minecraft:oak_stairs
+[17:00:18] [Server thread/WARN]: Unknown property half for block minecraft:oak_stairs
+[17:00:18] [Server thread/WARN]: Unknown property facing for block minecraft:chest
+[17:00:18] [Server thread/WARN]: Unknown property facing for block minecraft:chest
+[17:00:18] [Server thread/WARN]: Unknown property facing for block minecraft:chest
+[17:00:18] [Server thread/WARN]: Unknown property facing for block minecraft:chest
+[17:00:18] [Server thread/WARN]: Unknown property facing for block minecraft:chest
+[17:00:18] [Server thread/WARN]: Unknown property east for block minecraft:redstone_wire
+[17:00:18] [Server thread/WARN]: Unknown property east for block minecraft:redstone_wire
+[17:00:18] [Server thread/WARN]: Unknown property east for block minecraft:redstone_wire
+[17:00:18] [Server thread/WARN]: Unknown property east for block minecraft:redstone_wire
+[17:00:18] [Server thread/WARN]: Unknown property east for block minecraft:redstone_wire
+[17:00:18] [Server thread/WARN]: Unknown property east for block minecraft:redstone_wire
+[17:00:18] [Server thread/WARN]: Unknown property east for block minecraft:redstone_wire
+[17:00:18] [Server thread/WARN]: Unknown property east for block minecraft:redstone_wire
+[17:00:18] [Server thread/WARN]: Unknown property east for block minecraft:redstone_wire
+[17:00:18] [Server thread/WARN]: Unknown property east for block minecraft:redstone_wire
+[17:00:18] [Server thread/WARN]: Unknown property east for block minecraft:redstone_wire
+[17:00:18] [Server thread/WARN]: Unknown property east for block minecraft:redstone_wire
+[17:00:18] [Server thread/WARN]: Unknown property east for block minecraft:redstone_wire
+[17:00:18] [Server thread/WARN]: Unknown property east for block minecraft:redstone_wire
+[17:00:18] [Server thread/WARN]: Unknown property east for block minecraft:redstone_wire
+[17:00:18] [Server thread/WARN]: Unknown property east for block minecraft:redstone_wire
+[17:00:18] [Server thread/WARN]: Unknown property east for block minecraft:redstone_wire
+[17:00:18] [Server thread/WARN]: Unknown property age for block minecraft:wheat
+[17:00:18] [Server thread/WARN]: Unknown property age for block minecraft:wheat
+[17:00:18] [Server thread/WARN]: Unknown property age for block minecraft:wheat
+[17:00:18] [Server thread/WARN]: Unknown property age for block minecraft:wheat
+[17:00:18] [Server thread/WARN]: Unknown property age for block minecraft:wheat
+[17:00:18] [Server thread/WARN]: Unknown property age for block minecraft:wheat
+[17:00:18] [Server thread/WARN]: Unknown property age for block minecraft:wheat
+[17:00:18] [Server thread/WARN]: Unknown property age for block minecraft:wheat
+[17:00:18] [Server thread/WARN]: Unknown property age for block minecraft:wheat
+[17:00:18] [Server thread/WARN]: Unknown property moisture for block minecraft:farmland
+[17:00:18] [Server thread/WARN]: Unknown property moisture for block minecraft:farmland
+[17:00:18] [Server thread/WARN]: Unknown property moisture for block minecraft:farmland
+[17:00:18] [Server thread/WARN]: Unknown property moisture for block minecraft:farmland
+[17:00:18] [Server thread/WARN]: Unknown property moisture for block minecraft:farmland
+[17:00:18] [Server thread/WARN]: Unknown property moisture for block minecraft:farmland
+[17:00:18] [Server thread/WARN]: Unknown property moisture for block minecraft:farmland
+[17:00:18] [Server thread/WARN]: Unknown property moisture for block minecraft:farmland
+[17:00:18] [Server thread/WARN]: Unknown property moisture for block minecraft:farmland
+[17:00:18] [Server thread/WARN]: Unknown property facing for block minecraft:furnace
+[17:00:18] [Server thread/WARN]: Unknown property facing for block minecraft:furnace
+[17:00:18] [Server thread/WARN]: Unknown property facing for block minecraft:furnace
+[17:00:18] [Server thread/WARN]: Unknown property facing for block minecraft:furnace
+[17:00:18] [Server thread/WARN]: Unknown property facing for block minecraft:furnace
+[17:00:18] [Server thread/WARN]: Unknown property facing for block minecraft:furnace
+[17:00:18] [Server thread/WARN]: Unknown property facing for block minecraft:furnace
+[17:00:18] [Server thread/WARN]: Unknown property facing for block minecraft:furnace
+[17:00:18] [Server thread/WARN]: Unknown property facing for block minecraft:furnace
+[17:00:18] [Server thread/WARN]: Unknown block: minecraft:sign[rotation=0]
+[17:00:18] [Server thread/WARN]: Unknown block: minecraft:sign[rotation=1]
+[17:00:18] [Server thread/WARN]: Unknown block: minecraft:sign[rotation=2]
+[17:00:18] [Server thread/WARN]: Unknown block: minecraft:sign[rotation=3]
+[17:00:18] [Server thread/WARN]: Unknown block: minecraft:sign[rotation=4]
+[17:00:18] [Server thread/WARN]: Unknown block: minecraft:sign[rotation=5]
+[17:00:18] [Server thread/WARN]: Unknown block: minecraft:sign[rotation=6]
+[17:00:18] [Server thread/WARN]: Unknown block: minecraft:sign[rotation=7]
+[17:00:18] [Server thread/WARN]: Unknown block: minecraft:sign[rotation=8]
+[17:00:18] [Server thread/WARN]: Unknown block: minecraft:sign[rotation=9]
+[17:00:18] [Server thread/WARN]: Unknown block: minecraft:sign[rotation=10]
+[17:00:18] [Server thread/WARN]: Unknown block: minecraft:sign[rotation=11]
+[17:00:18] [Server thread/WARN]: Unknown block: minecraft:sign[rotation=12]
+[17:00:18] [Server thread/WARN]: Unknown block: minecraft:sign[rotation=13]
+[17:00:18] [Server thread/WARN]: Unknown block: minecraft:sign[rotation=14]
+[17:00:18] [Server thread/WARN]: Unknown block: minecraft:sign[rotation=15]
+[17:00:18] [Server thread/WARN]: Unknown property hinge for block minecraft:oak_door
+[17:00:18] [Server thread/WARN]: Unknown property facing for block minecraft:oak_door
+[17:00:18] [Server thread/WARN]: Unknown property hinge for block minecraft:oak_door
+[17:00:18] [Server thread/WARN]: Unknown property hinge for block minecraft:oak_door
+[17:00:18] [Server thread/WARN]: Unknown property hinge for block minecraft:oak_door
+[17:00:18] [Server thread/WARN]: Unknown property hinge for block minecraft:oak_door
+[17:00:18] [Server thread/WARN]: Unknown property hinge for block minecraft:oak_door
+[17:00:18] [Server thread/WARN]: Unknown property hinge for block minecraft:oak_door
+[17:00:18] [Server thread/WARN]: Unknown property hinge for block minecraft:oak_door
+[17:00:18] [Server thread/WARN]: Unknown property hinge for block minecraft:oak_door
+[17:00:18] [Server thread/WARN]: Unknown property hinge for block minecraft:oak_door
+[17:00:18] [Server thread/WARN]: Unknown property hinge for block minecraft:oak_door
+[17:00:18] [Server thread/WARN]: Unknown property hinge for block minecraft:oak_door
+[17:00:18] [Server thread/WARN]: Unknown property facing for block minecraft:ladder
+[17:00:18] [Server thread/WARN]: Unknown property facing for block minecraft:ladder
+[17:00:18] [Server thread/WARN]: Unknown property facing for block minecraft:ladder
+[17:00:18] [Server thread/WARN]: Unknown property facing for block minecraft:ladder
+[17:00:18] [Server thread/WARN]: Unknown property facing for block minecraft:ladder
+[17:00:18] [Server thread/WARN]: Unknown property shape for block minecraft:rail
+[17:00:18] [Server thread/WARN]: Unknown property shape for block minecraft:rail
+[17:00:18] [Server thread/WARN]: Unknown property shape for block minecraft:rail
+[17:00:18] [Server thread/WARN]: Unknown property shape for block minecraft:rail
+[17:00:18] [Server thread/WARN]: Unknown property shape for block minecraft:rail
+[17:00:18] [Server thread/WARN]: Unknown property shape for block minecraft:rail
+[17:00:18] [Server thread/WARN]: Unknown property shape for block minecraft:rail
+[17:00:18] [Server thread/WARN]: Unknown property shape for block minecraft:rail
+[17:00:18] [Server thread/WARN]: Unknown property shape for block minecraft:rail
+[17:00:18] [Server thread/WARN]: Unknown property shape for block minecraft:rail
+[17:00:18] [Server thread/WARN]: Unknown property shape for block minecraft:rail
+[17:00:18] [Server thread/WARN]: Unknown property half for block minecraft:cobblestone_stairs
+[17:00:18] [Server thread/WARN]: Unknown property facing for block minecraft:cobblestone_stairs
+[17:00:18] [Server thread/WARN]: Unknown property half for block minecraft:cobblestone_stairs
+[17:00:18] [Server thread/WARN]: Unknown property half for block minecraft:cobblestone_stairs
+[17:00:18] [Server thread/WARN]: Unknown property half for block minecraft:cobblestone_stairs
+[17:00:18] [Server thread/WARN]: Unknown property half for block minecraft:cobblestone_stairs
+[17:00:18] [Server thread/WARN]: Unknown property half for block minecraft:cobblestone_stairs
+[17:00:18] [Server thread/WARN]: Unknown property half for block minecraft:cobblestone_stairs
+[17:00:18] [Server thread/WARN]: Unknown property half for block minecraft:cobblestone_stairs
+[17:00:18] [Server thread/WARN]: Unknown block: minecraft:wall_sign[facing=north]
+[17:00:18] [Server thread/WARN]: Unknown block: minecraft:wall_sign[facing=south]
+[17:00:18] [Server thread/WARN]: Unknown block: minecraft:wall_sign[facing=west]
+[17:00:18] [Server thread/WARN]: Unknown block: minecraft:wall_sign[facing=east]
+[17:00:18] [Server thread/WARN]: Unknown property powered for block minecraft:lever
+[17:00:18] [Server thread/WARN]: Unknown property face for block minecraft:lever
+[17:00:18] [Server thread/WARN]: Unknown property powered for block minecraft:lever
+[17:00:18] [Server thread/WARN]: Unknown property powered for block minecraft:lever
+[17:00:18] [Server thread/WARN]: Unknown property powered for block minecraft:lever
+[17:00:18] [Server thread/WARN]: Unknown property powered for block minecraft:lever
+[17:00:18] [Server thread/WARN]: Unknown property powered for block minecraft:lever
+[17:00:18] [Server thread/WARN]: Unknown property powered for block minecraft:lever
+[17:00:18] [Server thread/WARN]: Unknown property powered for block minecraft:lever
+[17:00:18] [Server thread/WARN]: Unknown property powered for block minecraft:lever
+[17:00:18] [Server thread/WARN]: Unknown property powered for block minecraft:lever
+[17:00:18] [Server thread/WARN]: Unknown property powered for block minecraft:lever
+[17:00:18] [Server thread/WARN]: Unknown property powered for block minecraft:lever
+[17:00:18] [Server thread/WARN]: Unknown property powered for block minecraft:lever
+[17:00:18] [Server thread/WARN]: Unknown property powered for block minecraft:lever
+[17:00:18] [Server thread/WARN]: Unknown property powered for block minecraft:lever
+[17:00:18] [Server thread/WARN]: Unknown property powered for block minecraft:lever
+[17:00:18] [Server thread/WARN]: Unknown property powered for block minecraft:stone_pressure_plate
+[17:00:18] [Server thread/WARN]: Unknown property powered for block minecraft:stone_pressure_plate
+[17:00:18] [Server thread/WARN]: Unknown property powered for block minecraft:stone_pressure_plate
+[17:00:18] [Server thread/WARN]: Unknown property hinge for block minecraft:iron_door
+[17:00:18] [Server thread/WARN]: Unknown property facing for block minecraft:iron_door
+[17:00:18] [Server thread/WARN]: Unknown property hinge for block minecraft:iron_door
+[17:00:18] [Server thread/WARN]: Unknown property hinge for block minecraft:iron_door
+[17:00:18] [Server thread/WARN]: Unknown property hinge for block minecraft:iron_door
+[17:00:18] [Server thread/WARN]: Unknown property hinge for block minecraft:iron_door
+[17:00:18] [Server thread/WARN]: Unknown property hinge for block minecraft:iron_door
+[17:00:18] [Server thread/WARN]: Unknown property hinge for block minecraft:iron_door
+[17:00:18] [Server thread/WARN]: Unknown property hinge for block minecraft:iron_door
+[17:00:18] [Server thread/WARN]: Unknown property hinge for block minecraft:iron_door
+[17:00:18] [Server thread/WARN]: Unknown property hinge for block minecraft:iron_door
+[17:00:18] [Server thread/WARN]: Unknown property hinge for block minecraft:iron_door
+[17:00:18] [Server thread/WARN]: Unknown property hinge for block minecraft:iron_door
+[17:00:18] [Server thread/WARN]: Unknown property powered for block minecraft:oak_pressure_plate
+[17:00:18] [Server thread/WARN]: Unknown property powered for block minecraft:oak_pressure_plate
+[17:00:18] [Server thread/WARN]: Unknown property powered for block minecraft:oak_pressure_plate
+[17:00:18] [Server thread/WARN]: Unknown property lit for block minecraft:redstone_ore
+[17:00:18] [Server thread/WARN]: Unknown property lit for block minecraft:redstone_ore
+[17:00:18] [Server thread/WARN]: Unknown property lit for block minecraft:redstone_ore
+[17:00:18] [Server thread/WARN]: Unknown property facing for block minecraft:redstone_wall_torch
+[17:00:18] [Server thread/WARN]: Unknown property facing for block minecraft:redstone_wall_torch
+[17:00:18] [Server thread/WARN]: Unknown property facing for block minecraft:redstone_wall_torch
+[17:00:18] [Server thread/WARN]: Unknown property facing for block minecraft:redstone_wall_torch
+[17:00:18] [Server thread/WARN]: Unknown property facing for block minecraft:redstone_wall_torch
+[17:00:18] [Server thread/WARN]: Unknown property lit for block minecraft:redstone_torch
+[17:00:18] [Server thread/WARN]: Unknown property lit for block minecraft:redstone_torch
+[17:00:18] [Server thread/WARN]: Unknown property facing for block minecraft:redstone_wall_torch
+[17:00:18] [Server thread/WARN]: Unknown property facing for block minecraft:redstone_wall_torch
+[17:00:18] [Server thread/WARN]: Unknown property facing for block minecraft:redstone_wall_torch
+[17:00:18] [Server thread/WARN]: Unknown property facing for block minecraft:redstone_wall_torch
+[17:00:18] [Server thread/WARN]: Unknown property lit for block minecraft:redstone_torch
+[17:00:18] [Server thread/WARN]: Unknown property powered for block minecraft:stone_button
+[17:00:18] [Server thread/WARN]: Unknown property face for block minecraft:stone_button
+[17:00:18] [Server thread/WARN]: Unknown property powered for block minecraft:stone_button
+[17:00:18] [Server thread/WARN]: Unknown property powered for block minecraft:stone_button
+[17:00:18] [Server thread/WARN]: Unknown property powered for block minecraft:stone_button
+[17:00:18] [Server thread/WARN]: Unknown property powered for block minecraft:stone_button
+[17:00:18] [Server thread/WARN]: Unknown property powered for block minecraft:stone_button
+[17:00:18] [Server thread/WARN]: Unknown property powered for block minecraft:stone_button
+[17:00:18] [Server thread/WARN]: Unknown property powered for block minecraft:stone_button
+[17:00:18] [Server thread/WARN]: Unknown property powered for block minecraft:stone_button
+[17:00:18] [Server thread/WARN]: Unknown property powered for block minecraft:stone_button
+[17:00:18] [Server thread/WARN]: Unknown property powered for block minecraft:stone_button
+[17:00:18] [Server thread/WARN]: Unknown property powered for block minecraft:stone_button
+[17:00:18] [Server thread/WARN]: Unknown property layers for block minecraft:snow
+[17:00:18] [Server thread/WARN]: Unknown property layers for block minecraft:snow
+[17:00:18] [Server thread/WARN]: Unknown property layers for block minecraft:snow
+[17:00:18] [Server thread/WARN]: Unknown property layers for block minecraft:snow
+[17:00:18] [Server thread/WARN]: Unknown property layers for block minecraft:snow
+[17:00:18] [Server thread/WARN]: Unknown property layers for block minecraft:snow
+[17:00:18] [Server thread/WARN]: Unknown property layers for block minecraft:snow
+[17:00:18] [Server thread/WARN]: Unknown property layers for block minecraft:snow
+[17:00:18] [Server thread/WARN]: Unknown property layers for block minecraft:snow
+[17:00:18] [Server thread/WARN]: Unknown property age for block minecraft:cactus
+[17:00:18] [Server thread/WARN]: Unknown property age for block minecraft:cactus
+[17:00:18] [Server thread/WARN]: Unknown property age for block minecraft:cactus
+[17:00:18] [Server thread/WARN]: Unknown property age for block minecraft:cactus
+[17:00:18] [Server thread/WARN]: Unknown property age for block minecraft:cactus
+[17:00:18] [Server thread/WARN]: Unknown property age for block minecraft:cactus
+[17:00:18] [Server thread/WARN]: Unknown property age for block minecraft:cactus
+[17:00:18] [Server thread/WARN]: Unknown property age for block minecraft:cactus
+[17:00:18] [Server thread/WARN]: Unknown property age for block minecraft:cactus
+[17:00:18] [Server thread/WARN]: Unknown property age for block minecraft:cactus
+[17:00:18] [Server thread/WARN]: Unknown property age for block minecraft:cactus
+[17:00:18] [Server thread/WARN]: Unknown property age for block minecraft:cactus
+[17:00:18] [Server thread/WARN]: Unknown property age for block minecraft:cactus
+[17:00:18] [Server thread/WARN]: Unknown property age for block minecraft:cactus
+[17:00:18] [Server thread/WARN]: Unknown property age for block minecraft:cactus
+[17:00:18] [Server thread/WARN]: Unknown property age for block minecraft:cactus
+[17:00:18] [Server thread/WARN]: Unknown property age for block minecraft:cactus
+[17:00:18] [Server thread/WARN]: Unknown property age for block minecraft:sugar_cane
+[17:00:18] [Server thread/WARN]: Unknown property age for block minecraft:sugar_cane
+[17:00:18] [Server thread/WARN]: Unknown property age for block minecraft:sugar_cane
+[17:00:18] [Server thread/WARN]: Unknown property age for block minecraft:sugar_cane
+[17:00:18] [Server thread/WARN]: Unknown property age for block minecraft:sugar_cane
+[17:00:18] [Server thread/WARN]: Unknown property age for block minecraft:sugar_cane
+[17:00:18] [Server thread/WARN]: Unknown property age for block minecraft:sugar_cane
+[17:00:18] [Server thread/WARN]: Unknown property age for block minecraft:sugar_cane
+[17:00:18] [Server thread/WARN]: Unknown property age for block minecraft:sugar_cane
+[17:00:18] [Server thread/WARN]: Unknown property age for block minecraft:sugar_cane
+[17:00:18] [Server thread/WARN]: Unknown property age for block minecraft:sugar_cane
+[17:00:18] [Server thread/WARN]: Unknown property age for block minecraft:sugar_cane
+[17:00:18] [Server thread/WARN]: Unknown property age for block minecraft:sugar_cane
+[17:00:18] [Server thread/WARN]: Unknown property age for block minecraft:sugar_cane
+[17:00:18] [Server thread/WARN]: Unknown property age for block minecraft:sugar_cane
+[17:00:18] [Server thread/WARN]: Unknown property age for block minecraft:sugar_cane
+[17:00:18] [Server thread/WARN]: Unknown property age for block minecraft:sugar_cane
+[17:00:18] [Server thread/WARN]: Unknown property has_record for block minecraft:jukebox
+[17:00:18] [Server thread/WARN]: Unknown property has_record for block minecraft:jukebox
+[17:00:18] [Server thread/WARN]: Unknown property has_record for block minecraft:jukebox
+[17:00:18] [Server thread/WARN]: Unknown property east for block minecraft:oak_fence
+[17:00:18] [Server thread/WARN]: Unknown property east for block minecraft:oak_fence
+[17:00:18] [Server thread/WARN]: Unknown property facing for block minecraft:carved_pumpkin
+[17:00:18] [Server thread/WARN]: Unknown property facing for block minecraft:carved_pumpkin
+[17:00:18] [Server thread/WARN]: Unknown property facing for block minecraft:carved_pumpkin
+[17:00:18] [Server thread/WARN]: Unknown property facing for block minecraft:carved_pumpkin
+[17:00:18] [Server thread/WARN]: Unknown property facing for block minecraft:carved_pumpkin
+[17:00:18] [Server thread/WARN]: Unknown property axis for block minecraft:nether_portal
+[17:00:18] [Server thread/WARN]: Unknown property axis for block minecraft:nether_portal
+[17:00:18] [Server thread/WARN]: Unknown property axis for block minecraft:nether_portal
+[17:00:18] [Server thread/WARN]: Unknown property facing for block minecraft:jack_o_lantern
+[17:00:18] [Server thread/WARN]: Unknown property facing for block minecraft:jack_o_lantern
+[17:00:18] [Server thread/WARN]: Unknown property facing for block minecraft:jack_o_lantern
+[17:00:18] [Server thread/WARN]: Unknown property facing for block minecraft:jack_o_lantern
+[17:00:18] [Server thread/WARN]: Unknown property facing for block minecraft:jack_o_lantern
+[17:00:18] [Server thread/WARN]: Unknown property bites for block minecraft:cake
+[17:00:18] [Server thread/WARN]: Unknown property bites for block minecraft:cake
+[17:00:18] [Server thread/WARN]: Unknown property bites for block minecraft:cake
+[17:00:18] [Server thread/WARN]: Unknown property bites for block minecraft:cake
+[17:00:18] [Server thread/WARN]: Unknown property bites for block minecraft:cake
+[17:00:18] [Server thread/WARN]: Unknown property bites for block minecraft:cake
+[17:00:18] [Server thread/WARN]: Unknown property bites for block minecraft:cake
+[17:00:18] [Server thread/WARN]: Unknown property bites for block minecraft:cake
+[17:00:18] [Server thread/WARN]: Unknown property delay for block minecraft:repeater
+[17:00:18] [Server thread/WARN]: Unknown property delay for block minecraft:repeater
+[17:00:18] [Server thread/WARN]: Unknown property delay for block minecraft:repeater
+[17:00:18] [Server thread/WARN]: Unknown property delay for block minecraft:repeater
+[17:00:18] [Server thread/WARN]: Unknown property delay for block minecraft:repeater
+[17:00:18] [Server thread/WARN]: Unknown property delay for block minecraft:repeater
+[17:00:18] [Server thread/WARN]: Unknown property delay for block minecraft:repeater
+[17:00:18] [Server thread/WARN]: Unknown property delay for block minecraft:repeater
+[17:00:18] [Server thread/WARN]: Unknown property delay for block minecraft:repeater
+[17:00:18] [Server thread/WARN]: Unknown property delay for block minecraft:repeater
+[17:00:18] [Server thread/WARN]: Unknown property delay for block minecraft:repeater
+[17:00:18] [Server thread/WARN]: Unknown property delay for block minecraft:repeater
+[17:00:18] [Server thread/WARN]: Unknown property delay for block minecraft:repeater
+[17:00:18] [Server thread/WARN]: Unknown property delay for block minecraft:repeater
+[17:00:18] [Server thread/WARN]: Unknown property delay for block minecraft:repeater
+[17:00:18] [Server thread/WARN]: Unknown property delay for block minecraft:repeater
+[17:00:18] [Server thread/WARN]: Unknown property delay for block minecraft:repeater
+[17:00:18] [Server thread/WARN]: Unknown property delay for block minecraft:repeater
+[17:00:18] [Server thread/WARN]: Unknown property delay for block minecraft:repeater
+[17:00:18] [Server thread/WARN]: Unknown property delay for block minecraft:repeater
+[17:00:18] [Server thread/WARN]: Unknown property delay for block minecraft:repeater
+[17:00:18] [Server thread/WARN]: Unknown property delay for block minecraft:repeater
+[17:00:18] [Server thread/WARN]: Unknown property delay for block minecraft:repeater
+[17:00:18] [Server thread/WARN]: Unknown property delay for block minecraft:repeater
+[17:00:18] [Server thread/WARN]: Unknown property delay for block minecraft:repeater
+[17:00:18] [Server thread/WARN]: Unknown property delay for block minecraft:repeater
+[17:00:18] [Server thread/WARN]: Unknown property delay for block minecraft:repeater
+[17:00:18] [Server thread/WARN]: Unknown property delay for block minecraft:repeater
+[17:00:18] [Server thread/WARN]: Unknown property delay for block minecraft:repeater
+[17:00:18] [Server thread/WARN]: Unknown property delay for block minecraft:repeater
+[17:00:18] [Server thread/WARN]: Unknown property delay for block minecraft:repeater
+[17:00:18] [Server thread/WARN]: Unknown property delay for block minecraft:repeater
+[17:00:18] [Server thread/WARN]: Unknown property delay for block minecraft:repeater
+[17:00:18] [Server thread/WARN]: Unknown property half for block minecraft:oak_trapdoor
+[17:00:18] [Server thread/WARN]: Unknown property facing for block minecraft:oak_trapdoor
+[17:00:18] [Server thread/WARN]: Unknown property half for block minecraft:oak_trapdoor
+[17:00:18] [Server thread/WARN]: Unknown property half for block minecraft:oak_trapdoor
+[17:00:18] [Server thread/WARN]: Unknown property half for block minecraft:oak_trapdoor
+[17:00:18] [Server thread/WARN]: Unknown property half for block minecraft:oak_trapdoor
+[17:00:18] [Server thread/WARN]: Unknown property half for block minecraft:oak_trapdoor
+[17:00:18] [Server thread/WARN]: Unknown property half for block minecraft:oak_trapdoor
+[17:00:18] [Server thread/WARN]: Unknown property half for block minecraft:oak_trapdoor
+[17:00:18] [Server thread/WARN]: Unknown property half for block minecraft:oak_trapdoor
+[17:00:18] [Server thread/WARN]: Unknown property half for block minecraft:oak_trapdoor
+[17:00:18] [Server thread/WARN]: Unknown property half for block minecraft:oak_trapdoor
+[17:00:18] [Server thread/WARN]: Unknown property half for block minecraft:oak_trapdoor
+[17:00:18] [Server thread/WARN]: Unknown property half for block minecraft:oak_trapdoor
+[17:00:18] [Server thread/WARN]: Unknown property half for block minecraft:oak_trapdoor
+[17:00:18] [Server thread/WARN]: Unknown property half for block minecraft:oak_trapdoor
+[17:00:18] [Server thread/WARN]: Unknown property half for block minecraft:oak_trapdoor
+[17:00:18] [Server thread/WARN]: Unknown property north for block minecraft:brown_mushroom_block
+[17:00:18] [Server thread/WARN]: Unknown property down for block minecraft:brown_mushroom_block
+[17:00:18] [Server thread/WARN]: Unknown property north for block minecraft:brown_mushroom_block
+[17:00:18] [Server thread/WARN]: Unknown property north for block minecraft:brown_mushroom_block
+[17:00:18] [Server thread/WARN]: Unknown property north for block minecraft:brown_mushroom_block
+[17:00:18] [Server thread/WARN]: Unknown property north for block minecraft:brown_mushroom_block
+[17:00:18] [Server thread/WARN]: Unknown property north for block minecraft:brown_mushroom_block
+[17:00:18] [Server thread/WARN]: Unknown property north for block minecraft:brown_mushroom_block
+[17:00:18] [Server thread/WARN]: Unknown property north for block minecraft:brown_mushroom_block
+[17:00:18] [Server thread/WARN]: Unknown property north for block minecraft:brown_mushroom_block
+[17:00:18] [Server thread/WARN]: Unknown property north for block minecraft:brown_mushroom_block
+[17:00:18] [Server thread/WARN]: Unknown property north for block minecraft:mushroom_stem
+[17:00:18] [Server thread/WARN]: Unknown property down for block minecraft:mushroom_stem
+[17:00:18] [Server thread/WARN]: Unknown property north for block minecraft:brown_mushroom_block
+[17:00:18] [Server thread/WARN]: Unknown property north for block minecraft:mushroom_stem
+[17:00:18] [Server thread/WARN]: Unknown property north for block minecraft:red_mushroom_block
+[17:00:18] [Server thread/WARN]: Unknown property down for block minecraft:red_mushroom_block
+[17:00:18] [Server thread/WARN]: Unknown property north for block minecraft:red_mushroom_block
+[17:00:18] [Server thread/WARN]: Unknown property north for block minecraft:red_mushroom_block
+[17:00:18] [Server thread/WARN]: Unknown property north for block minecraft:red_mushroom_block
+[17:00:18] [Server thread/WARN]: Unknown property north for block minecraft:red_mushroom_block
+[17:00:18] [Server thread/WARN]: Unknown property north for block minecraft:red_mushroom_block
+[17:00:18] [Server thread/WARN]: Unknown property north for block minecraft:red_mushroom_block
+[17:00:18] [Server thread/WARN]: Unknown property north for block minecraft:red_mushroom_block
+[17:00:18] [Server thread/WARN]: Unknown property north for block minecraft:red_mushroom_block
+[17:00:18] [Server thread/WARN]: Unknown property north for block minecraft:red_mushroom_block
+[17:00:18] [Server thread/WARN]: Unknown property north for block minecraft:mushroom_stem
+[17:00:18] [Server thread/WARN]: Unknown property north for block minecraft:red_mushroom_block
+[17:00:18] [Server thread/WARN]: Unknown property north for block minecraft:mushroom_stem
+[17:00:18] [Server thread/WARN]: Unknown property east for block minecraft:iron_bars
+[17:00:18] [Server thread/WARN]: Unknown property east for block minecraft:iron_bars
+[17:00:18] [Server thread/WARN]: Unknown property east for block minecraft:glass_pane
+[17:00:18] [Server thread/WARN]: Unknown property east for block minecraft:glass_pane
+[17:00:18] [Server thread/WARN]: Unknown property age for block minecraft:pumpkin_stem
+[17:00:18] [Server thread/WARN]: Unknown property age for block minecraft:pumpkin_stem
+[17:00:18] [Server thread/WARN]: Unknown property age for block minecraft:pumpkin_stem
+[17:00:18] [Server thread/WARN]: Unknown property age for block minecraft:pumpkin_stem
+[17:00:18] [Server thread/WARN]: Unknown property age for block minecraft:pumpkin_stem
+[17:00:18] [Server thread/WARN]: Unknown property age for block minecraft:pumpkin_stem
+[17:00:18] [Server thread/WARN]: Unknown property age for block minecraft:pumpkin_stem
+[17:00:18] [Server thread/WARN]: Unknown property age for block minecraft:pumpkin_stem
+[17:00:18] [Server thread/WARN]: Unknown property age for block minecraft:pumpkin_stem
+[17:00:18] [Server thread/WARN]: Unknown property age for block minecraft:melon_stem
+[17:00:18] [Server thread/WARN]: Unknown property age for block minecraft:melon_stem
+[17:00:18] [Server thread/WARN]: Unknown property age for block minecraft:melon_stem
+[17:00:18] [Server thread/WARN]: Unknown property age for block minecraft:melon_stem
+[17:00:18] [Server thread/WARN]: Unknown property age for block minecraft:melon_stem
+[17:00:18] [Server thread/WARN]: Unknown property age for block minecraft:melon_stem
+[17:00:18] [Server thread/WARN]: Unknown property age for block minecraft:melon_stem
+[17:00:18] [Server thread/WARN]: Unknown property age for block minecraft:melon_stem
+[17:00:18] [Server thread/WARN]: Unknown property age for block minecraft:melon_stem
+[17:00:18] [Server thread/WARN]: Unknown property east for block minecraft:vine
+[17:00:18] [Server thread/WARN]: Unknown property east for block minecraft:vine
+[17:00:18] [Server thread/WARN]: Unknown property east for block minecraft:vine
+[17:00:18] [Server thread/WARN]: Unknown property east for block minecraft:vine
+[17:00:18] [Server thread/WARN]: Unknown property east for block minecraft:vine
+[17:00:18] [Server thread/WARN]: Unknown property east for block minecraft:vine
+[17:00:18] [Server thread/WARN]: Unknown property east for block minecraft:vine
+[17:00:18] [Server thread/WARN]: Unknown property east for block minecraft:vine
+[17:00:18] [Server thread/WARN]: Unknown property east for block minecraft:vine
+[17:00:18] [Server thread/WARN]: Unknown property east for block minecraft:vine
+[17:00:18] [Server thread/WARN]: Unknown property east for block minecraft:vine
+[17:00:18] [Server thread/WARN]: Unknown property east for block minecraft:vine
+[17:00:18] [Server thread/WARN]: Unknown property east for block minecraft:vine
+[17:00:18] [Server thread/WARN]: Unknown property east for block minecraft:vine
+[17:00:18] [Server thread/WARN]: Unknown property east for block minecraft:vine
+[17:00:18] [Server thread/WARN]: Unknown property east for block minecraft:vine
+[17:00:18] [Server thread/WARN]: Unknown property east for block minecraft:vine
+[17:00:18] [Server thread/WARN]: Unknown property in_wall for block minecraft:oak_fence_gate
+[17:00:18] [Server thread/WARN]: Unknown property facing for block minecraft:oak_fence_gate
+[17:00:18] [Server thread/WARN]: Unknown property in_wall for block minecraft:oak_fence_gate
+[17:00:18] [Server thread/WARN]: Unknown property in_wall for block minecraft:oak_fence_gate
+[17:00:18] [Server thread/WARN]: Unknown property in_wall for block minecraft:oak_fence_gate
+[17:00:18] [Server thread/WARN]: Unknown property in_wall for block minecraft:oak_fence_gate
+[17:00:18] [Server thread/WARN]: Unknown property in_wall for block minecraft:oak_fence_gate
+[17:00:18] [Server thread/WARN]: Unknown property in_wall for block minecraft:oak_fence_gate
+[17:00:18] [Server thread/WARN]: Unknown property in_wall for block minecraft:oak_fence_gate
+[17:00:18] [Server thread/WARN]: Unknown property in_wall for block minecraft:oak_fence_gate
+[17:00:18] [Server thread/WARN]: Unknown property in_wall for block minecraft:oak_fence_gate
+[17:00:18] [Server thread/WARN]: Unknown property in_wall for block minecraft:oak_fence_gate
+[17:00:18] [Server thread/WARN]: Unknown property in_wall for block minecraft:oak_fence_gate
+[17:00:18] [Server thread/WARN]: Unknown property in_wall for block minecraft:oak_fence_gate
+[17:00:18] [Server thread/WARN]: Unknown property in_wall for block minecraft:oak_fence_gate
+[17:00:18] [Server thread/WARN]: Unknown property in_wall for block minecraft:oak_fence_gate
+[17:00:18] [Server thread/WARN]: Unknown property in_wall for block minecraft:oak_fence_gate
+[17:00:18] [Server thread/WARN]: Unknown property half for block minecraft:brick_stairs
+[17:00:18] [Server thread/WARN]: Unknown property facing for block minecraft:brick_stairs
+[17:00:18] [Server thread/WARN]: Unknown property half for block minecraft:brick_stairs
+[17:00:18] [Server thread/WARN]: Unknown property half for block minecraft:brick_stairs
+[17:00:18] [Server thread/WARN]: Unknown property half for block minecraft:brick_stairs
+[17:00:18] [Server thread/WARN]: Unknown property half for block minecraft:brick_stairs
+[17:00:18] [Server thread/WARN]: Unknown property half for block minecraft:brick_stairs
+[17:00:18] [Server thread/WARN]: Unknown property half for block minecraft:brick_stairs
+[17:00:18] [Server thread/WARN]: Unknown property half for block minecraft:brick_stairs
+[17:00:18] [Server thread/WARN]: Unknown property half for block minecraft:stone_brick_stairs
+[17:00:18] [Server thread/WARN]: Unknown property facing for block minecraft:stone_brick_stairs
+[17:00:18] [Server thread/WARN]: Unknown property half for block minecraft:stone_brick_stairs
+[17:00:18] [Server thread/WARN]: Unknown property half for block minecraft:stone_brick_stairs
+[17:00:18] [Server thread/WARN]: Unknown property half for block minecraft:stone_brick_stairs
+[17:00:18] [Server thread/WARN]: Unknown property half for block minecraft:stone_brick_stairs
+[17:00:18] [Server thread/WARN]: Unknown property half for block minecraft:stone_brick_stairs
+[17:00:18] [Server thread/WARN]: Unknown property half for block minecraft:stone_brick_stairs
+[17:00:18] [Server thread/WARN]: Unknown property half for block minecraft:stone_brick_stairs
+[17:00:18] [Server thread/WARN]: Unknown property snowy for block minecraft:mycelium
+[17:00:18] [Server thread/WARN]: Unknown property snowy for block minecraft:mycelium
+[17:00:18] [Server thread/WARN]: Unknown property east for block minecraft:nether_brick_fence
+[17:00:18] [Server thread/WARN]: Unknown property east for block minecraft:nether_brick_fence
+[17:00:18] [Server thread/WARN]: Unknown property half for block minecraft:nether_brick_stairs
+[17:00:18] [Server thread/WARN]: Unknown property facing for block minecraft:nether_brick_stairs
+[17:00:18] [Server thread/WARN]: Unknown property half for block minecraft:nether_brick_stairs
+[17:00:18] [Server thread/WARN]: Unknown property half for block minecraft:nether_brick_stairs
+[17:00:18] [Server thread/WARN]: Unknown property half for block minecraft:nether_brick_stairs
+[17:00:18] [Server thread/WARN]: Unknown property half for block minecraft:nether_brick_stairs
+[17:00:18] [Server thread/WARN]: Unknown property half for block minecraft:nether_brick_stairs
+[17:00:18] [Server thread/WARN]: Unknown property half for block minecraft:nether_brick_stairs
+[17:00:18] [Server thread/WARN]: Unknown property half for block minecraft:nether_brick_stairs
+[17:00:18] [Server thread/WARN]: Unknown property age for block minecraft:nether_wart
+[17:00:18] [Server thread/WARN]: Unknown property age for block minecraft:nether_wart
+[17:00:18] [Server thread/WARN]: Unknown property age for block minecraft:nether_wart
+[17:00:18] [Server thread/WARN]: Unknown property age for block minecraft:nether_wart
+[17:00:18] [Server thread/WARN]: Unknown property age for block minecraft:nether_wart
+[17:00:18] [Server thread/WARN]: Unknown property has_bottle_0 for block minecraft:brewing_stand
+[17:00:18] [Server thread/WARN]: Unknown property has_bottle_0 for block minecraft:brewing_stand
+[17:00:18] [Server thread/WARN]: Unknown property has_bottle_0 for block minecraft:brewing_stand
+[17:00:18] [Server thread/WARN]: Unknown property has_bottle_0 for block minecraft:brewing_stand
+[17:00:18] [Server thread/WARN]: Unknown property has_bottle_0 for block minecraft:brewing_stand
+[17:00:18] [Server thread/WARN]: Unknown property has_bottle_0 for block minecraft:brewing_stand
+[17:00:18] [Server thread/WARN]: Unknown property has_bottle_0 for block minecraft:brewing_stand
+[17:00:18] [Server thread/WARN]: Unknown property has_bottle_0 for block minecraft:brewing_stand
+[17:00:18] [Server thread/WARN]: Unknown property has_bottle_0 for block minecraft:brewing_stand
+[17:00:18] [Server thread/WARN]: Unknown property level for block minecraft:cauldron
+[17:00:18] [Server thread/WARN]: Unknown property level for block minecraft:cauldron
+[17:00:18] [Server thread/WARN]: Unknown property level for block minecraft:cauldron
+[17:00:18] [Server thread/WARN]: Unknown property level for block minecraft:cauldron
+[17:00:18] [Server thread/WARN]: Unknown property level for block minecraft:cauldron
+[17:00:18] [Server thread/WARN]: Unknown property eye for block minecraft:end_portal_frame
+[17:00:18] [Server thread/WARN]: Unknown property eye for block minecraft:end_portal_frame
+[17:00:18] [Server thread/WARN]: Unknown property eye for block minecraft:end_portal_frame
+[17:00:18] [Server thread/WARN]: Unknown property eye for block minecraft:end_portal_frame
+[17:00:18] [Server thread/WARN]: Unknown property eye for block minecraft:end_portal_frame
+[17:00:18] [Server thread/WARN]: Unknown property eye for block minecraft:end_portal_frame
+[17:00:18] [Server thread/WARN]: Unknown property eye for block minecraft:end_portal_frame
+[17:00:18] [Server thread/WARN]: Unknown property eye for block minecraft:end_portal_frame
+[17:00:18] [Server thread/WARN]: Unknown property eye for block minecraft:end_portal_frame
+[17:00:18] [Server thread/WARN]: Unknown property lit for block minecraft:redstone_lamp
+[17:00:18] [Server thread/WARN]: Unknown property lit for block minecraft:redstone_lamp
+[17:00:18] [Server thread/WARN]: Unknown property lit for block minecraft:redstone_lamp
+[17:00:18] [Server thread/WARN]: Unknown property type for block minecraft:oak_slab
+[17:00:18] [Server thread/WARN]: Unknown property type for block minecraft:oak_slab
+[17:00:18] [Server thread/WARN]: Unknown property type for block minecraft:spruce_slab
+[17:00:18] [Server thread/WARN]: Unknown property type for block minecraft:spruce_slab
+[17:00:18] [Server thread/WARN]: Unknown property type for block minecraft:birch_slab
+[17:00:18] [Server thread/WARN]: Unknown property type for block minecraft:birch_slab
+[17:00:18] [Server thread/WARN]: Unknown property type for block minecraft:jungle_slab
+[17:00:18] [Server thread/WARN]: Unknown property type for block minecraft:jungle_slab
+[17:00:18] [Server thread/WARN]: Unknown property type for block minecraft:acacia_slab
+[17:00:18] [Server thread/WARN]: Unknown property type for block minecraft:acacia_slab
+[17:00:18] [Server thread/WARN]: Unknown property type for block minecraft:dark_oak_slab
+[17:00:18] [Server thread/WARN]: Unknown property type for block minecraft:dark_oak_slab
+[17:00:18] [Server thread/WARN]: Unknown property type for block minecraft:oak_slab
+[17:00:18] [Server thread/WARN]: Unknown property type for block minecraft:spruce_slab
+[17:00:18] [Server thread/WARN]: Unknown property type for block minecraft:birch_slab
+[17:00:18] [Server thread/WARN]: Unknown property type for block minecraft:jungle_slab
+[17:00:18] [Server thread/WARN]: Unknown property type for block minecraft:acacia_slab
+[17:00:18] [Server thread/WARN]: Unknown property type for block minecraft:dark_oak_slab
+[17:00:18] [Server thread/WARN]: Unknown property type for block minecraft:oak_slab
+[17:00:18] [Server thread/WARN]: Unknown property type for block minecraft:spruce_slab
+[17:00:18] [Server thread/WARN]: Unknown property type for block minecraft:birch_slab
+[17:00:18] [Server thread/WARN]: Unknown property type for block minecraft:jungle_slab
+[17:00:18] [Server thread/WARN]: Unknown property type for block minecraft:acacia_slab
+[17:00:18] [Server thread/WARN]: Unknown property type for block minecraft:dark_oak_slab
+[17:00:18] [Server thread/WARN]: Unknown property facing for block minecraft:cocoa
+[17:00:18] [Server thread/WARN]: Unknown property age for block minecraft:cocoa
+[17:00:18] [Server thread/WARN]: Unknown property facing for block minecraft:cocoa
+[17:00:18] [Server thread/WARN]: Unknown property facing for block minecraft:cocoa
+[17:00:18] [Server thread/WARN]: Unknown property facing for block minecraft:cocoa
+[17:00:18] [Server thread/WARN]: Unknown property facing for block minecraft:cocoa
+[17:00:18] [Server thread/WARN]: Unknown property facing for block minecraft:cocoa
+[17:00:18] [Server thread/WARN]: Unknown property facing for block minecraft:cocoa
+[17:00:18] [Server thread/WARN]: Unknown property facing for block minecraft:cocoa
+[17:00:18] [Server thread/WARN]: Unknown property facing for block minecraft:cocoa
+[17:00:18] [Server thread/WARN]: Unknown property facing for block minecraft:cocoa
+[17:00:18] [Server thread/WARN]: Unknown property facing for block minecraft:cocoa
+[17:00:18] [Server thread/WARN]: Unknown property facing for block minecraft:cocoa
+[17:00:18] [Server thread/WARN]: Unknown property half for block minecraft:sandstone_stairs
+[17:00:18] [Server thread/WARN]: Unknown property facing for block minecraft:sandstone_stairs
+[17:00:18] [Server thread/WARN]: Unknown property half for block minecraft:sandstone_stairs
+[17:00:18] [Server thread/WARN]: Unknown property half for block minecraft:sandstone_stairs
+[17:00:18] [Server thread/WARN]: Unknown property half for block minecraft:sandstone_stairs
+[17:00:18] [Server thread/WARN]: Unknown property half for block minecraft:sandstone_stairs
+[17:00:18] [Server thread/WARN]: Unknown property half for block minecraft:sandstone_stairs
+[17:00:18] [Server thread/WARN]: Unknown property half for block minecraft:sandstone_stairs
+[17:00:18] [Server thread/WARN]: Unknown property half for block minecraft:sandstone_stairs
+[17:00:18] [Server thread/WARN]: Unknown property facing for block minecraft:ender_chest
+[17:00:18] [Server thread/WARN]: Unknown property facing for block minecraft:ender_chest
+[17:00:18] [Server thread/WARN]: Unknown property facing for block minecraft:ender_chest
+[17:00:18] [Server thread/WARN]: Unknown property facing for block minecraft:ender_chest
+[17:00:18] [Server thread/WARN]: Unknown property facing for block minecraft:ender_chest
+[17:00:18] [Server thread/WARN]: Unknown property powered for block minecraft:tripwire_hook
+[17:00:18] [Server thread/WARN]: Unknown property attached for block minecraft:tripwire_hook
+[17:00:18] [Server thread/WARN]: Unknown property powered for block minecraft:tripwire_hook
+[17:00:18] [Server thread/WARN]: Unknown property powered for block minecraft:tripwire_hook
+[17:00:18] [Server thread/WARN]: Unknown property powered for block minecraft:tripwire_hook
+[17:00:18] [Server thread/WARN]: Unknown property powered for block minecraft:tripwire_hook
+[17:00:18] [Server thread/WARN]: Unknown property powered for block minecraft:tripwire_hook
+[17:00:18] [Server thread/WARN]: Unknown property powered for block minecraft:tripwire_hook
+[17:00:18] [Server thread/WARN]: Unknown property powered for block minecraft:tripwire_hook
+[17:00:18] [Server thread/WARN]: Unknown property powered for block minecraft:tripwire_hook
+[17:00:18] [Server thread/WARN]: Unknown property powered for block minecraft:tripwire_hook
+[17:00:18] [Server thread/WARN]: Unknown property powered for block minecraft:tripwire_hook
+[17:00:18] [Server thread/WARN]: Unknown property powered for block minecraft:tripwire_hook
+[17:00:18] [Server thread/WARN]: Unknown property powered for block minecraft:tripwire_hook
+[17:00:18] [Server thread/WARN]: Unknown property powered for block minecraft:tripwire_hook
+[17:00:18] [Server thread/WARN]: Unknown property powered for block minecraft:tripwire_hook
+[17:00:18] [Server thread/WARN]: Unknown property powered for block minecraft:tripwire_hook
+[17:00:18] [Server thread/WARN]: Unknown property disarmed for block minecraft:tripwire
+[17:00:18] [Server thread/WARN]: Unknown property attached for block minecraft:tripwire
+[17:00:18] [Server thread/WARN]: Unknown property disarmed for block minecraft:tripwire
+[17:00:18] [Server thread/WARN]: Unknown property disarmed for block minecraft:tripwire
+[17:00:18] [Server thread/WARN]: Unknown property disarmed for block minecraft:tripwire
+[17:00:18] [Server thread/WARN]: Unknown property disarmed for block minecraft:tripwire
+[17:00:18] [Server thread/WARN]: Unknown property disarmed for block minecraft:tripwire
+[17:00:18] [Server thread/WARN]: Unknown property disarmed for block minecraft:tripwire
+[17:00:18] [Server thread/WARN]: Unknown property disarmed for block minecraft:tripwire
+[17:00:18] [Server thread/WARN]: Unknown property half for block minecraft:spruce_stairs
+[17:00:18] [Server thread/WARN]: Unknown property facing for block minecraft:spruce_stairs
+[17:00:18] [Server thread/WARN]: Unknown property half for block minecraft:spruce_stairs
+[17:00:18] [Server thread/WARN]: Unknown property half for block minecraft:spruce_stairs
+[17:00:18] [Server thread/WARN]: Unknown property half for block minecraft:spruce_stairs
+[17:00:18] [Server thread/WARN]: Unknown property half for block minecraft:spruce_stairs
+[17:00:18] [Server thread/WARN]: Unknown property half for block minecraft:spruce_stairs
+[17:00:18] [Server thread/WARN]: Unknown property half for block minecraft:spruce_stairs
+[17:00:18] [Server thread/WARN]: Unknown property half for block minecraft:spruce_stairs
+[17:00:18] [Server thread/WARN]: Unknown property half for block minecraft:birch_stairs
+[17:00:18] [Server thread/WARN]: Unknown property facing for block minecraft:birch_stairs
+[17:00:18] [Server thread/WARN]: Unknown property half for block minecraft:birch_stairs
+[17:00:18] [Server thread/WARN]: Unknown property half for block minecraft:birch_stairs
+[17:00:18] [Server thread/WARN]: Unknown property half for block minecraft:birch_stairs
+[17:00:18] [Server thread/WARN]: Unknown property half for block minecraft:birch_stairs
+[17:00:18] [Server thread/WARN]: Unknown property half for block minecraft:birch_stairs
+[17:00:18] [Server thread/WARN]: Unknown property half for block minecraft:birch_stairs
+[17:00:18] [Server thread/WARN]: Unknown property half for block minecraft:birch_stairs
+[17:00:18] [Server thread/WARN]: Unknown property half for block minecraft:jungle_stairs
+[17:00:18] [Server thread/WARN]: Unknown property facing for block minecraft:jungle_stairs
+[17:00:18] [Server thread/WARN]: Unknown property half for block minecraft:jungle_stairs
+[17:00:18] [Server thread/WARN]: Unknown property half for block minecraft:jungle_stairs
+[17:00:18] [Server thread/WARN]: Unknown property half for block minecraft:jungle_stairs
+[17:00:18] [Server thread/WARN]: Unknown property half for block minecraft:jungle_stairs
+[17:00:18] [Server thread/WARN]: Unknown property half for block minecraft:jungle_stairs
+[17:00:18] [Server thread/WARN]: Unknown property half for block minecraft:jungle_stairs
+[17:00:18] [Server thread/WARN]: Unknown property half for block minecraft:jungle_stairs
+[17:00:18] [Server thread/WARN]: Unknown property conditional for block minecraft:command_block
+[17:00:18] [Server thread/WARN]: Unknown property conditional for block minecraft:command_block
+[17:00:18] [Server thread/WARN]: Unknown property conditional for block minecraft:command_block
+[17:00:18] [Server thread/WARN]: Unknown property conditional for block minecraft:command_block
+[17:00:18] [Server thread/WARN]: Unknown property conditional for block minecraft:command_block
+[17:00:18] [Server thread/WARN]: Unknown property conditional for block minecraft:command_block
+[17:00:18] [Server thread/WARN]: Unknown property conditional for block minecraft:command_block
+[17:00:18] [Server thread/WARN]: Unknown property conditional for block minecraft:command_block
+[17:00:18] [Server thread/WARN]: Unknown property conditional for block minecraft:command_block
+[17:00:18] [Server thread/WARN]: Unknown property conditional for block minecraft:command_block
+[17:00:18] [Server thread/WARN]: Unknown property conditional for block minecraft:command_block
+[17:00:18] [Server thread/WARN]: Unknown property conditional for block minecraft:command_block
+[17:00:18] [Server thread/WARN]: Unknown property conditional for block minecraft:command_block
+[17:00:18] [Server thread/WARN]: Unknown property east for block minecraft:cobblestone_wall
+[17:00:18] [Server thread/WARN]: Unknown property east for block minecraft:cobblestone_wall
+[17:00:18] [Server thread/WARN]: Unknown property east for block minecraft:mossy_cobblestone_wall
+[17:00:18] [Server thread/WARN]: Unknown property east for block minecraft:mossy_cobblestone_wall
+[17:00:18] [Server thread/WARN]: Unknown property age for block minecraft:carrots
+[17:00:18] [Server thread/WARN]: Unknown property age for block minecraft:carrots
+[17:00:18] [Server thread/WARN]: Unknown property age for block minecraft:carrots
+[17:00:18] [Server thread/WARN]: Unknown property age for block minecraft:carrots
+[17:00:18] [Server thread/WARN]: Unknown property age for block minecraft:carrots
+[17:00:18] [Server thread/WARN]: Unknown property age for block minecraft:carrots
+[17:00:18] [Server thread/WARN]: Unknown property age for block minecraft:carrots
+[17:00:18] [Server thread/WARN]: Unknown property age for block minecraft:carrots
+[17:00:18] [Server thread/WARN]: Unknown property age for block minecraft:carrots
+[17:00:18] [Server thread/WARN]: Unknown property age for block minecraft:potatoes
+[17:00:18] [Server thread/WARN]: Unknown property age for block minecraft:potatoes
+[17:00:18] [Server thread/WARN]: Unknown property age for block minecraft:potatoes
+[17:00:18] [Server thread/WARN]: Unknown property age for block minecraft:potatoes
+[17:00:18] [Server thread/WARN]: Unknown property age for block minecraft:potatoes
+[17:00:18] [Server thread/WARN]: Unknown property age for block minecraft:potatoes
+[17:00:18] [Server thread/WARN]: Unknown property age for block minecraft:potatoes
+[17:00:18] [Server thread/WARN]: Unknown property age for block minecraft:potatoes
+[17:00:18] [Server thread/WARN]: Unknown property age for block minecraft:potatoes
+[17:00:18] [Server thread/WARN]: Unknown property powered for block minecraft:oak_button
+[17:00:18] [Server thread/WARN]: Unknown property face for block minecraft:oak_button
+[17:00:18] [Server thread/WARN]: Unknown property powered for block minecraft:oak_button
+[17:00:18] [Server thread/WARN]: Unknown property powered for block minecraft:oak_button
+[17:00:18] [Server thread/WARN]: Unknown property powered for block minecraft:oak_button
+[17:00:18] [Server thread/WARN]: Unknown property powered for block minecraft:oak_button
+[17:00:18] [Server thread/WARN]: Unknown property powered for block minecraft:oak_button
+[17:00:18] [Server thread/WARN]: Unknown property powered for block minecraft:oak_button
+[17:00:18] [Server thread/WARN]: Unknown property powered for block minecraft:oak_button
+[17:00:18] [Server thread/WARN]: Unknown property powered for block minecraft:oak_button
+[17:00:18] [Server thread/WARN]: Unknown property powered for block minecraft:oak_button
+[17:00:18] [Server thread/WARN]: Unknown property powered for block minecraft:oak_button
+[17:00:18] [Server thread/WARN]: Unknown property powered for block minecraft:oak_button
+[17:00:18] [Server thread/WARN]: Unknown property rotation for block minecraft:skeleton_skull
+[17:00:18] [Server thread/WARN]: Unknown property rotation for block minecraft:skeleton_skull
+[17:00:18] [Server thread/WARN]: Unknown property rotation for block minecraft:skeleton_skull
+[17:00:18] [Server thread/WARN]: Unknown property facing for block minecraft:skeleton_wall_skull
+[17:00:18] [Server thread/WARN]: Unknown property facing for block minecraft:skeleton_wall_skull
+[17:00:18] [Server thread/WARN]: Unknown property facing for block minecraft:skeleton_wall_skull
+[17:00:18] [Server thread/WARN]: Unknown property facing for block minecraft:skeleton_wall_skull
+[17:00:18] [Server thread/WARN]: Unknown property facing for block minecraft:skeleton_wall_skull
+[17:00:18] [Server thread/WARN]: Unknown property rotation for block minecraft:skeleton_skull
+[17:00:18] [Server thread/WARN]: Unknown property rotation for block minecraft:skeleton_skull
+[17:00:18] [Server thread/WARN]: Unknown property facing for block minecraft:skeleton_wall_skull
+[17:00:18] [Server thread/WARN]: Unknown property facing for block minecraft:skeleton_wall_skull
+[17:00:18] [Server thread/WARN]: Unknown property facing for block minecraft:skeleton_wall_skull
+[17:00:18] [Server thread/WARN]: Unknown property facing for block minecraft:skeleton_wall_skull
+[17:00:18] [Server thread/WARN]: Unknown property facing for block minecraft:anvil
+[17:00:18] [Server thread/WARN]: Unknown property facing for block minecraft:anvil
+[17:00:18] [Server thread/WARN]: Unknown property facing for block minecraft:anvil
+[17:00:18] [Server thread/WARN]: Unknown property facing for block minecraft:anvil
+[17:00:18] [Server thread/WARN]: Unknown property facing for block minecraft:anvil
+[17:00:18] [Server thread/WARN]: Unknown property facing for block minecraft:chipped_anvil
+[17:00:18] [Server thread/WARN]: Unknown property facing for block minecraft:chipped_anvil
+[17:00:18] [Server thread/WARN]: Unknown property facing for block minecraft:chipped_anvil
+[17:00:18] [Server thread/WARN]: Unknown property facing for block minecraft:chipped_anvil
+[17:00:18] [Server thread/WARN]: Unknown property facing for block minecraft:chipped_anvil
+[17:00:18] [Server thread/WARN]: Unknown property facing for block minecraft:damaged_anvil
+[17:00:18] [Server thread/WARN]: Unknown property facing for block minecraft:damaged_anvil
+[17:00:18] [Server thread/WARN]: Unknown property facing for block minecraft:damaged_anvil
+[17:00:18] [Server thread/WARN]: Unknown property facing for block minecraft:damaged_anvil
+[17:00:18] [Server thread/WARN]: Unknown property facing for block minecraft:damaged_anvil
+[17:00:18] [Server thread/WARN]: Unknown property facing for block minecraft:trapped_chest
+[17:00:18] [Server thread/WARN]: Unknown property facing for block minecraft:trapped_chest
+[17:00:18] [Server thread/WARN]: Unknown property facing for block minecraft:trapped_chest
+[17:00:18] [Server thread/WARN]: Unknown property facing for block minecraft:trapped_chest
+[17:00:18] [Server thread/WARN]: Unknown property facing for block minecraft:trapped_chest
+[17:00:18] [Server thread/WARN]: Unknown property power for block minecraft:light_weighted_pressure_plate
+[17:00:18] [Server thread/WARN]: Unknown property power for block minecraft:light_weighted_pressure_plate
+[17:00:18] [Server thread/WARN]: Unknown property power for block minecraft:light_weighted_pressure_plate
+[17:00:18] [Server thread/WARN]: Unknown property power for block minecraft:light_weighted_pressure_plate
+[17:00:18] [Server thread/WARN]: Unknown property power for block minecraft:light_weighted_pressure_plate
+[17:00:18] [Server thread/WARN]: Unknown property power for block minecraft:light_weighted_pressure_plate
+[17:00:18] [Server thread/WARN]: Unknown property power for block minecraft:light_weighted_pressure_plate
+[17:00:18] [Server thread/WARN]: Unknown property power for block minecraft:light_weighted_pressure_plate
+[17:00:18] [Server thread/WARN]: Unknown property power for block minecraft:light_weighted_pressure_plate
+[17:00:18] [Server thread/WARN]: Unknown property power for block minecraft:light_weighted_pressure_plate
+[17:00:18] [Server thread/WARN]: Unknown property power for block minecraft:light_weighted_pressure_plate
+[17:00:18] [Server thread/WARN]: Unknown property power for block minecraft:light_weighted_pressure_plate
+[17:00:18] [Server thread/WARN]: Unknown property power for block minecraft:light_weighted_pressure_plate
+[17:00:18] [Server thread/WARN]: Unknown property power for block minecraft:light_weighted_pressure_plate
+[17:00:18] [Server thread/WARN]: Unknown property power for block minecraft:light_weighted_pressure_plate
+[17:00:18] [Server thread/WARN]: Unknown property power for block minecraft:light_weighted_pressure_plate
+[17:00:18] [Server thread/WARN]: Unknown property power for block minecraft:light_weighted_pressure_plate
+[17:00:18] [Server thread/WARN]: Unknown property power for block minecraft:heavy_weighted_pressure_plate
+[17:00:18] [Server thread/WARN]: Unknown property power for block minecraft:heavy_weighted_pressure_plate
+[17:00:18] [Server thread/WARN]: Unknown property power for block minecraft:heavy_weighted_pressure_plate
+[17:00:18] [Server thread/WARN]: Unknown property power for block minecraft:heavy_weighted_pressure_plate
+[17:00:18] [Server thread/WARN]: Unknown property power for block minecraft:heavy_weighted_pressure_plate
+[17:00:18] [Server thread/WARN]: Unknown property power for block minecraft:heavy_weighted_pressure_plate
+[17:00:18] [Server thread/WARN]: Unknown property power for block minecraft:heavy_weighted_pressure_plate
+[17:00:18] [Server thread/WARN]: Unknown property power for block minecraft:heavy_weighted_pressure_plate
+[17:00:18] [Server thread/WARN]: Unknown property power for block minecraft:heavy_weighted_pressure_plate
+[17:00:18] [Server thread/WARN]: Unknown property power for block minecraft:heavy_weighted_pressure_plate
+[17:00:18] [Server thread/WARN]: Unknown property power for block minecraft:heavy_weighted_pressure_plate
+[17:00:18] [Server thread/WARN]: Unknown property power for block minecraft:heavy_weighted_pressure_plate
+[17:00:18] [Server thread/WARN]: Unknown property power for block minecraft:heavy_weighted_pressure_plate
+[17:00:18] [Server thread/WARN]: Unknown property power for block minecraft:heavy_weighted_pressure_plate
+[17:00:18] [Server thread/WARN]: Unknown property power for block minecraft:heavy_weighted_pressure_plate
+[17:00:18] [Server thread/WARN]: Unknown property power for block minecraft:heavy_weighted_pressure_plate
+[17:00:18] [Server thread/WARN]: Unknown property power for block minecraft:heavy_weighted_pressure_plate
+[17:00:18] [Server thread/WARN]: Unknown property mode for block minecraft:comparator
+[17:00:18] [Server thread/WARN]: Unknown property facing for block minecraft:comparator
+[17:00:18] [Server thread/WARN]: Unknown property mode for block minecraft:comparator
+[17:00:18] [Server thread/WARN]: Unknown property mode for block minecraft:comparator
+[17:00:18] [Server thread/WARN]: Unknown property mode for block minecraft:comparator
+[17:00:18] [Server thread/WARN]: Unknown property mode for block minecraft:comparator
+[17:00:18] [Server thread/WARN]: Unknown property mode for block minecraft:comparator
+[17:00:18] [Server thread/WARN]: Unknown property mode for block minecraft:comparator
+[17:00:18] [Server thread/WARN]: Unknown property mode for block minecraft:comparator
+[17:00:18] [Server thread/WARN]: Unknown property mode for block minecraft:comparator
+[17:00:18] [Server thread/WARN]: Unknown property mode for block minecraft:comparator
+[17:00:18] [Server thread/WARN]: Unknown property mode for block minecraft:comparator
+[17:00:18] [Server thread/WARN]: Unknown property mode for block minecraft:comparator
+[17:00:18] [Server thread/WARN]: Unknown property mode for block minecraft:comparator
+[17:00:18] [Server thread/WARN]: Unknown property mode for block minecraft:comparator
+[17:00:18] [Server thread/WARN]: Unknown property mode for block minecraft:comparator
+[17:00:18] [Server thread/WARN]: Unknown property mode for block minecraft:comparator
+[17:00:18] [Server thread/WARN]: Unknown property mode for block minecraft:comparator
+[17:00:18] [Server thread/WARN]: Unknown property mode for block minecraft:comparator
+[17:00:18] [Server thread/WARN]: Unknown property mode for block minecraft:comparator
+[17:00:18] [Server thread/WARN]: Unknown property mode for block minecraft:comparator
+[17:00:18] [Server thread/WARN]: Unknown property mode for block minecraft:comparator
+[17:00:18] [Server thread/WARN]: Unknown property mode for block minecraft:comparator
+[17:00:18] [Server thread/WARN]: Unknown property mode for block minecraft:comparator
+[17:00:18] [Server thread/WARN]: Unknown property mode for block minecraft:comparator
+[17:00:18] [Server thread/WARN]: Unknown property mode for block minecraft:comparator
+[17:00:18] [Server thread/WARN]: Unknown property mode for block minecraft:comparator
+[17:00:18] [Server thread/WARN]: Unknown property mode for block minecraft:comparator
+[17:00:18] [Server thread/WARN]: Unknown property mode for block minecraft:comparator
+[17:00:18] [Server thread/WARN]: Unknown property mode for block minecraft:comparator
+[17:00:18] [Server thread/WARN]: Unknown property mode for block minecraft:comparator
+[17:00:18] [Server thread/WARN]: Unknown property mode for block minecraft:comparator
+[17:00:18] [Server thread/WARN]: Unknown property mode for block minecraft:comparator
+[17:00:18] [Server thread/WARN]: Unknown property inverted for block minecraft:daylight_detector
+[17:00:18] [Server thread/WARN]: Unknown property inverted for block minecraft:daylight_detector
+[17:00:18] [Server thread/WARN]: Unknown property inverted for block minecraft:daylight_detector
+[17:00:18] [Server thread/WARN]: Unknown property inverted for block minecraft:daylight_detector
+[17:00:18] [Server thread/WARN]: Unknown property inverted for block minecraft:daylight_detector
+[17:00:18] [Server thread/WARN]: Unknown property inverted for block minecraft:daylight_detector
+[17:00:18] [Server thread/WARN]: Unknown property inverted for block minecraft:daylight_detector
+[17:00:18] [Server thread/WARN]: Unknown property inverted for block minecraft:daylight_detector
+[17:00:18] [Server thread/WARN]: Unknown property inverted for block minecraft:daylight_detector
+[17:00:18] [Server thread/WARN]: Unknown property inverted for block minecraft:daylight_detector
+[17:00:18] [Server thread/WARN]: Unknown property inverted for block minecraft:daylight_detector
+[17:00:18] [Server thread/WARN]: Unknown property inverted for block minecraft:daylight_detector
+[17:00:18] [Server thread/WARN]: Unknown property inverted for block minecraft:daylight_detector
+[17:00:18] [Server thread/WARN]: Unknown property inverted for block minecraft:daylight_detector
+[17:00:18] [Server thread/WARN]: Unknown property inverted for block minecraft:daylight_detector
+[17:00:18] [Server thread/WARN]: Unknown property inverted for block minecraft:daylight_detector
+[17:00:18] [Server thread/WARN]: Unknown property inverted for block minecraft:daylight_detector
+[17:00:18] [Server thread/WARN]: Unknown property facing for block minecraft:hopper
+[17:00:18] [Server thread/WARN]: Unknown property enabled for block minecraft:hopper
+[17:00:18] [Server thread/WARN]: Unknown property facing for block minecraft:hopper
+[17:00:18] [Server thread/WARN]: Unknown property facing for block minecraft:hopper
+[17:00:18] [Server thread/WARN]: Unknown property facing for block minecraft:hopper
+[17:00:18] [Server thread/WARN]: Unknown property facing for block minecraft:hopper
+[17:00:18] [Server thread/WARN]: Unknown property facing for block minecraft:hopper
+[17:00:18] [Server thread/WARN]: Unknown property facing for block minecraft:hopper
+[17:00:18] [Server thread/WARN]: Unknown property facing for block minecraft:hopper
+[17:00:18] [Server thread/WARN]: Unknown property facing for block minecraft:hopper
+[17:00:18] [Server thread/WARN]: Unknown property facing for block minecraft:hopper
+[17:00:18] [Server thread/WARN]: Unknown property axis for block minecraft:quartz_pillar
+[17:00:18] [Server thread/WARN]: Unknown property axis for block minecraft:quartz_pillar
+[17:00:18] [Server thread/WARN]: Unknown property axis for block minecraft:quartz_pillar
+[17:00:18] [Server thread/WARN]: Unknown property axis for block minecraft:quartz_pillar
+[17:00:18] [Server thread/WARN]: Unknown property axis for block minecraft:quartz_pillar
+[17:00:18] [Server thread/WARN]: Unknown property axis for block minecraft:quartz_pillar
+[17:00:18] [Server thread/WARN]: Unknown property half for block minecraft:quartz_stairs
+[17:00:18] [Server thread/WARN]: Unknown property facing for block minecraft:quartz_stairs
+[17:00:18] [Server thread/WARN]: Unknown property half for block minecraft:quartz_stairs
+[17:00:18] [Server thread/WARN]: Unknown property half for block minecraft:quartz_stairs
+[17:00:18] [Server thread/WARN]: Unknown property half for block minecraft:quartz_stairs
+[17:00:18] [Server thread/WARN]: Unknown property half for block minecraft:quartz_stairs
+[17:00:18] [Server thread/WARN]: Unknown property half for block minecraft:quartz_stairs
+[17:00:18] [Server thread/WARN]: Unknown property half for block minecraft:quartz_stairs
+[17:00:18] [Server thread/WARN]: Unknown property half for block minecraft:quartz_stairs
+[17:00:18] [Server thread/WARN]: Unknown property shape for block minecraft:activator_rail
+[17:00:18] [Server thread/WARN]: Unknown property powered for block minecraft:activator_rail
+[17:00:18] [Server thread/WARN]: Unknown property shape for block minecraft:activator_rail
+[17:00:18] [Server thread/WARN]: Unknown property shape for block minecraft:activator_rail
+[17:00:18] [Server thread/WARN]: Unknown property shape for block minecraft:activator_rail
+[17:00:18] [Server thread/WARN]: Unknown property shape for block minecraft:activator_rail
+[17:00:18] [Server thread/WARN]: Unknown property shape for block minecraft:activator_rail
+[17:00:18] [Server thread/WARN]: Unknown property shape for block minecraft:activator_rail
+[17:00:18] [Server thread/WARN]: Unknown property shape for block minecraft:activator_rail
+[17:00:18] [Server thread/WARN]: Unknown property shape for block minecraft:activator_rail
+[17:00:18] [Server thread/WARN]: Unknown property shape for block minecraft:activator_rail
+[17:00:18] [Server thread/WARN]: Unknown property shape for block minecraft:activator_rail
+[17:00:18] [Server thread/WARN]: Unknown property shape for block minecraft:activator_rail
+[17:00:18] [Server thread/WARN]: Unknown property triggered for block minecraft:dropper
+[17:00:18] [Server thread/WARN]: Unknown property facing for block minecraft:dropper
+[17:00:18] [Server thread/WARN]: Unknown property triggered for block minecraft:dropper
+[17:00:18] [Server thread/WARN]: Unknown property triggered for block minecraft:dropper
+[17:00:18] [Server thread/WARN]: Unknown property triggered for block minecraft:dropper
+[17:00:18] [Server thread/WARN]: Unknown property triggered for block minecraft:dropper
+[17:00:18] [Server thread/WARN]: Unknown property triggered for block minecraft:dropper
+[17:00:18] [Server thread/WARN]: Unknown property triggered for block minecraft:dropper
+[17:00:18] [Server thread/WARN]: Unknown property triggered for block minecraft:dropper
+[17:00:18] [Server thread/WARN]: Unknown property triggered for block minecraft:dropper
+[17:00:18] [Server thread/WARN]: Unknown property triggered for block minecraft:dropper
+[17:00:18] [Server thread/WARN]: Unknown property triggered for block minecraft:dropper
+[17:00:18] [Server thread/WARN]: Unknown property triggered for block minecraft:dropper
+[17:00:18] [Server thread/WARN]: Unknown property east for block minecraft:white_stained_glass_pane
+[17:00:18] [Server thread/WARN]: Unknown property east for block minecraft:white_stained_glass_pane
+[17:00:18] [Server thread/WARN]: Unknown property east for block minecraft:orange_stained_glass_pane
+[17:00:18] [Server thread/WARN]: Unknown property east for block minecraft:orange_stained_glass_pane
+[17:00:18] [Server thread/WARN]: Unknown property east for block minecraft:magenta_stained_glass_pane
+[17:00:18] [Server thread/WARN]: Unknown property east for block minecraft:magenta_stained_glass_pane
+[17:00:18] [Server thread/WARN]: Unknown property east for block minecraft:light_blue_stained_glass_pane
+[17:00:18] [Server thread/WARN]: Unknown property east for block minecraft:light_blue_stained_glass_pane
+[17:00:18] [Server thread/WARN]: Unknown property east for block minecraft:yellow_stained_glass_pane
+[17:00:18] [Server thread/WARN]: Unknown property east for block minecraft:yellow_stained_glass_pane
+[17:00:18] [Server thread/WARN]: Unknown property east for block minecraft:lime_stained_glass_pane
+[17:00:18] [Server thread/WARN]: Unknown property east for block minecraft:lime_stained_glass_pane
+[17:00:18] [Server thread/WARN]: Unknown property east for block minecraft:pink_stained_glass_pane
+[17:00:18] [Server thread/WARN]: Unknown property east for block minecraft:pink_stained_glass_pane
+[17:00:18] [Server thread/WARN]: Unknown property east for block minecraft:gray_stained_glass_pane
+[17:00:18] [Server thread/WARN]: Unknown property east for block minecraft:gray_stained_glass_pane
+[17:00:18] [Server thread/WARN]: Unknown property east for block minecraft:light_gray_stained_glass_pane
+[17:00:18] [Server thread/WARN]: Unknown property east for block minecraft:light_gray_stained_glass_pane
+[17:00:18] [Server thread/WARN]: Unknown property east for block minecraft:cyan_stained_glass_pane
+[17:00:18] [Server thread/WARN]: Unknown property east for block minecraft:cyan_stained_glass_pane
+[17:00:18] [Server thread/WARN]: Unknown property east for block minecraft:purple_stained_glass_pane
+[17:00:18] [Server thread/WARN]: Unknown property east for block minecraft:purple_stained_glass_pane
+[17:00:18] [Server thread/WARN]: Unknown property east for block minecraft:blue_stained_glass_pane
+[17:00:18] [Server thread/WARN]: Unknown property east for block minecraft:blue_stained_glass_pane
+[17:00:18] [Server thread/WARN]: Unknown property east for block minecraft:brown_stained_glass_pane
+[17:00:18] [Server thread/WARN]: Unknown property east for block minecraft:brown_stained_glass_pane
+[17:00:18] [Server thread/WARN]: Unknown property east for block minecraft:green_stained_glass_pane
+[17:00:18] [Server thread/WARN]: Unknown property east for block minecraft:green_stained_glass_pane
+[17:00:18] [Server thread/WARN]: Unknown property east for block minecraft:red_stained_glass_pane
+[17:00:18] [Server thread/WARN]: Unknown property east for block minecraft:red_stained_glass_pane
+[17:00:18] [Server thread/WARN]: Unknown property east for block minecraft:black_stained_glass_pane
+[17:00:18] [Server thread/WARN]: Unknown property east for block minecraft:black_stained_glass_pane
+[17:00:18] [Server thread/WARN]: Unknown property persistent for block minecraft:acacia_leaves
+[17:00:18] [Server thread/WARN]: Unknown property distance for block minecraft:acacia_leaves
+[17:00:18] [Server thread/WARN]: Unknown property persistent for block minecraft:dark_oak_leaves
+[17:00:18] [Server thread/WARN]: Unknown property distance for block minecraft:dark_oak_leaves
+[17:00:18] [Server thread/WARN]: Unknown property persistent for block minecraft:acacia_leaves
+[17:00:18] [Server thread/WARN]: Unknown property persistent for block minecraft:dark_oak_leaves
+[17:00:18] [Server thread/WARN]: Unknown property persistent for block minecraft:acacia_leaves
+[17:00:18] [Server thread/WARN]: Unknown property persistent for block minecraft:dark_oak_leaves
+[17:00:18] [Server thread/WARN]: Unknown property persistent for block minecraft:acacia_leaves
+[17:00:18] [Server thread/WARN]: Unknown property persistent for block minecraft:dark_oak_leaves
+[17:00:18] [Server thread/WARN]: Unknown property axis for block minecraft:acacia_log
+[17:00:18] [Server thread/WARN]: Unknown property axis for block minecraft:acacia_log
+[17:00:18] [Server thread/WARN]: Unknown property axis for block minecraft:dark_oak_log
+[17:00:18] [Server thread/WARN]: Unknown property axis for block minecraft:dark_oak_log
+[17:00:18] [Server thread/WARN]: Unknown property axis for block minecraft:acacia_log
+[17:00:18] [Server thread/WARN]: Unknown property axis for block minecraft:dark_oak_log
+[17:00:18] [Server thread/WARN]: Unknown property axis for block minecraft:acacia_log
+[17:00:18] [Server thread/WARN]: Unknown property axis for block minecraft:dark_oak_log
+[17:00:18] [Server thread/WARN]: Unknown property axis for block minecraft:acacia_wood
+[17:00:18] [Server thread/WARN]: Unknown property axis for block minecraft:dark_oak_wood
+[17:00:18] [Server thread/WARN]: Unknown property half for block minecraft:acacia_stairs
+[17:00:18] [Server thread/WARN]: Unknown property facing for block minecraft:acacia_stairs
+[17:00:18] [Server thread/WARN]: Unknown property half for block minecraft:acacia_stairs
+[17:00:18] [Server thread/WARN]: Unknown property half for block minecraft:acacia_stairs
+[17:00:18] [Server thread/WARN]: Unknown property half for block minecraft:acacia_stairs
+[17:00:18] [Server thread/WARN]: Unknown property half for block minecraft:acacia_stairs
+[17:00:18] [Server thread/WARN]: Unknown property half for block minecraft:acacia_stairs
+[17:00:18] [Server thread/WARN]: Unknown property half for block minecraft:acacia_stairs
+[17:00:18] [Server thread/WARN]: Unknown property half for block minecraft:acacia_stairs
+[17:00:18] [Server thread/WARN]: Unknown property half for block minecraft:dark_oak_stairs
+[17:00:18] [Server thread/WARN]: Unknown property facing for block minecraft:dark_oak_stairs
+[17:00:18] [Server thread/WARN]: Unknown property half for block minecraft:dark_oak_stairs
+[17:00:18] [Server thread/WARN]: Unknown property half for block minecraft:dark_oak_stairs
+[17:00:18] [Server thread/WARN]: Unknown property half for block minecraft:dark_oak_stairs
+[17:00:18] [Server thread/WARN]: Unknown property half for block minecraft:dark_oak_stairs
+[17:00:18] [Server thread/WARN]: Unknown property half for block minecraft:dark_oak_stairs
+[17:00:18] [Server thread/WARN]: Unknown property half for block minecraft:dark_oak_stairs
+[17:00:18] [Server thread/WARN]: Unknown property half for block minecraft:dark_oak_stairs
+[17:00:18] [Server thread/WARN]: Unknown property half for block minecraft:iron_trapdoor
+[17:00:18] [Server thread/WARN]: Unknown property facing for block minecraft:iron_trapdoor
+[17:00:18] [Server thread/WARN]: Unknown property half for block minecraft:iron_trapdoor
+[17:00:18] [Server thread/WARN]: Unknown property half for block minecraft:iron_trapdoor
+[17:00:18] [Server thread/WARN]: Unknown property half for block minecraft:iron_trapdoor
+[17:00:18] [Server thread/WARN]: Unknown property half for block minecraft:iron_trapdoor
+[17:00:18] [Server thread/WARN]: Unknown property half for block minecraft:iron_trapdoor
+[17:00:18] [Server thread/WARN]: Unknown property half for block minecraft:iron_trapdoor
+[17:00:18] [Server thread/WARN]: Unknown property half for block minecraft:iron_trapdoor
+[17:00:18] [Server thread/WARN]: Unknown property half for block minecraft:iron_trapdoor
+[17:00:18] [Server thread/WARN]: Unknown property half for block minecraft:iron_trapdoor
+[17:00:18] [Server thread/WARN]: Unknown property half for block minecraft:iron_trapdoor
+[17:00:18] [Server thread/WARN]: Unknown property half for block minecraft:iron_trapdoor
+[17:00:18] [Server thread/WARN]: Unknown property half for block minecraft:iron_trapdoor
+[17:00:18] [Server thread/WARN]: Unknown property half for block minecraft:iron_trapdoor
+[17:00:18] [Server thread/WARN]: Unknown property half for block minecraft:iron_trapdoor
+[17:00:18] [Server thread/WARN]: Unknown property half for block minecraft:iron_trapdoor
+[17:00:18] [Server thread/WARN]: Unknown property axis for block minecraft:hay_block
+[17:00:18] [Server thread/WARN]: Unknown property axis for block minecraft:hay_block
+[17:00:18] [Server thread/WARN]: Unknown property axis for block minecraft:hay_block
+[17:00:18] [Server thread/WARN]: Unknown property axis for block minecraft:hay_block
+[17:00:18] [Server thread/WARN]: Unknown property half for block minecraft:sunflower
+[17:00:18] [Server thread/WARN]: Unknown property half for block minecraft:sunflower
+[17:00:18] [Server thread/WARN]: Unknown property half for block minecraft:lilac
+[17:00:18] [Server thread/WARN]: Unknown property half for block minecraft:lilac
+[17:00:18] [Server thread/WARN]: Unknown property half for block minecraft:tall_grass
+[17:00:18] [Server thread/WARN]: Unknown property half for block minecraft:tall_grass
+[17:00:18] [Server thread/WARN]: Unknown property half for block minecraft:large_fern
+[17:00:18] [Server thread/WARN]: Unknown property half for block minecraft:large_fern
+[17:00:18] [Server thread/WARN]: Unknown property half for block minecraft:rose_bush
+[17:00:18] [Server thread/WARN]: Unknown property half for block minecraft:rose_bush
+[17:00:18] [Server thread/WARN]: Unknown property half for block minecraft:peony
+[17:00:18] [Server thread/WARN]: Unknown property half for block minecraft:peony
+[17:00:18] [Server thread/WARN]: Unknown property half for block minecraft:sunflower
+[17:00:18] [Server thread/WARN]: Unknown property half for block minecraft:lilac
+[17:00:18] [Server thread/WARN]: Unknown property half for block minecraft:tall_grass
+[17:00:18] [Server thread/WARN]: Unknown property half for block minecraft:large_fern
+[17:00:18] [Server thread/WARN]: Unknown property half for block minecraft:rose_bush
+[17:00:18] [Server thread/WARN]: Unknown property half for block minecraft:peony
+[17:00:18] [Server thread/WARN]: Unknown property rotation for block minecraft:white_banner
+[17:00:18] [Server thread/WARN]: Unknown property rotation for block minecraft:white_banner
+[17:00:18] [Server thread/WARN]: Unknown property rotation for block minecraft:white_banner
+[17:00:18] [Server thread/WARN]: Unknown property rotation for block minecraft:white_banner
+[17:00:18] [Server thread/WARN]: Unknown property rotation for block minecraft:white_banner
+[17:00:18] [Server thread/WARN]: Unknown property rotation for block minecraft:white_banner
+[17:00:18] [Server thread/WARN]: Unknown property rotation for block minecraft:white_banner
+[17:00:18] [Server thread/WARN]: Unknown property rotation for block minecraft:white_banner
+[17:00:18] [Server thread/WARN]: Unknown property rotation for block minecraft:white_banner
+[17:00:18] [Server thread/WARN]: Unknown property rotation for block minecraft:white_banner
+[17:00:18] [Server thread/WARN]: Unknown property rotation for block minecraft:white_banner
+[17:00:18] [Server thread/WARN]: Unknown property rotation for block minecraft:white_banner
+[17:00:18] [Server thread/WARN]: Unknown property rotation for block minecraft:white_banner
+[17:00:18] [Server thread/WARN]: Unknown property rotation for block minecraft:white_banner
+[17:00:18] [Server thread/WARN]: Unknown property rotation for block minecraft:white_banner
+[17:00:18] [Server thread/WARN]: Unknown property rotation for block minecraft:white_banner
+[17:00:18] [Server thread/WARN]: Unknown property rotation for block minecraft:white_banner
+[17:00:18] [Server thread/WARN]: Unknown property facing for block minecraft:white_wall_banner
+[17:00:18] [Server thread/WARN]: Unknown property facing for block minecraft:white_wall_banner
+[17:00:18] [Server thread/WARN]: Unknown property facing for block minecraft:white_wall_banner
+[17:00:18] [Server thread/WARN]: Unknown property facing for block minecraft:white_wall_banner
+[17:00:18] [Server thread/WARN]: Unknown property facing for block minecraft:white_wall_banner
+[17:00:18] [Server thread/WARN]: Unknown property inverted for block minecraft:daylight_detector
+[17:00:18] [Server thread/WARN]: Unknown property inverted for block minecraft:daylight_detector
+[17:00:18] [Server thread/WARN]: Unknown property inverted for block minecraft:daylight_detector
+[17:00:18] [Server thread/WARN]: Unknown property inverted for block minecraft:daylight_detector
+[17:00:18] [Server thread/WARN]: Unknown property inverted for block minecraft:daylight_detector
+[17:00:18] [Server thread/WARN]: Unknown property inverted for block minecraft:daylight_detector
+[17:00:18] [Server thread/WARN]: Unknown property inverted for block minecraft:daylight_detector
+[17:00:18] [Server thread/WARN]: Unknown property inverted for block minecraft:daylight_detector
+[17:00:18] [Server thread/WARN]: Unknown property inverted for block minecraft:daylight_detector
+[17:00:18] [Server thread/WARN]: Unknown property inverted for block minecraft:daylight_detector
+[17:00:18] [Server thread/WARN]: Unknown property inverted for block minecraft:daylight_detector
+[17:00:18] [Server thread/WARN]: Unknown property inverted for block minecraft:daylight_detector
+[17:00:18] [Server thread/WARN]: Unknown property inverted for block minecraft:daylight_detector
+[17:00:18] [Server thread/WARN]: Unknown property inverted for block minecraft:daylight_detector
+[17:00:18] [Server thread/WARN]: Unknown property inverted for block minecraft:daylight_detector
+[17:00:18] [Server thread/WARN]: Unknown property inverted for block minecraft:daylight_detector
+[17:00:18] [Server thread/WARN]: Unknown property half for block minecraft:red_sandstone_stairs
+[17:00:18] [Server thread/WARN]: Unknown property facing for block minecraft:red_sandstone_stairs
+[17:00:18] [Server thread/WARN]: Unknown property half for block minecraft:red_sandstone_stairs
+[17:00:18] [Server thread/WARN]: Unknown property half for block minecraft:red_sandstone_stairs
+[17:00:18] [Server thread/WARN]: Unknown property half for block minecraft:red_sandstone_stairs
+[17:00:18] [Server thread/WARN]: Unknown property half for block minecraft:red_sandstone_stairs
+[17:00:18] [Server thread/WARN]: Unknown property half for block minecraft:red_sandstone_stairs
+[17:00:18] [Server thread/WARN]: Unknown property half for block minecraft:red_sandstone_stairs
+[17:00:18] [Server thread/WARN]: Unknown property half for block minecraft:red_sandstone_stairs
+[17:00:18] [Server thread/WARN]: Unknown property type for block minecraft:red_sandstone_slab
+[17:00:18] [Server thread/WARN]: Unknown property type for block minecraft:red_sandstone_slab
+[17:00:18] [Server thread/WARN]: Unknown property type for block minecraft:red_sandstone_slab
+[17:00:18] [Server thread/WARN]: Unknown property type for block minecraft:red_sandstone_slab
+[17:00:18] [Server thread/WARN]: Unknown property in_wall for block minecraft:spruce_fence_gate
+[17:00:18] [Server thread/WARN]: Unknown property facing for block minecraft:spruce_fence_gate
+[17:00:18] [Server thread/WARN]: Unknown property in_wall for block minecraft:spruce_fence_gate
+[17:00:18] [Server thread/WARN]: Unknown property in_wall for block minecraft:spruce_fence_gate
+[17:00:18] [Server thread/WARN]: Unknown property in_wall for block minecraft:spruce_fence_gate
+[17:00:18] [Server thread/WARN]: Unknown property in_wall for block minecraft:spruce_fence_gate
+[17:00:18] [Server thread/WARN]: Unknown property in_wall for block minecraft:spruce_fence_gate
+[17:00:18] [Server thread/WARN]: Unknown property in_wall for block minecraft:spruce_fence_gate
+[17:00:18] [Server thread/WARN]: Unknown property in_wall for block minecraft:spruce_fence_gate
+[17:00:18] [Server thread/WARN]: Unknown property in_wall for block minecraft:spruce_fence_gate
+[17:00:18] [Server thread/WARN]: Unknown property in_wall for block minecraft:spruce_fence_gate
+[17:00:18] [Server thread/WARN]: Unknown property in_wall for block minecraft:spruce_fence_gate
+[17:00:18] [Server thread/WARN]: Unknown property in_wall for block minecraft:spruce_fence_gate
+[17:00:18] [Server thread/WARN]: Unknown property in_wall for block minecraft:spruce_fence_gate
+[17:00:18] [Server thread/WARN]: Unknown property in_wall for block minecraft:spruce_fence_gate
+[17:00:18] [Server thread/WARN]: Unknown property in_wall for block minecraft:spruce_fence_gate
+[17:00:18] [Server thread/WARN]: Unknown property in_wall for block minecraft:spruce_fence_gate
+[17:00:18] [Server thread/WARN]: Unknown property in_wall for block minecraft:birch_fence_gate
+[17:00:18] [Server thread/WARN]: Unknown property facing for block minecraft:birch_fence_gate
+[17:00:18] [Server thread/WARN]: Unknown property in_wall for block minecraft:birch_fence_gate
+[17:00:18] [Server thread/WARN]: Unknown property in_wall for block minecraft:birch_fence_gate
+[17:00:18] [Server thread/WARN]: Unknown property in_wall for block minecraft:birch_fence_gate
+[17:00:18] [Server thread/WARN]: Unknown property in_wall for block minecraft:birch_fence_gate
+[17:00:18] [Server thread/WARN]: Unknown property in_wall for block minecraft:birch_fence_gate
+[17:00:18] [Server thread/WARN]: Unknown property in_wall for block minecraft:birch_fence_gate
+[17:00:18] [Server thread/WARN]: Unknown property in_wall for block minecraft:birch_fence_gate
+[17:00:18] [Server thread/WARN]: Unknown property in_wall for block minecraft:birch_fence_gate
+[17:00:18] [Server thread/WARN]: Unknown property in_wall for block minecraft:birch_fence_gate
+[17:00:18] [Server thread/WARN]: Unknown property in_wall for block minecraft:birch_fence_gate
+[17:00:18] [Server thread/WARN]: Unknown property in_wall for block minecraft:birch_fence_gate
+[17:00:18] [Server thread/WARN]: Unknown property in_wall for block minecraft:birch_fence_gate
+[17:00:18] [Server thread/WARN]: Unknown property in_wall for block minecraft:birch_fence_gate
+[17:00:18] [Server thread/WARN]: Unknown property in_wall for block minecraft:birch_fence_gate
+[17:00:18] [Server thread/WARN]: Unknown property in_wall for block minecraft:birch_fence_gate
+[17:00:18] [Server thread/WARN]: Unknown property in_wall for block minecraft:jungle_fence_gate
+[17:00:18] [Server thread/WARN]: Unknown property facing for block minecraft:jungle_fence_gate
+[17:00:18] [Server thread/WARN]: Unknown property in_wall for block minecraft:jungle_fence_gate
+[17:00:18] [Server thread/WARN]: Unknown property in_wall for block minecraft:jungle_fence_gate
+[17:00:18] [Server thread/WARN]: Unknown property in_wall for block minecraft:jungle_fence_gate
+[17:00:18] [Server thread/WARN]: Unknown property in_wall for block minecraft:jungle_fence_gate
+[17:00:18] [Server thread/WARN]: Unknown property in_wall for block minecraft:jungle_fence_gate
+[17:00:18] [Server thread/WARN]: Unknown property in_wall for block minecraft:jungle_fence_gate
+[17:00:18] [Server thread/WARN]: Unknown property in_wall for block minecraft:jungle_fence_gate
+[17:00:18] [Server thread/WARN]: Unknown property in_wall for block minecraft:jungle_fence_gate
+[17:00:18] [Server thread/WARN]: Unknown property in_wall for block minecraft:jungle_fence_gate
+[17:00:18] [Server thread/WARN]: Unknown property in_wall for block minecraft:jungle_fence_gate
+[17:00:18] [Server thread/WARN]: Unknown property in_wall for block minecraft:jungle_fence_gate
+[17:00:18] [Server thread/WARN]: Unknown property in_wall for block minecraft:jungle_fence_gate
+[17:00:18] [Server thread/WARN]: Unknown property in_wall for block minecraft:jungle_fence_gate
+[17:00:18] [Server thread/WARN]: Unknown property in_wall for block minecraft:jungle_fence_gate
+[17:00:18] [Server thread/WARN]: Unknown property in_wall for block minecraft:jungle_fence_gate
+[17:00:18] [Server thread/WARN]: Unknown property in_wall for block minecraft:dark_oak_fence_gate
+[17:00:18] [Server thread/WARN]: Unknown property facing for block minecraft:dark_oak_fence_gate
+[17:00:18] [Server thread/WARN]: Unknown property in_wall for block minecraft:dark_oak_fence_gate
+[17:00:18] [Server thread/WARN]: Unknown property in_wall for block minecraft:dark_oak_fence_gate
+[17:00:18] [Server thread/WARN]: Unknown property in_wall for block minecraft:dark_oak_fence_gate
+[17:00:18] [Server thread/WARN]: Unknown property in_wall for block minecraft:dark_oak_fence_gate
+[17:00:18] [Server thread/WARN]: Unknown property in_wall for block minecraft:dark_oak_fence_gate
+[17:00:18] [Server thread/WARN]: Unknown property in_wall for block minecraft:dark_oak_fence_gate
+[17:00:18] [Server thread/WARN]: Unknown property in_wall for block minecraft:dark_oak_fence_gate
+[17:00:18] [Server thread/WARN]: Unknown property in_wall for block minecraft:dark_oak_fence_gate
+[17:00:18] [Server thread/WARN]: Unknown property in_wall for block minecraft:dark_oak_fence_gate
+[17:00:18] [Server thread/WARN]: Unknown property in_wall for block minecraft:dark_oak_fence_gate
+[17:00:18] [Server thread/WARN]: Unknown property in_wall for block minecraft:dark_oak_fence_gate
+[17:00:18] [Server thread/WARN]: Unknown property in_wall for block minecraft:dark_oak_fence_gate
+[17:00:18] [Server thread/WARN]: Unknown property in_wall for block minecraft:dark_oak_fence_gate
+[17:00:18] [Server thread/WARN]: Unknown property in_wall for block minecraft:dark_oak_fence_gate
+[17:00:18] [Server thread/WARN]: Unknown property in_wall for block minecraft:dark_oak_fence_gate
+[17:00:18] [Server thread/WARN]: Unknown property in_wall for block minecraft:acacia_fence_gate
+[17:00:18] [Server thread/WARN]: Unknown property facing for block minecraft:acacia_fence_gate
+[17:00:18] [Server thread/WARN]: Unknown property in_wall for block minecraft:acacia_fence_gate
+[17:00:18] [Server thread/WARN]: Unknown property in_wall for block minecraft:acacia_fence_gate
+[17:00:18] [Server thread/WARN]: Unknown property in_wall for block minecraft:acacia_fence_gate
+[17:00:18] [Server thread/WARN]: Unknown property in_wall for block minecraft:acacia_fence_gate
+[17:00:18] [Server thread/WARN]: Unknown property in_wall for block minecraft:acacia_fence_gate
+[17:00:18] [Server thread/WARN]: Unknown property in_wall for block minecraft:acacia_fence_gate
+[17:00:18] [Server thread/WARN]: Unknown property in_wall for block minecraft:acacia_fence_gate
+[17:00:18] [Server thread/WARN]: Unknown property in_wall for block minecraft:acacia_fence_gate
+[17:00:18] [Server thread/WARN]: Unknown property in_wall for block minecraft:acacia_fence_gate
+[17:00:18] [Server thread/WARN]: Unknown property in_wall for block minecraft:acacia_fence_gate
+[17:00:18] [Server thread/WARN]: Unknown property in_wall for block minecraft:acacia_fence_gate
+[17:00:18] [Server thread/WARN]: Unknown property in_wall for block minecraft:acacia_fence_gate
+[17:00:18] [Server thread/WARN]: Unknown property in_wall for block minecraft:acacia_fence_gate
+[17:00:18] [Server thread/WARN]: Unknown property in_wall for block minecraft:acacia_fence_gate
+[17:00:18] [Server thread/WARN]: Unknown property in_wall for block minecraft:acacia_fence_gate
+[17:00:18] [Server thread/WARN]: Unknown property east for block minecraft:spruce_fence
+[17:00:18] [Server thread/WARN]: Unknown property east for block minecraft:spruce_fence
+[17:00:18] [Server thread/WARN]: Unknown property east for block minecraft:birch_fence
+[17:00:18] [Server thread/WARN]: Unknown property east for block minecraft:birch_fence
+[17:00:18] [Server thread/WARN]: Unknown property east for block minecraft:jungle_fence
+[17:00:18] [Server thread/WARN]: Unknown property east for block minecraft:jungle_fence
+[17:00:18] [Server thread/WARN]: Unknown property east for block minecraft:dark_oak_fence
+[17:00:18] [Server thread/WARN]: Unknown property east for block minecraft:dark_oak_fence
+[17:00:18] [Server thread/WARN]: Unknown property east for block minecraft:acacia_fence
+[17:00:18] [Server thread/WARN]: Unknown property east for block minecraft:acacia_fence
+[17:00:18] [Server thread/WARN]: Unknown property hinge for block minecraft:spruce_door
+[17:00:18] [Server thread/WARN]: Unknown property facing for block minecraft:spruce_door
+[17:00:18] [Server thread/WARN]: Unknown property hinge for block minecraft:spruce_door
+[17:00:18] [Server thread/WARN]: Unknown property hinge for block minecraft:spruce_door
+[17:00:18] [Server thread/WARN]: Unknown property hinge for block minecraft:spruce_door
+[17:00:18] [Server thread/WARN]: Unknown property hinge for block minecraft:spruce_door
+[17:00:18] [Server thread/WARN]: Unknown property hinge for block minecraft:spruce_door
+[17:00:18] [Server thread/WARN]: Unknown property hinge for block minecraft:spruce_door
+[17:00:18] [Server thread/WARN]: Unknown property hinge for block minecraft:spruce_door
+[17:00:18] [Server thread/WARN]: Unknown property hinge for block minecraft:spruce_door
+[17:00:18] [Server thread/WARN]: Unknown property hinge for block minecraft:spruce_door
+[17:00:18] [Server thread/WARN]: Unknown property hinge for block minecraft:spruce_door
+[17:00:18] [Server thread/WARN]: Unknown property hinge for block minecraft:spruce_door
+[17:00:18] [Server thread/WARN]: Unknown property hinge for block minecraft:birch_door
+[17:00:18] [Server thread/WARN]: Unknown property facing for block minecraft:birch_door
+[17:00:18] [Server thread/WARN]: Unknown property hinge for block minecraft:birch_door
+[17:00:18] [Server thread/WARN]: Unknown property hinge for block minecraft:birch_door
+[17:00:18] [Server thread/WARN]: Unknown property hinge for block minecraft:birch_door
+[17:00:18] [Server thread/WARN]: Unknown property hinge for block minecraft:birch_door
+[17:00:18] [Server thread/WARN]: Unknown property hinge for block minecraft:birch_door
+[17:00:18] [Server thread/WARN]: Unknown property hinge for block minecraft:birch_door
+[17:00:18] [Server thread/WARN]: Unknown property hinge for block minecraft:birch_door
+[17:00:18] [Server thread/WARN]: Unknown property hinge for block minecraft:birch_door
+[17:00:18] [Server thread/WARN]: Unknown property hinge for block minecraft:birch_door
+[17:00:18] [Server thread/WARN]: Unknown property hinge for block minecraft:birch_door
+[17:00:18] [Server thread/WARN]: Unknown property hinge for block minecraft:birch_door
+[17:00:18] [Server thread/WARN]: Unknown property hinge for block minecraft:jungle_door
+[17:00:18] [Server thread/WARN]: Unknown property facing for block minecraft:jungle_door
+[17:00:18] [Server thread/WARN]: Unknown property hinge for block minecraft:jungle_door
+[17:00:18] [Server thread/WARN]: Unknown property hinge for block minecraft:jungle_door
+[17:00:18] [Server thread/WARN]: Unknown property hinge for block minecraft:jungle_door
+[17:00:18] [Server thread/WARN]: Unknown property hinge for block minecraft:jungle_door
+[17:00:18] [Server thread/WARN]: Unknown property hinge for block minecraft:jungle_door
+[17:00:18] [Server thread/WARN]: Unknown property hinge for block minecraft:jungle_door
+[17:00:18] [Server thread/WARN]: Unknown property hinge for block minecraft:jungle_door
+[17:00:18] [Server thread/WARN]: Unknown property hinge for block minecraft:jungle_door
+[17:00:18] [Server thread/WARN]: Unknown property hinge for block minecraft:jungle_door
+[17:00:18] [Server thread/WARN]: Unknown property hinge for block minecraft:jungle_door
+[17:00:18] [Server thread/WARN]: Unknown property hinge for block minecraft:jungle_door
+[17:00:18] [Server thread/WARN]: Unknown property hinge for block minecraft:acacia_door
+[17:00:18] [Server thread/WARN]: Unknown property facing for block minecraft:acacia_door
+[17:00:18] [Server thread/WARN]: Unknown property hinge for block minecraft:acacia_door
+[17:00:18] [Server thread/WARN]: Unknown property hinge for block minecraft:acacia_door
+[17:00:18] [Server thread/WARN]: Unknown property hinge for block minecraft:acacia_door
+[17:00:18] [Server thread/WARN]: Unknown property hinge for block minecraft:acacia_door
+[17:00:18] [Server thread/WARN]: Unknown property hinge for block minecraft:acacia_door
+[17:00:18] [Server thread/WARN]: Unknown property hinge for block minecraft:acacia_door
+[17:00:18] [Server thread/WARN]: Unknown property hinge for block minecraft:acacia_door
+[17:00:18] [Server thread/WARN]: Unknown property hinge for block minecraft:acacia_door
+[17:00:18] [Server thread/WARN]: Unknown property hinge for block minecraft:acacia_door
+[17:00:18] [Server thread/WARN]: Unknown property hinge for block minecraft:acacia_door
+[17:00:18] [Server thread/WARN]: Unknown property hinge for block minecraft:acacia_door
+[17:00:18] [Server thread/WARN]: Unknown property hinge for block minecraft:dark_oak_door
+[17:00:18] [Server thread/WARN]: Unknown property facing for block minecraft:dark_oak_door
+[17:00:18] [Server thread/WARN]: Unknown property hinge for block minecraft:dark_oak_door
+[17:00:18] [Server thread/WARN]: Unknown property hinge for block minecraft:dark_oak_door
+[17:00:18] [Server thread/WARN]: Unknown property hinge for block minecraft:dark_oak_door
+[17:00:18] [Server thread/WARN]: Unknown property hinge for block minecraft:dark_oak_door
+[17:00:18] [Server thread/WARN]: Unknown property hinge for block minecraft:dark_oak_door
+[17:00:18] [Server thread/WARN]: Unknown property hinge for block minecraft:dark_oak_door
+[17:00:18] [Server thread/WARN]: Unknown property hinge for block minecraft:dark_oak_door
+[17:00:18] [Server thread/WARN]: Unknown property hinge for block minecraft:dark_oak_door
+[17:00:18] [Server thread/WARN]: Unknown property hinge for block minecraft:dark_oak_door
+[17:00:18] [Server thread/WARN]: Unknown property hinge for block minecraft:dark_oak_door
+[17:00:18] [Server thread/WARN]: Unknown property hinge for block minecraft:dark_oak_door
+[17:00:18] [Server thread/WARN]: Unknown property facing for block minecraft:end_rod
+[17:00:18] [Server thread/WARN]: Unknown property facing for block minecraft:end_rod
+[17:00:18] [Server thread/WARN]: Unknown property facing for block minecraft:end_rod
+[17:00:18] [Server thread/WARN]: Unknown property facing for block minecraft:end_rod
+[17:00:18] [Server thread/WARN]: Unknown property facing for block minecraft:end_rod
+[17:00:18] [Server thread/WARN]: Unknown property facing for block minecraft:end_rod
+[17:00:18] [Server thread/WARN]: Unknown property facing for block minecraft:end_rod
+[17:00:18] [Server thread/WARN]: Unknown property east for block minecraft:chorus_plant
+[17:00:18] [Server thread/WARN]: Unknown property down for block minecraft:chorus_plant
+[17:00:18] [Server thread/WARN]: Unknown property age for block minecraft:chorus_flower
+[17:00:18] [Server thread/WARN]: Unknown property age for block minecraft:chorus_flower
+[17:00:18] [Server thread/WARN]: Unknown property age for block minecraft:chorus_flower
+[17:00:18] [Server thread/WARN]: Unknown property age for block minecraft:chorus_flower
+[17:00:18] [Server thread/WARN]: Unknown property age for block minecraft:chorus_flower
+[17:00:18] [Server thread/WARN]: Unknown property age for block minecraft:chorus_flower
+[17:00:18] [Server thread/WARN]: Unknown property age for block minecraft:chorus_flower
+[17:00:18] [Server thread/WARN]: Unknown property axis for block minecraft:purpur_pillar
+[17:00:18] [Server thread/WARN]: Unknown property axis for block minecraft:purpur_pillar
+[17:00:18] [Server thread/WARN]: Unknown property axis for block minecraft:purpur_pillar
+[17:00:18] [Server thread/WARN]: Unknown property axis for block minecraft:purpur_pillar
+[17:00:18] [Server thread/WARN]: Unknown property half for block minecraft:purpur_stairs
+[17:00:18] [Server thread/WARN]: Unknown property facing for block minecraft:purpur_stairs
+[17:00:18] [Server thread/WARN]: Unknown property half for block minecraft:purpur_stairs
+[17:00:18] [Server thread/WARN]: Unknown property half for block minecraft:purpur_stairs
+[17:00:18] [Server thread/WARN]: Unknown property half for block minecraft:purpur_stairs
+[17:00:18] [Server thread/WARN]: Unknown property half for block minecraft:purpur_stairs
+[17:00:18] [Server thread/WARN]: Unknown property half for block minecraft:purpur_stairs
+[17:00:18] [Server thread/WARN]: Unknown property half for block minecraft:purpur_stairs
+[17:00:18] [Server thread/WARN]: Unknown property half for block minecraft:purpur_stairs
+[17:00:18] [Server thread/WARN]: Unknown property type for block minecraft:purpur_slab
+[17:00:18] [Server thread/WARN]: Unknown property type for block minecraft:purpur_slab
+[17:00:18] [Server thread/WARN]: Unknown property type for block minecraft:purpur_slab
+[17:00:18] [Server thread/WARN]: Unknown property type for block minecraft:purpur_slab
+[17:00:18] [Server thread/WARN]: Unknown property age for block minecraft:beetroots
+[17:00:18] [Server thread/WARN]: Unknown property age for block minecraft:beetroots
+[17:00:18] [Server thread/WARN]: Unknown property age for block minecraft:beetroots
+[17:00:18] [Server thread/WARN]: Unknown property age for block minecraft:beetroots
+[17:00:18] [Server thread/WARN]: Unknown property age for block minecraft:beetroots
+[17:00:18] [Server thread/WARN]: Unknown property conditional for block minecraft:repeating_command_block
+[17:00:18] [Server thread/WARN]: Unknown property conditional for block minecraft:repeating_command_block
+[17:00:18] [Server thread/WARN]: Unknown property conditional for block minecraft:repeating_command_block
+[17:00:18] [Server thread/WARN]: Unknown property conditional for block minecraft:repeating_command_block
+[17:00:18] [Server thread/WARN]: Unknown property conditional for block minecraft:repeating_command_block
+[17:00:18] [Server thread/WARN]: Unknown property conditional for block minecraft:repeating_command_block
+[17:00:18] [Server thread/WARN]: Unknown property conditional for block minecraft:repeating_command_block
+[17:00:18] [Server thread/WARN]: Unknown property conditional for block minecraft:repeating_command_block
+[17:00:18] [Server thread/WARN]: Unknown property conditional for block minecraft:repeating_command_block
+[17:00:18] [Server thread/WARN]: Unknown property conditional for block minecraft:repeating_command_block
+[17:00:18] [Server thread/WARN]: Unknown property conditional for block minecraft:repeating_command_block
+[17:00:18] [Server thread/WARN]: Unknown property conditional for block minecraft:repeating_command_block
+[17:00:18] [Server thread/WARN]: Unknown property conditional for block minecraft:repeating_command_block
+[17:00:18] [Server thread/WARN]: Unknown property conditional for block minecraft:chain_command_block
+[17:00:18] [Server thread/WARN]: Unknown property conditional for block minecraft:chain_command_block
+[17:00:18] [Server thread/WARN]: Unknown property conditional for block minecraft:chain_command_block
+[17:00:18] [Server thread/WARN]: Unknown property conditional for block minecraft:chain_command_block
+[17:00:18] [Server thread/WARN]: Unknown property conditional for block minecraft:chain_command_block
+[17:00:18] [Server thread/WARN]: Unknown property conditional for block minecraft:chain_command_block
+[17:00:18] [Server thread/WARN]: Unknown property conditional for block minecraft:chain_command_block
+[17:00:18] [Server thread/WARN]: Unknown property conditional for block minecraft:chain_command_block
+[17:00:18] [Server thread/WARN]: Unknown property conditional for block minecraft:chain_command_block
+[17:00:18] [Server thread/WARN]: Unknown property conditional for block minecraft:chain_command_block
+[17:00:18] [Server thread/WARN]: Unknown property conditional for block minecraft:chain_command_block
+[17:00:18] [Server thread/WARN]: Unknown property conditional for block minecraft:chain_command_block
+[17:00:18] [Server thread/WARN]: Unknown property conditional for block minecraft:chain_command_block
+[17:00:18] [Server thread/WARN]: Unknown property age for block minecraft:frosted_ice
+[17:00:18] [Server thread/WARN]: Unknown property age for block minecraft:frosted_ice
+[17:00:18] [Server thread/WARN]: Unknown property age for block minecraft:frosted_ice
+[17:00:18] [Server thread/WARN]: Unknown property age for block minecraft:frosted_ice
+[17:00:18] [Server thread/WARN]: Unknown property age for block minecraft:frosted_ice
+[17:00:18] [Server thread/WARN]: Unknown property axis for block minecraft:bone_block
+[17:00:18] [Server thread/WARN]: Unknown property axis for block minecraft:bone_block
+[17:00:18] [Server thread/WARN]: Unknown property axis for block minecraft:bone_block
+[17:00:18] [Server thread/WARN]: Unknown property axis for block minecraft:bone_block
+[17:00:18] [Server thread/WARN]: Unknown property powered for block minecraft:observer
+[17:00:18] [Server thread/WARN]: Unknown property facing for block minecraft:observer
+[17:00:18] [Server thread/WARN]: Unknown property powered for block minecraft:observer
+[17:00:18] [Server thread/WARN]: Unknown property powered for block minecraft:observer
+[17:00:18] [Server thread/WARN]: Unknown property powered for block minecraft:observer
+[17:00:18] [Server thread/WARN]: Unknown property powered for block minecraft:observer
+[17:00:18] [Server thread/WARN]: Unknown property powered for block minecraft:observer
+[17:00:18] [Server thread/WARN]: Unknown property powered for block minecraft:observer
+[17:00:18] [Server thread/WARN]: Unknown property powered for block minecraft:observer
+[17:00:18] [Server thread/WARN]: Unknown property powered for block minecraft:observer
+[17:00:18] [Server thread/WARN]: Unknown property powered for block minecraft:observer
+[17:00:18] [Server thread/WARN]: Unknown property powered for block minecraft:observer
+[17:00:18] [Server thread/WARN]: Unknown property powered for block minecraft:observer
+[17:00:18] [Server thread/WARN]: Unknown property facing for block minecraft:white_shulker_box
+[17:00:18] [Server thread/WARN]: Unknown property facing for block minecraft:white_shulker_box
+[17:00:18] [Server thread/WARN]: Unknown property facing for block minecraft:white_shulker_box
+[17:00:18] [Server thread/WARN]: Unknown property facing for block minecraft:white_shulker_box
+[17:00:18] [Server thread/WARN]: Unknown property facing for block minecraft:white_shulker_box
+[17:00:18] [Server thread/WARN]: Unknown property facing for block minecraft:white_shulker_box
+[17:00:18] [Server thread/WARN]: Unknown property facing for block minecraft:white_shulker_box
+[17:00:18] [Server thread/WARN]: Unknown property facing for block minecraft:orange_shulker_box
+[17:00:18] [Server thread/WARN]: Unknown property facing for block minecraft:orange_shulker_box
+[17:00:18] [Server thread/WARN]: Unknown property facing for block minecraft:orange_shulker_box
+[17:00:18] [Server thread/WARN]: Unknown property facing for block minecraft:orange_shulker_box
+[17:00:18] [Server thread/WARN]: Unknown property facing for block minecraft:orange_shulker_box
+[17:00:18] [Server thread/WARN]: Unknown property facing for block minecraft:orange_shulker_box
+[17:00:18] [Server thread/WARN]: Unknown property facing for block minecraft:orange_shulker_box
+[17:00:18] [Server thread/WARN]: Unknown property facing for block minecraft:magenta_shulker_box
+[17:00:18] [Server thread/WARN]: Unknown property facing for block minecraft:magenta_shulker_box
+[17:00:18] [Server thread/WARN]: Unknown property facing for block minecraft:magenta_shulker_box
+[17:00:18] [Server thread/WARN]: Unknown property facing for block minecraft:magenta_shulker_box
+[17:00:18] [Server thread/WARN]: Unknown property facing for block minecraft:magenta_shulker_box
+[17:00:18] [Server thread/WARN]: Unknown property facing for block minecraft:magenta_shulker_box
+[17:00:18] [Server thread/WARN]: Unknown property facing for block minecraft:magenta_shulker_box
+[17:00:18] [Server thread/WARN]: Unknown property facing for block minecraft:light_blue_shulker_box
+[17:00:18] [Server thread/WARN]: Unknown property facing for block minecraft:light_blue_shulker_box
+[17:00:18] [Server thread/WARN]: Unknown property facing for block minecraft:light_blue_shulker_box
+[17:00:18] [Server thread/WARN]: Unknown property facing for block minecraft:light_blue_shulker_box
+[17:00:18] [Server thread/WARN]: Unknown property facing for block minecraft:light_blue_shulker_box
+[17:00:18] [Server thread/WARN]: Unknown property facing for block minecraft:light_blue_shulker_box
+[17:00:18] [Server thread/WARN]: Unknown property facing for block minecraft:light_blue_shulker_box
+[17:00:18] [Server thread/WARN]: Unknown property facing for block minecraft:yellow_shulker_box
+[17:00:18] [Server thread/WARN]: Unknown property facing for block minecraft:yellow_shulker_box
+[17:00:18] [Server thread/WARN]: Unknown property facing for block minecraft:yellow_shulker_box
+[17:00:18] [Server thread/WARN]: Unknown property facing for block minecraft:yellow_shulker_box
+[17:00:18] [Server thread/WARN]: Unknown property facing for block minecraft:yellow_shulker_box
+[17:00:18] [Server thread/WARN]: Unknown property facing for block minecraft:yellow_shulker_box
+[17:00:18] [Server thread/WARN]: Unknown property facing for block minecraft:yellow_shulker_box
+[17:00:18] [Server thread/WARN]: Unknown property facing for block minecraft:lime_shulker_box
+[17:00:18] [Server thread/WARN]: Unknown property facing for block minecraft:lime_shulker_box
+[17:00:18] [Server thread/WARN]: Unknown property facing for block minecraft:lime_shulker_box
+[17:00:18] [Server thread/WARN]: Unknown property facing for block minecraft:lime_shulker_box
+[17:00:18] [Server thread/WARN]: Unknown property facing for block minecraft:lime_shulker_box
+[17:00:18] [Server thread/WARN]: Unknown property facing for block minecraft:lime_shulker_box
+[17:00:18] [Server thread/WARN]: Unknown property facing for block minecraft:lime_shulker_box
+[17:00:18] [Server thread/WARN]: Unknown property facing for block minecraft:pink_shulker_box
+[17:00:18] [Server thread/WARN]: Unknown property facing for block minecraft:pink_shulker_box
+[17:00:18] [Server thread/WARN]: Unknown property facing for block minecraft:pink_shulker_box
+[17:00:18] [Server thread/WARN]: Unknown property facing for block minecraft:pink_shulker_box
+[17:00:18] [Server thread/WARN]: Unknown property facing for block minecraft:pink_shulker_box
+[17:00:18] [Server thread/WARN]: Unknown property facing for block minecraft:pink_shulker_box
+[17:00:18] [Server thread/WARN]: Unknown property facing for block minecraft:pink_shulker_box
+[17:00:18] [Server thread/WARN]: Unknown property facing for block minecraft:gray_shulker_box
+[17:00:18] [Server thread/WARN]: Unknown property facing for block minecraft:gray_shulker_box
+[17:00:18] [Server thread/WARN]: Unknown property facing for block minecraft:gray_shulker_box
+[17:00:18] [Server thread/WARN]: Unknown property facing for block minecraft:gray_shulker_box
+[17:00:18] [Server thread/WARN]: Unknown property facing for block minecraft:gray_shulker_box
+[17:00:18] [Server thread/WARN]: Unknown property facing for block minecraft:gray_shulker_box
+[17:00:18] [Server thread/WARN]: Unknown property facing for block minecraft:gray_shulker_box
+[17:00:18] [Server thread/WARN]: Unknown property facing for block minecraft:light_gray_shulker_box
+[17:00:18] [Server thread/WARN]: Unknown property facing for block minecraft:light_gray_shulker_box
+[17:00:18] [Server thread/WARN]: Unknown property facing for block minecraft:light_gray_shulker_box
+[17:00:18] [Server thread/WARN]: Unknown property facing for block minecraft:light_gray_shulker_box
+[17:00:18] [Server thread/WARN]: Unknown property facing for block minecraft:light_gray_shulker_box
+[17:00:18] [Server thread/WARN]: Unknown property facing for block minecraft:light_gray_shulker_box
+[17:00:18] [Server thread/WARN]: Unknown property facing for block minecraft:light_gray_shulker_box
+[17:00:18] [Server thread/WARN]: Unknown property facing for block minecraft:cyan_shulker_box
+[17:00:18] [Server thread/WARN]: Unknown property facing for block minecraft:cyan_shulker_box
+[17:00:18] [Server thread/WARN]: Unknown property facing for block minecraft:cyan_shulker_box
+[17:00:18] [Server thread/WARN]: Unknown property facing for block minecraft:cyan_shulker_box
+[17:00:18] [Server thread/WARN]: Unknown property facing for block minecraft:cyan_shulker_box
+[17:00:18] [Server thread/WARN]: Unknown property facing for block minecraft:cyan_shulker_box
+[17:00:18] [Server thread/WARN]: Unknown property facing for block minecraft:cyan_shulker_box
+[17:00:18] [Server thread/WARN]: Unknown property facing for block minecraft:purple_shulker_box
+[17:00:18] [Server thread/WARN]: Unknown property facing for block minecraft:purple_shulker_box
+[17:00:18] [Server thread/WARN]: Unknown property facing for block minecraft:purple_shulker_box
+[17:00:18] [Server thread/WARN]: Unknown property facing for block minecraft:purple_shulker_box
+[17:00:18] [Server thread/WARN]: Unknown property facing for block minecraft:purple_shulker_box
+[17:00:18] [Server thread/WARN]: Unknown property facing for block minecraft:purple_shulker_box
+[17:00:18] [Server thread/WARN]: Unknown property facing for block minecraft:purple_shulker_box
+[17:00:18] [Server thread/WARN]: Unknown property facing for block minecraft:blue_shulker_box
+[17:00:18] [Server thread/WARN]: Unknown property facing for block minecraft:blue_shulker_box
+[17:00:18] [Server thread/WARN]: Unknown property facing for block minecraft:blue_shulker_box
+[17:00:18] [Server thread/WARN]: Unknown property facing for block minecraft:blue_shulker_box
+[17:00:18] [Server thread/WARN]: Unknown property facing for block minecraft:blue_shulker_box
+[17:00:18] [Server thread/WARN]: Unknown property facing for block minecraft:blue_shulker_box
+[17:00:18] [Server thread/WARN]: Unknown property facing for block minecraft:blue_shulker_box
+[17:00:18] [Server thread/WARN]: Unknown property facing for block minecraft:brown_shulker_box
+[17:00:18] [Server thread/WARN]: Unknown property facing for block minecraft:brown_shulker_box
+[17:00:18] [Server thread/WARN]: Unknown property facing for block minecraft:brown_shulker_box
+[17:00:18] [Server thread/WARN]: Unknown property facing for block minecraft:brown_shulker_box
+[17:00:18] [Server thread/WARN]: Unknown property facing for block minecraft:brown_shulker_box
+[17:00:18] [Server thread/WARN]: Unknown property facing for block minecraft:brown_shulker_box
+[17:00:18] [Server thread/WARN]: Unknown property facing for block minecraft:brown_shulker_box
+[17:00:18] [Server thread/WARN]: Unknown property facing for block minecraft:green_shulker_box
+[17:00:18] [Server thread/WARN]: Unknown property facing for block minecraft:green_shulker_box
+[17:00:18] [Server thread/WARN]: Unknown property facing for block minecraft:green_shulker_box
+[17:00:18] [Server thread/WARN]: Unknown property facing for block minecraft:green_shulker_box
+[17:00:18] [Server thread/WARN]: Unknown property facing for block minecraft:green_shulker_box
+[17:00:18] [Server thread/WARN]: Unknown property facing for block minecraft:green_shulker_box
+[17:00:18] [Server thread/WARN]: Unknown property facing for block minecraft:green_shulker_box
+[17:00:18] [Server thread/WARN]: Unknown property facing for block minecraft:red_shulker_box
+[17:00:18] [Server thread/WARN]: Unknown property facing for block minecraft:red_shulker_box
+[17:00:18] [Server thread/WARN]: Unknown property facing for block minecraft:red_shulker_box
+[17:00:18] [Server thread/WARN]: Unknown property facing for block minecraft:red_shulker_box
+[17:00:18] [Server thread/WARN]: Unknown property facing for block minecraft:red_shulker_box
+[17:00:18] [Server thread/WARN]: Unknown property facing for block minecraft:red_shulker_box
+[17:00:18] [Server thread/WARN]: Unknown property facing for block minecraft:red_shulker_box
+[17:00:18] [Server thread/WARN]: Unknown property facing for block minecraft:black_shulker_box
+[17:00:18] [Server thread/WARN]: Unknown property facing for block minecraft:black_shulker_box
+[17:00:18] [Server thread/WARN]: Unknown property facing for block minecraft:black_shulker_box
+[17:00:18] [Server thread/WARN]: Unknown property facing for block minecraft:black_shulker_box
+[17:00:18] [Server thread/WARN]: Unknown property facing for block minecraft:black_shulker_box
+[17:00:18] [Server thread/WARN]: Unknown property facing for block minecraft:black_shulker_box
+[17:00:18] [Server thread/WARN]: Unknown property facing for block minecraft:black_shulker_box
+[17:00:18] [Server thread/WARN]: Unknown property facing for block minecraft:white_glazed_terracotta
+[17:00:18] [Server thread/WARN]: Unknown property facing for block minecraft:white_glazed_terracotta
+[17:00:18] [Server thread/WARN]: Unknown property facing for block minecraft:white_glazed_terracotta
+[17:00:18] [Server thread/WARN]: Unknown property facing for block minecraft:white_glazed_terracotta
+[17:00:18] [Server thread/WARN]: Unknown property facing for block minecraft:white_glazed_terracotta
+[17:00:18] [Server thread/WARN]: Unknown property facing for block minecraft:orange_glazed_terracotta
+[17:00:18] [Server thread/WARN]: Unknown property facing for block minecraft:orange_glazed_terracotta
+[17:00:18] [Server thread/WARN]: Unknown property facing for block minecraft:orange_glazed_terracotta
+[17:00:18] [Server thread/WARN]: Unknown property facing for block minecraft:orange_glazed_terracotta
+[17:00:18] [Server thread/WARN]: Unknown property facing for block minecraft:orange_glazed_terracotta
+[17:00:18] [Server thread/WARN]: Unknown property facing for block minecraft:magenta_glazed_terracotta
+[17:00:18] [Server thread/WARN]: Unknown property facing for block minecraft:magenta_glazed_terracotta
+[17:00:18] [Server thread/WARN]: Unknown property facing for block minecraft:magenta_glazed_terracotta
+[17:00:18] [Server thread/WARN]: Unknown property facing for block minecraft:magenta_glazed_terracotta
+[17:00:18] [Server thread/WARN]: Unknown property facing for block minecraft:magenta_glazed_terracotta
+[17:00:18] [Server thread/WARN]: Unknown property facing for block minecraft:light_blue_glazed_terracotta
+[17:00:18] [Server thread/WARN]: Unknown property facing for block minecraft:light_blue_glazed_terracotta
+[17:00:18] [Server thread/WARN]: Unknown property facing for block minecraft:light_blue_glazed_terracotta
+[17:00:18] [Server thread/WARN]: Unknown property facing for block minecraft:light_blue_glazed_terracotta
+[17:00:18] [Server thread/WARN]: Unknown property facing for block minecraft:light_blue_glazed_terracotta
+[17:00:18] [Server thread/WARN]: Unknown property facing for block minecraft:yellow_glazed_terracotta
+[17:00:18] [Server thread/WARN]: Unknown property facing for block minecraft:yellow_glazed_terracotta
+[17:00:18] [Server thread/WARN]: Unknown property facing for block minecraft:yellow_glazed_terracotta
+[17:00:18] [Server thread/WARN]: Unknown property facing for block minecraft:yellow_glazed_terracotta
+[17:00:18] [Server thread/WARN]: Unknown property facing for block minecraft:yellow_glazed_terracotta
+[17:00:18] [Server thread/WARN]: Unknown property facing for block minecraft:lime_glazed_terracotta
+[17:00:18] [Server thread/WARN]: Unknown property facing for block minecraft:lime_glazed_terracotta
+[17:00:18] [Server thread/WARN]: Unknown property facing for block minecraft:lime_glazed_terracotta
+[17:00:18] [Server thread/WARN]: Unknown property facing for block minecraft:lime_glazed_terracotta
+[17:00:18] [Server thread/WARN]: Unknown property facing for block minecraft:lime_glazed_terracotta
+[17:00:18] [Server thread/WARN]: Unknown property facing for block minecraft:pink_glazed_terracotta
+[17:00:18] [Server thread/WARN]: Unknown property facing for block minecraft:pink_glazed_terracotta
+[17:00:18] [Server thread/WARN]: Unknown property facing for block minecraft:pink_glazed_terracotta
+[17:00:18] [Server thread/WARN]: Unknown property facing for block minecraft:pink_glazed_terracotta
+[17:00:18] [Server thread/WARN]: Unknown property facing for block minecraft:pink_glazed_terracotta
+[17:00:18] [Server thread/WARN]: Unknown property facing for block minecraft:gray_glazed_terracotta
+[17:00:18] [Server thread/WARN]: Unknown property facing for block minecraft:gray_glazed_terracotta
+[17:00:18] [Server thread/WARN]: Unknown property facing for block minecraft:gray_glazed_terracotta
+[17:00:18] [Server thread/WARN]: Unknown property facing for block minecraft:gray_glazed_terracotta
+[17:00:18] [Server thread/WARN]: Unknown property facing for block minecraft:gray_glazed_terracotta
+[17:00:18] [Server thread/WARN]: Unknown property facing for block minecraft:light_gray_glazed_terracotta
+[17:00:18] [Server thread/WARN]: Unknown property facing for block minecraft:light_gray_glazed_terracotta
+[17:00:18] [Server thread/WARN]: Unknown property facing for block minecraft:light_gray_glazed_terracotta
+[17:00:18] [Server thread/WARN]: Unknown property facing for block minecraft:light_gray_glazed_terracotta
+[17:00:18] [Server thread/WARN]: Unknown property facing for block minecraft:light_gray_glazed_terracotta
+[17:00:18] [Server thread/WARN]: Unknown property facing for block minecraft:cyan_glazed_terracotta
+[17:00:18] [Server thread/WARN]: Unknown property facing for block minecraft:cyan_glazed_terracotta
+[17:00:18] [Server thread/WARN]: Unknown property facing for block minecraft:cyan_glazed_terracotta
+[17:00:18] [Server thread/WARN]: Unknown property facing for block minecraft:cyan_glazed_terracotta
+[17:00:18] [Server thread/WARN]: Unknown property facing for block minecraft:cyan_glazed_terracotta
+[17:00:18] [Server thread/WARN]: Unknown property facing for block minecraft:purple_glazed_terracotta
+[17:00:18] [Server thread/WARN]: Unknown property facing for block minecraft:purple_glazed_terracotta
+[17:00:18] [Server thread/WARN]: Unknown property facing for block minecraft:purple_glazed_terracotta
+[17:00:18] [Server thread/WARN]: Unknown property facing for block minecraft:purple_glazed_terracotta
+[17:00:18] [Server thread/WARN]: Unknown property facing for block minecraft:purple_glazed_terracotta
+[17:00:18] [Server thread/WARN]: Unknown property facing for block minecraft:blue_glazed_terracotta
+[17:00:18] [Server thread/WARN]: Unknown property facing for block minecraft:blue_glazed_terracotta
+[17:00:18] [Server thread/WARN]: Unknown property facing for block minecraft:blue_glazed_terracotta
+[17:00:18] [Server thread/WARN]: Unknown property facing for block minecraft:blue_glazed_terracotta
+[17:00:18] [Server thread/WARN]: Unknown property facing for block minecraft:blue_glazed_terracotta
+[17:00:18] [Server thread/WARN]: Unknown property facing for block minecraft:brown_glazed_terracotta
+[17:00:18] [Server thread/WARN]: Unknown property facing for block minecraft:brown_glazed_terracotta
+[17:00:18] [Server thread/WARN]: Unknown property facing for block minecraft:brown_glazed_terracotta
+[17:00:18] [Server thread/WARN]: Unknown property facing for block minecraft:brown_glazed_terracotta
+[17:00:18] [Server thread/WARN]: Unknown property facing for block minecraft:brown_glazed_terracotta
+[17:00:18] [Server thread/WARN]: Unknown property facing for block minecraft:green_glazed_terracotta
+[17:00:18] [Server thread/WARN]: Unknown property facing for block minecraft:green_glazed_terracotta
+[17:00:18] [Server thread/WARN]: Unknown property facing for block minecraft:green_glazed_terracotta
+[17:00:18] [Server thread/WARN]: Unknown property facing for block minecraft:green_glazed_terracotta
+[17:00:18] [Server thread/WARN]: Unknown property facing for block minecraft:green_glazed_terracotta
+[17:00:18] [Server thread/WARN]: Unknown property facing for block minecraft:red_glazed_terracotta
+[17:00:18] [Server thread/WARN]: Unknown property facing for block minecraft:red_glazed_terracotta
+[17:00:18] [Server thread/WARN]: Unknown property facing for block minecraft:red_glazed_terracotta
+[17:00:18] [Server thread/WARN]: Unknown property facing for block minecraft:red_glazed_terracotta
+[17:00:18] [Server thread/WARN]: Unknown property facing for block minecraft:red_glazed_terracotta
+[17:00:18] [Server thread/WARN]: Unknown property facing for block minecraft:black_glazed_terracotta
+[17:00:18] [Server thread/WARN]: Unknown property facing for block minecraft:black_glazed_terracotta
+[17:00:18] [Server thread/WARN]: Unknown property facing for block minecraft:black_glazed_terracotta
+[17:00:18] [Server thread/WARN]: Unknown property facing for block minecraft:black_glazed_terracotta
+[17:00:18] [Server thread/WARN]: Unknown property facing for block minecraft:black_glazed_terracotta
+[17:00:18] [Server thread/WARN]: Unknown property mode for block minecraft:structure_block
+[17:00:18] [Server thread/WARN]: Unknown property mode for block minecraft:structure_block
+[17:00:18] [Server thread/WARN]: Unknown property mode for block minecraft:structure_block
+[17:00:18] [Server thread/WARN]: Unknown property mode for block minecraft:structure_block
+[17:00:18] [Server thread/WARN]: Unknown property mode for block minecraft:structure_block
+[17:00:18] [Server thread/WARN]: Unknown item: minecraft:sign
+[17:00:18] [Server thread/WARN]: Unknown item: minecraft:rose_red
+[17:00:18] [Server thread/WARN]: Unknown item: minecraft:cactus_green
+[17:00:18] [Server thread/WARN]: Unknown item: minecraft:dandelion_yellow
+[17:00:18] [Server thread/WARN]: [WorldEdit] ====================================================
+[17:00:18] [Server thread/WARN]: [WorldEdit]  WorldEdit works better if you use Paper 
+[17:00:18] [Server thread/WARN]: [WorldEdit]  as your server software. 
+[17:00:18] [Server thread/WARN]: [WorldEdit]   
+[17:00:18] [Server thread/WARN]: [WorldEdit]  Paper offers significant performance improvements,
+[17:00:18] [Server thread/WARN]: [WorldEdit]  bug fixes, security enhancements and optional
+[17:00:18] [Server thread/WARN]: [WorldEdit]  features for server owners to enhance their server.
+[17:00:18] [Server thread/WARN]: [WorldEdit]   
+[17:00:18] [Server thread/WARN]: [WorldEdit]  Paper includes Timings v2, which is significantly
+[17:00:18] [Server thread/WARN]: [WorldEdit]  better at diagnosing lag problems over v1.
+[17:00:18] [Server thread/WARN]: [WorldEdit]   
+[17:00:18] [Server thread/WARN]: [WorldEdit]  All of your plugins should still work, and the
+[17:00:18] [Server thread/WARN]: [WorldEdit]  Paper community will gladly help you fix any issues.
+[17:00:18] [Server thread/WARN]: [WorldEdit]   
+[17:00:18] [Server thread/WARN]: [WorldEdit]  Join the Paper Community @ https://papermc.io
+[17:00:18] [Server thread/WARN]: [WorldEdit] ====================================================
+[17:00:18] [Server thread/INFO]: Preparing level "spawn"
+[17:00:18] [Server thread/INFO]: Reloading ResourceManager: Default, MyDatapack, bukkit
+[17:00:20] [Server thread/INFO]: Loaded 6 recipes
+[17:01:00] [Server thread/INFO]: Loaded 3 custom command functions
+[17:01:00] [Server thread/INFO]: -------- World Settings For [spawn] --------
+[17:01:00] [Server thread/INFO]: Experience Merge Radius: 3.0
+[17:01:00] [Server thread/INFO]: Mob Spawn Range: 6
+[17:01:00] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[17:01:00] [Server thread/INFO]: Cane Growth Modifier: 100%
+[17:01:00] [Server thread/INFO]: Melon Growth Modifier: 100%
+[17:01:00] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[17:01:00] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[17:01:00] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[17:01:00] [Server thread/INFO]: Beetroot Growth Modifier: 100%
+[17:01:00] [Server thread/INFO]: Carrot Growth Modifier: 100%
+[17:01:00] [Server thread/INFO]: Potato Growth Modifier: 100%
+[17:01:00] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[17:01:00] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[17:01:00] [Server thread/INFO]: Vine Growth Modifier: 100%
+[17:01:00] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[17:01:00] [Server thread/INFO]: Bamboo Growth Modifier: 100%
+[17:01:00] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
+[17:01:00] [Server thread/INFO]: Kelp Growth Modifier: 100%
+[17:01:00] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true
+[17:01:00] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[17:01:00] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[17:01:00] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 Slime: 987234911
+[17:01:00] [Server thread/INFO]: Max TNT Explosions: 100
+[17:01:00] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[17:01:00] [Server thread/INFO]: View Distance: 16
+[17:01:00] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[17:01:00] [Server thread/INFO]: Item Despawn Rate: 6000
+[17:01:00] [Server thread/INFO]: Item Merge Radius: 2.5
+[17:01:00] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
+[17:01:00] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[17:01:00] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[17:01:00] [Server thread/INFO]: Registering commands with com.sk89q.worldedit.bukkit.BukkitServerInterface
+[17:01:00] [Server thread/INFO]: Preparing start region for dimension 'spawn'/minecraft:overworld
+[17:01:05] [Server thread/INFO]: Preparing spawn area: 0%
+[17:01:05] [Server thread/INFO]: Preparing spawn area: 0%
+[17:01:05] [Server thread/INFO]: Preparing spawn area: 0%
+[17:01:05] [Server thread/INFO]: Preparing spawn area: 0%
+[17:01:05] [Server thread/INFO]: Preparing spawn area: 0%
+[17:01:05] [Server thread/INFO]: Preparing spawn area: 0%
+[17:01:05] [Server thread/INFO]: Preparing spawn area: 0%
+[17:01:05] [Server thread/INFO]: Preparing spawn area: 0%
+[17:01:05] [Server thread/INFO]: Preparing spawn area: 0%
+[17:01:05] [Server thread/INFO]: Preparing spawn area: 48%
+[17:01:05] [Server thread/INFO]: Time elapsed: 4826 ms
+[17:01:05] [Server thread/INFO]: [PermissionsEx] Enabling PermissionsEx v1.23.4
+[17:01:05] [Server thread/INFO]: [PermissionsEx] Initializing file backend
+[17:01:05] [Server thread/INFO]: [PermissionsEx] Permissions file successfully reloaded
+[17:01:05] [Server thread/INFO]: WEPIF: PermissionsEx detected! Using PermissionsEx for permissions.
+[17:01:05] [Server thread/INFO]: [Multiverse-Core] Enabling Multiverse-Core v4.0.0-b766
+[17:01:05] [Server thread/WARN]: [Multiverse-Core] "Multiverse-Core v4.0.0-b766" has registered a listener for org.bukkit.event.entity.EntityCreatePortalEvent on method "public void com.onarandombox.MultiverseCore.listeners.MVPortalListener.entityPortalCreate(org.bukkit.event.entity.EntityCreatePortalEvent)", but the event is Deprecated. "Server performance will be affected"; please notify the authors [Rigby, fernferret, lithium3141, main--, dumptruckman].
+[17:01:06] [Server thread/INFO]: -------- World Settings For [JumpWorld] --------
+[17:01:06] [Server thread/INFO]: Experience Merge Radius: 3.0
+[17:01:06] [Server thread/INFO]: Mob Spawn Range: 6
+[17:01:06] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[17:01:06] [Server thread/INFO]: Cane Growth Modifier: 100%
+[17:01:06] [Server thread/INFO]: Melon Growth Modifier: 100%
+[17:01:06] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[17:01:06] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[17:01:06] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[17:01:06] [Server thread/INFO]: Beetroot Growth Modifier: 100%
+[17:01:06] [Server thread/INFO]: Carrot Growth Modifier: 100%
+[17:01:06] [Server thread/INFO]: Potato Growth Modifier: 100%
+[17:01:06] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[17:01:06] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[17:01:06] [Server thread/INFO]: Vine Growth Modifier: 100%
+[17:01:06] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[17:01:06] [Server thread/INFO]: Bamboo Growth Modifier: 100%
+[17:01:06] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
+[17:01:06] [Server thread/INFO]: Kelp Growth Modifier: 100%
+[17:01:06] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true
+[17:01:06] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[17:01:06] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[17:01:06] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 Slime: 987234911
+[17:01:06] [Server thread/INFO]: Max TNT Explosions: 100
+[17:01:06] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[17:01:06] [Server thread/INFO]: View Distance: 16
+[17:01:06] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[17:01:06] [Server thread/INFO]: Item Despawn Rate: 6000
+[17:01:06] [Server thread/INFO]: Item Merge Radius: 2.5
+[17:01:06] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
+[17:01:06] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[17:01:06] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[17:01:06] [Server thread/INFO]: Preparing start region for dimension 'JumpWorld'/minecraft:overworld
+[17:01:07] [Thread-10/WARN]: [PermissionsEx] The updater could not find any files for the project id 31279
+[17:01:08] [Server thread/INFO]: Preparing spawn area: 0%
+[17:01:08] [Server thread/INFO]: Preparing spawn area: 0%
+[17:01:08] [Server thread/INFO]: Preparing spawn area: 0%
+[17:01:08] [Server thread/INFO]: Preparing spawn area: 0%
+[17:01:08] [Server thread/INFO]: Preparing spawn area: 0%
+[17:01:09] [Server thread/INFO]: Time elapsed: 2504 ms
+[17:01:09] [Server thread/INFO]: -------- World Settings For [DevWorld] --------
+[17:01:09] [Server thread/INFO]: Experience Merge Radius: 3.0
+[17:01:09] [Server thread/INFO]: Mob Spawn Range: 6
+[17:01:09] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[17:01:09] [Server thread/INFO]: Cane Growth Modifier: 100%
+[17:01:09] [Server thread/INFO]: Melon Growth Modifier: 100%
+[17:01:09] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[17:01:09] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[17:01:09] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[17:01:09] [Server thread/INFO]: Beetroot Growth Modifier: 100%
+[17:01:09] [Server thread/INFO]: Carrot Growth Modifier: 100%
+[17:01:09] [Server thread/INFO]: Potato Growth Modifier: 100%
+[17:01:09] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[17:01:09] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[17:01:09] [Server thread/INFO]: Vine Growth Modifier: 100%
+[17:01:09] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[17:01:09] [Server thread/INFO]: Bamboo Growth Modifier: 100%
+[17:01:09] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
+[17:01:09] [Server thread/INFO]: Kelp Growth Modifier: 100%
+[17:01:09] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true
+[17:01:09] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[17:01:09] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[17:01:09] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 Slime: 987234911
+[17:01:09] [Server thread/INFO]: Max TNT Explosions: 100
+[17:01:09] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[17:01:09] [Server thread/INFO]: View Distance: 16
+[17:01:09] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[17:01:09] [Server thread/INFO]: Item Despawn Rate: 6000
+[17:01:09] [Server thread/INFO]: Item Merge Radius: 2.5
+[17:01:09] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
+[17:01:09] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[17:01:09] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[17:01:09] [Server thread/INFO]: Preparing start region for dimension 'DevWorld'/minecraft:overworld
+[17:01:12] [Server thread/INFO]: Preparing spawn area: 0%
+[17:01:12] [Server thread/INFO]: Preparing spawn area: 0%
+[17:01:12] [Server thread/INFO]: Preparing spawn area: 0%
+[17:01:12] [Server thread/INFO]: Preparing spawn area: 0%
+[17:01:12] [Server thread/INFO]: Preparing spawn area: 0%
+[17:01:12] [Server thread/INFO]: Preparing spawn area: 0%
+[17:01:12] [Server-Worker-1/INFO]: Preparing spawn area: 0%
+[17:01:12] [Server thread/INFO]: Time elapsed: 3671 ms
+[17:01:12] [Server thread/INFO]: -------- World Settings For [wwf2end] --------
+[17:01:12] [Server thread/INFO]: Experience Merge Radius: 3.0
+[17:01:12] [Server thread/INFO]: Mob Spawn Range: 6
+[17:01:12] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[17:01:12] [Server thread/INFO]: Cane Growth Modifier: 100%
+[17:01:12] [Server thread/INFO]: Melon Growth Modifier: 100%
+[17:01:12] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[17:01:12] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[17:01:12] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[17:01:12] [Server thread/INFO]: Beetroot Growth Modifier: 100%
+[17:01:12] [Server thread/INFO]: Carrot Growth Modifier: 100%
+[17:01:12] [Server thread/INFO]: Potato Growth Modifier: 100%
+[17:01:12] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[17:01:12] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[17:01:12] [Server thread/INFO]: Vine Growth Modifier: 100%
+[17:01:12] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[17:01:12] [Server thread/INFO]: Bamboo Growth Modifier: 100%
+[17:01:12] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
+[17:01:12] [Server thread/INFO]: Kelp Growth Modifier: 100%
+[17:01:12] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true
+[17:01:12] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[17:01:12] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[17:01:12] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 Slime: 987234911
+[17:01:12] [Server thread/INFO]: Max TNT Explosions: 100
+[17:01:12] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[17:01:12] [Server thread/INFO]: View Distance: 16
+[17:01:12] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[17:01:12] [Server thread/INFO]: Item Despawn Rate: 6000
+[17:01:12] [Server thread/INFO]: Item Merge Radius: 2.5
+[17:01:12] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
+[17:01:12] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[17:01:12] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[17:01:12] [Server thread/INFO]: Preparing start region for dimension 'wwf2end'/minecraft:the_end
+[17:01:13] [Server thread/INFO]: Preparing spawn area: 0%
+[17:01:13] [Server thread/INFO]: Preparing spawn area: 0%
+[17:01:13] [Server-Worker-1/INFO]: Preparing spawn area: 80%
+[17:01:14] [Server-Worker-1/INFO]: Preparing spawn area: 83%
+[17:01:14] [Server-Worker-1/INFO]: Preparing spawn area: 87%
+[17:01:15] [Server thread/INFO]: Time elapsed: 2293 ms
+[17:01:15] [Server thread/INFO]: -------- World Settings For [SAO_23] --------
+[17:01:15] [Server thread/INFO]: Experience Merge Radius: 3.0
+[17:01:15] [Server thread/INFO]: Mob Spawn Range: 6
+[17:01:15] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[17:01:15] [Server thread/INFO]: Cane Growth Modifier: 100%
+[17:01:15] [Server thread/INFO]: Melon Growth Modifier: 100%
+[17:01:15] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[17:01:15] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[17:01:15] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[17:01:15] [Server thread/INFO]: Beetroot Growth Modifier: 100%
+[17:01:15] [Server thread/INFO]: Carrot Growth Modifier: 100%
+[17:01:15] [Server thread/INFO]: Potato Growth Modifier: 100%
+[17:01:15] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[17:01:15] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[17:01:15] [Server thread/INFO]: Vine Growth Modifier: 100%
+[17:01:15] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[17:01:15] [Server thread/INFO]: Bamboo Growth Modifier: 100%
+[17:01:15] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
+[17:01:15] [Server thread/INFO]: Kelp Growth Modifier: 100%
+[17:01:15] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true
+[17:01:15] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[17:01:15] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[17:01:15] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 Slime: 987234911
+[17:01:15] [Server thread/INFO]: Max TNT Explosions: 100
+[17:01:15] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[17:01:15] [Server thread/INFO]: View Distance: 16
+[17:01:15] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[17:01:15] [Server thread/INFO]: Item Despawn Rate: 6000
+[17:01:15] [Server thread/INFO]: Item Merge Radius: 2.5
+[17:01:15] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
+[17:01:15] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[17:01:15] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[17:01:15] [Server thread/INFO]: Preparing start region for dimension 'SAO_23'/minecraft:overworld
+[17:01:17] [Server thread/INFO]: Preparing spawn area: 0%
+[17:01:17] [Server thread/INFO]: Preparing spawn area: 0%
+[17:01:17] [Server thread/INFO]: Preparing spawn area: 0%
+[17:01:17] [Server thread/INFO]: Preparing spawn area: 0%
+[17:01:17] [Server thread/INFO]: Preparing spawn area: 0%
+[17:01:17] [Server-Worker-1/INFO]: Preparing spawn area: 0%
+[17:01:18] [Server thread/INFO]: Time elapsed: 2927 ms
+[17:01:18] [Server thread/INFO]: -------- World Settings For [sao1] --------
+[17:01:18] [Server thread/INFO]: Experience Merge Radius: 3.0
+[17:01:18] [Server thread/INFO]: Mob Spawn Range: 6
+[17:01:18] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[17:01:18] [Server thread/INFO]: Cane Growth Modifier: 100%
+[17:01:18] [Server thread/INFO]: Melon Growth Modifier: 100%
+[17:01:18] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[17:01:18] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[17:01:18] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[17:01:18] [Server thread/INFO]: Beetroot Growth Modifier: 100%
+[17:01:18] [Server thread/INFO]: Carrot Growth Modifier: 100%
+[17:01:18] [Server thread/INFO]: Potato Growth Modifier: 100%
+[17:01:18] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[17:01:18] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[17:01:18] [Server thread/INFO]: Vine Growth Modifier: 100%
+[17:01:18] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[17:01:18] [Server thread/INFO]: Bamboo Growth Modifier: 100%
+[17:01:18] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
+[17:01:18] [Server thread/INFO]: Kelp Growth Modifier: 100%
+[17:01:18] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true
+[17:01:18] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[17:01:18] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[17:01:18] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 Slime: 987234911
+[17:01:18] [Server thread/INFO]: Max TNT Explosions: 100
+[17:01:18] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[17:01:18] [Server thread/INFO]: View Distance: 16
+[17:01:18] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[17:01:18] [Server thread/INFO]: Item Despawn Rate: 6000
+[17:01:18] [Server thread/INFO]: Item Merge Radius: 2.5
+[17:01:18] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
+[17:01:18] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[17:01:18] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[17:01:18] [Server thread/INFO]: Preparing start region for dimension 'sao1'/minecraft:overworld
+[17:01:19] [Server thread/INFO]: Preparing spawn area: 0%
+[17:01:19] [Server thread/INFO]: Preparing spawn area: 0%
+[17:01:19] [Server thread/INFO]: Preparing spawn area: 0%
+[17:01:19] [Server thread/INFO]: Time elapsed: 1437 ms
+[17:01:19] [Server thread/INFO]: -------- World Settings For [wwf2nether] --------
+[17:01:19] [Server thread/INFO]: Experience Merge Radius: 3.0
+[17:01:19] [Server thread/INFO]: Mob Spawn Range: 6
+[17:01:19] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[17:01:19] [Server thread/INFO]: Cane Growth Modifier: 100%
+[17:01:19] [Server thread/INFO]: Melon Growth Modifier: 100%
+[17:01:19] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[17:01:19] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[17:01:19] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[17:01:19] [Server thread/INFO]: Beetroot Growth Modifier: 100%
+[17:01:19] [Server thread/INFO]: Carrot Growth Modifier: 100%
+[17:01:19] [Server thread/INFO]: Potato Growth Modifier: 100%
+[17:01:19] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[17:01:19] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[17:01:19] [Server thread/INFO]: Vine Growth Modifier: 100%
+[17:01:19] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[17:01:19] [Server thread/INFO]: Bamboo Growth Modifier: 100%
+[17:01:19] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
+[17:01:19] [Server thread/INFO]: Kelp Growth Modifier: 100%
+[17:01:19] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true
+[17:01:19] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[17:01:19] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[17:01:19] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 Slime: 987234911
+[17:01:19] [Server thread/INFO]: Max TNT Explosions: 100
+[17:01:19] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[17:01:19] [Server thread/INFO]: View Distance: 16
+[17:01:19] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[17:01:19] [Server thread/INFO]: Item Despawn Rate: 6000
+[17:01:19] [Server thread/INFO]: Item Merge Radius: 2.5
+[17:01:19] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
+[17:01:19] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[17:01:19] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[17:01:19] [Server thread/INFO]: Preparing start region for dimension 'wwf2nether'/minecraft:the_nether
+[17:01:22] [Server thread/INFO]: Preparing spawn area: 0%
+[17:01:22] [Server thread/INFO]: Preparing spawn area: 0%
+[17:01:22] [Server thread/INFO]: Preparing spawn area: 0%
+[17:01:22] [Server thread/INFO]: Preparing spawn area: 0%
+[17:01:22] [Server thread/INFO]: Preparing spawn area: 0%
+[17:01:22] [Server thread/INFO]: Preparing spawn area: 0%
+[17:01:23] [Server thread/INFO]: Time elapsed: 3115 ms
+[17:01:23] [Server thread/INFO]: -------- World Settings For [wwf2] --------
+[17:01:23] [Server thread/INFO]: Experience Merge Radius: 3.0
+[17:01:23] [Server thread/INFO]: Mob Spawn Range: 6
+[17:01:23] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[17:01:23] [Server thread/INFO]: Cane Growth Modifier: 100%
+[17:01:23] [Server thread/INFO]: Melon Growth Modifier: 100%
+[17:01:23] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[17:01:23] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[17:01:23] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[17:01:23] [Server thread/INFO]: Beetroot Growth Modifier: 100%
+[17:01:23] [Server thread/INFO]: Carrot Growth Modifier: 100%
+[17:01:23] [Server thread/INFO]: Potato Growth Modifier: 100%
+[17:01:23] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[17:01:23] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[17:01:23] [Server thread/INFO]: Vine Growth Modifier: 100%
+[17:01:23] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[17:01:23] [Server thread/INFO]: Bamboo Growth Modifier: 100%
+[17:01:23] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
+[17:01:23] [Server thread/INFO]: Kelp Growth Modifier: 100%
+[17:01:23] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true
+[17:01:23] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[17:01:23] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[17:01:23] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 Slime: 987234911
+[17:01:23] [Server thread/INFO]: Max TNT Explosions: 100
+[17:01:23] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[17:01:23] [Server thread/INFO]: View Distance: 16
+[17:01:23] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[17:01:23] [Server thread/INFO]: Item Despawn Rate: 6000
+[17:01:23] [Server thread/INFO]: Item Merge Radius: 2.5
+[17:01:23] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
+[17:01:23] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[17:01:23] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[17:01:23] [Server thread/INFO]: Preparing start region for dimension 'wwf2'/minecraft:overworld
+[17:01:27] [Server thread/INFO]: Preparing spawn area: 0%
+[17:01:27] [Server thread/INFO]: Preparing spawn area: 0%
+[17:01:27] [Server thread/INFO]: Preparing spawn area: 0%
+[17:01:27] [Server thread/INFO]: Preparing spawn area: 0%
+[17:01:27] [Server thread/INFO]: Preparing spawn area: 0%
+[17:01:27] [Server thread/INFO]: Preparing spawn area: 0%
+[17:01:27] [Server thread/INFO]: Preparing spawn area: 0%
+[17:01:27] [Server thread/INFO]: Preparing spawn area: 0%
+[17:01:27] [Server thread/INFO]: Preparing spawn area: 0%
+[17:01:27] [Server thread/INFO]: Preparing spawn area: 0%
+[17:01:28] [Server thread/INFO]: Preparing spawn area: 83%
+[17:01:28] [Server thread/INFO]: Time elapsed: 5271 ms
+[17:01:28] [Server thread/INFO]: [Multiverse-Core] 8 - World(s) loaded.
+[17:01:29] [Server thread/INFO]: [Multiverse-Core] Version 4.0.0-b766 (API v23) Enabled - By Rigby, fernferret, lithium3141, main-- and dumptruckman
+[17:01:29] [Server thread/INFO]: [Multiverse-Core] Help dumptruckman keep this project alive. Become a patron! https://www.patreon.com/dumptruckman
+[17:01:29] [Server thread/INFO]: [Multiverse-Core] One time donations are also appreciated: https://www.paypal.me/dumptruckman
+[17:01:29] [Server thread/INFO]: [Multiverse-Portals] Enabling Multiverse-Portals v4.0.0-b799
+[17:01:29] [Server thread/INFO]: [Multiverse-Portals] - Version 4.0.0-b799 Enabled - By Rigby and fernferret
+[17:01:29] [Server thread/INFO]: [MVPLogging] 2 - Portals(s) loaded
+[17:01:29] [Server thread/WARN]: [Multiverse-Portals] Loaded class com.sk89q.worldedit.IncompleteRegionException from WorldEdit v7.0.1;61bc012 which is not a depend, softdepend or loadbefore of this plugin.
+[17:01:29] [Server thread/INFO]: [Multiverse-Portals] Found WorldEdit. Using it for selections.
+[17:01:29] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[17:01:30] [Server thread/INFO]: Done (71.464s)! For help, type "help"
+[17:01:30] [Server thread/INFO]: Starting GS4 status listener
+[17:01:30] [Server thread/WARN]: Debugging is enabled, performance maybe reduced!
+[17:01:30] [Server thread/INFO]: registerSocket: java.net.DatagramSocket@7431cc94
+[17:01:30] [Query Listener #1/INFO]: Query running on 0.0.0.0:25565
+[18:14:13] [Server thread/INFO]: Stopping the server
+[18:14:14] [Server thread/INFO]: Stopping server
+[18:14:14] [Server thread/INFO]: [Multiverse-Portals] Disabling Multiverse-Portals v4.0.0-b799
+[18:14:14] [Server thread/INFO]: [Multiverse-Core] Disabling Multiverse-Core v4.0.0-b766
+[18:14:14] [Server thread/INFO]: [WorldEdit] Disabling WorldEdit v7.0.1;61bc012
+[18:14:14] [Server thread/INFO]: Unregistering com.sk89q.worldedit.bukkit.BukkitServerInterface from WorldEdit
+[18:14:14] [Server thread/INFO]: [PermissionsEx] Disabling PermissionsEx v1.23.4
+[18:14:14] [Server thread/INFO]: Saving players
+[18:14:14] [Server thread/INFO]: Saving worlds
+[18:14:14] [Server thread/INFO]: Saving chunks for level 'spawn'/minecraft:overworld
+[18:14:14] [Server thread/INFO]: ThreadedAnvilChunkStorage (spawn): All chunks are saved
+[18:14:14] [Server thread/INFO]: Saving chunks for level 'JumpWorld'/minecraft:jumpworld
+[18:14:14] [Server thread/INFO]: ThreadedAnvilChunkStorage (JumpWorld): All chunks are saved
+[18:14:14] [Server thread/INFO]: Saving chunks for level 'DevWorld'/minecraft:devworld
+[18:14:14] [Server thread/INFO]: ThreadedAnvilChunkStorage (DevWorld): All chunks are saved
+[18:14:14] [Server thread/INFO]: Saving chunks for level 'wwf2end'/minecraft:wwf2end
+[18:14:14] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[18:14:14] [Server thread/INFO]: Saving chunks for level 'SAO_23'/minecraft:sao_23
+[18:14:14] [Server thread/INFO]: ThreadedAnvilChunkStorage (SAO_23): All chunks are saved
+[18:14:14] [Server thread/INFO]: Saving chunks for level 'sao1'/minecraft:sao1
+[18:14:14] [Server thread/INFO]: ThreadedAnvilChunkStorage (sao1): All chunks are saved
+[18:14:14] [Server thread/INFO]: Saving chunks for level 'wwf2nether'/minecraft:wwf2nether
+[18:14:14] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[18:14:14] [Server thread/INFO]: Saving chunks for level 'wwf2'/minecraft:wwf2
+[18:14:14] [Server thread/INFO]: ThreadedAnvilChunkStorage (wwf2): All chunks are saved
+[18:14:14] [Server thread/INFO]: ThreadedAnvilChunkStorage (spawn): All chunks are saved
+[18:14:14] [Server thread/INFO]: ThreadedAnvilChunkStorage (JumpWorld): All chunks are saved
+[18:14:14] [Server thread/INFO]: ThreadedAnvilChunkStorage (DevWorld): All chunks are saved
+[18:14:15] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[18:14:15] [Server thread/INFO]: ThreadedAnvilChunkStorage (SAO_23): All chunks are saved
+[18:14:15] [Server thread/INFO]: ThreadedAnvilChunkStorage (sao1): All chunks are saved
+[18:14:15] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[18:14:16] [Server thread/INFO]: ThreadedAnvilChunkStorage (wwf2): All chunks are saved
+[18:14:16] [Query Listener #1/INFO]: closeSocket: java.net.DatagramSocket@7431cc94

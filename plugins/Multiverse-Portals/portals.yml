@@ -1,1 +1,21 @@
-portals: {}
+portals:
+  wwf2Nether0:
+    entryfee:
+      amount: 0.0
+    safeteleport: true
+    teleportnonplayers: false
+    handlerscript: ''
+    owner: DasNik03
+    location: -61.0,60.0,-423.0:-60.0,62.0,-423.0
+    world: wwf2
+    destination: wwf2nether
+  wwf2Nether0Back:
+    entryfee:
+      amount: 0.0
+    safeteleport: true
+    teleportnonplayers: false
+    handlerscript: ''
+    owner: DasNik03
+    location: 8.0,82.0,-10.0:9.0,84.0,-10.0
+    world: wwf2nether
+    destination: wwf2
