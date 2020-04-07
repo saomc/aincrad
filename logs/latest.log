@@ -2518,3 +2518,7 @@ net.minecraft.server.v1_15_R1.ReportedException: Writing into PalettedContainer 
 Caused by: java.lang.IllegalStateException
 	at net.minecraft.server.v1_15_R1.DataPaletteBlock.a(SourceFile:44) ~[spigot-1.15.2.jar:git-Spigot-800b93f-8160e29]
 	... 21 more
+[21:52:21] [Thread-2/INFO]: ThreadedAnvilChunkStorage (wwf2): All chunks are saved
+[21:52:21] [Thread-2/INFO]: ThreadedAnvilChunkStorage (spawn): All chunks are saved
+[21:52:21] [Thread-2/INFO]: ThreadedAnvilChunkStorage (DevWorld): All chunks are saved
+[21:52:22] [Thread-2/INFO]: ThreadedAnvilChunkStorage (wwf2): All chunks are saved
